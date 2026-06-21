@@ -372,6 +372,14 @@ dd {
   color: var(--muted);
 }
 
+.filters-toggle {
+  display: none;
+}
+
+.filters-body {
+  display: contents;
+}
+
 @media (max-width: 760px) {
   .app-header {
     align-items: stretch;
@@ -386,6 +394,56 @@ dd {
 
   .filters {
     position: static;
+    gap: 0;
+    padding: 0;
+  }
+
+  .filters-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--ink);
+  }
+
+  .filters-toggle[aria-expanded="true"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-color: transparent;
+  }
+
+  .filters-toggle[aria-expanded="true"] .filters-toggle-icon {
+    transform: rotate(180deg);
+  }
+
+  .filters-toggle-icon {
+    font-size: 11px;
+    transition: transform 0.2s;
+  }
+
+  .filters-body {
+    display: none;
+    border: 1px solid var(--line);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background: var(--panel);
+  }
+
+  .filters-body.open {
+    display: block;
+  }
+
+  .filters-body-inner {
+    display: grid;
+    gap: 14px;
+    padding: 14px;
   }
 
   .actions {

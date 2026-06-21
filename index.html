@@ -16,7 +16,13 @@
   </header>
 
   <main class="layout">
-    <aside class="filters" aria-label="絞り込み">
+    <aside class="filters" id="filters" aria-label="絞り込み">
+      <button id="filtersToggle" class="filters-toggle" type="button" aria-expanded="false" aria-controls="filtersBody">
+        <span class="filters-toggle-label">絞り込み</span>
+        <span class="filters-toggle-icon" aria-hidden="true">▼</span>
+      </button>
+      <div id="filtersBody" class="filters-body">
+      <div class="filters-body-inner">
       <label class="field">
         <span>検索</span>
         <input id="searchInput" type="search" placeholder="名前・タグ・説明を検索">
@@ -57,6 +63,8 @@
       </label>
 
       <button id="clearButton" class="secondary-button" type="button">絞り込み解除</button>
+      </div><!-- /filters-body-inner -->
+      </div><!-- /filtersBody -->
     </aside>
 
     <section class="content">

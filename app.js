@@ -24,8 +24,19 @@ const els = {
   detailTitle: document.querySelector("#detailTitle"),
   detailSub: document.querySelector("#detailSub"),
   detailBody: document.querySelector("#detailBody"),
-  closeDialog: document.querySelector("#closeDialog")
+  closeDialog: document.querySelector("#closeDialog"),
+  filtersToggle: document.querySelector("#filtersToggle"),
+  filtersBody: document.querySelector("#filtersBody")
 };
+
+// フィルタ開閉トグル（スマホ用）
+if (els.filtersToggle && els.filtersBody) {
+  els.filtersToggle.addEventListener("click", () => {
+    const open = els.filtersBody.classList.toggle("open");
+    els.filtersToggle.setAttribute("aria-expanded", String(open));
+  });
+}
+
 
 const variantModel = buildVariantModel(catalog.characters);
 
