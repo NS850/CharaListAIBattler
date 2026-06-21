@@ -376,8 +376,9 @@ dd {
   display: none;
 }
 
-.filters-body {
-  display: contents;
+.filters-body-inner {
+  display: grid;
+  gap: 14px;
 }
 
 @media (max-width: 760px) {
