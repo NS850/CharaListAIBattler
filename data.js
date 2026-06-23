@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-21T14:57:51",
+  "generatedAt": "2026-06-23T13:15:02",
   "source": "characters_mine.json",
   "count": 226,
   "characters": [
@@ -1990,7 +1990,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "[u]は{i}の村に滞在している"
+          "value": "[u]は{i}の村に滞在し���いる"
         }
       ]
     },
@@ -2038,7 +2038,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁具"
+          "value": "���空高くまで届く魔法の漁具"
         },
         {
           "name": "空魚",
@@ -2928,7 +2928,7 @@ window.CHARACTER_CATALOG = {
           "value": "{i}はゴキブリの群れ"
         },
         {
-          "name": "強い生命力",
+          "name": "強い生��力",
           "value": "絶食に耐え毒への耐性を持つ"
         },
         {
@@ -2997,7 +2997,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "※",
-          "value": "{i}に意識はなく言葉を発しない"
+          "value": "{i}に意識��なく言葉を発しない"
         },
         {
           "name": "不滅の身体",
@@ -5260,7 +5260,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "姫と民の魂の所有",
-          "value": "姫の死亡まで契約が履行されれば悪魔の所有"
+          "value": "姫��死亡まで契約が履行されれば悪魔の所有"
         }
       ]
     },
