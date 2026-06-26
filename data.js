@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-23T13:15:02",
+  "generatedAt": "2026-06-26T03:27:07",
   "source": "characters_mine.json",
   "count": 226,
   "characters": [
@@ -2038,7 +2038,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "���空高くまで届く魔法の漁具"
+          "value": "上空高くまで届く魔法の漁具"
         },
         {
           "name": "空魚",
@@ -5260,7 +5260,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "姫と民の魂の所有",
-          "value": "姫��死亡まで契約が履行されれば悪魔の所有"
+          "value": "姫の死亡まで契約が履行されれば悪魔の所有"
         }
       ]
     },
