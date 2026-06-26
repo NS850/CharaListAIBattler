@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-26T03:27:07",
+  "generatedAt": "2026-06-26T13:15:00",
   "source": "characters_mine.json",
-  "count": 226,
+  "count": 227,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を監視する烏。蛹を啄み死を待っている"
+          "value": "周辺を監視��る烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。手直ししても大きい"
+          "value": "斃れた父の丈夫な上着。手直��しても大きい"
         },
         {
           "name": "手斧",
@@ -456,6 +456,49 @@ window.CHARACTER_CATALOG = {
       ]
     },
     {
+      "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
+      "name": "【旅人】テッサ",
+      "promptName": "【旅人】テッサ（纏めた栗毛、少年のような落ち着いた口調）",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-06-26",
+      "updated": "2026-06-26",
+      "url": "https://ai-battler.com/battle/8bf1449f-beeb-4505-989b-e1f28ace06db",
+      "localPath": "未分類\\【旅人】テッサ.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "ロバのイサ",
+          "value": "旅荷を積んだロバ。{i}にとっては弟"
+        },
+        {
+          "name": "装備",
+          "value": "まさかり、円盾、革のワンピース、頭巾"
+        },
+        {
+          "name": "性格",
+          "value": "のんびり、おおらか"
+        },
+        {
+          "name": "手紙を届ける鳥",
+          "value": "昼は烏、夜は梟が見守り、時に助けてくれる"
+        },
+        {
+          "name": "趣味",
+          "value": "景色の絵描き"
+        }
+      ]
+    },
+    {
       "id": "60bf5064-7150-40f7-90f6-ef676de611ee",
       "name": "▼ペンギン・生き物",
       "promptName": "",
@@ -476,7 +519,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7a3e7e18-319a-4a5e-af18-074c98ad3e87",
-      "name": "野���ペンギンの収穫",
+      "name": "野菜ペンギンの収穫",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -992,7 +1035,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "91f53446-2154-4069-ad63-2948ff0de338",
-      "name": "ネコペンギンロール���作ろうとする魚夫妻",
+      "name": "ネコペンギンロールを作ろうとする魚夫妻",
       "promptName": "魚夫妻",
       "category": "未分類",
       "tags": [],
@@ -1990,7 +2033,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "[u]は{i}の村に滞在し���いる"
+          "value": "[u]は{i}の村に滞在している"
         }
       ]
     },
@@ -2284,7 +2327,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "つるはし",
-          "value": "食べ物だと主催者は主張する"
+          "value": "��べ物だと主催者は主張する"
         }
       ]
     },
@@ -2584,7 +2627,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "技能",
-          "value": "ナイフ、���密、発火、破壊と変性の魔術"
+          "value": "ナイフ、隠密、発火、破壊と変性の魔術"
         },
         {
           "name": "確保した逃げ道",
@@ -2928,7 +2971,7 @@ window.CHARACTER_CATALOG = {
           "value": "{i}はゴキブリの群れ"
         },
         {
-          "name": "強い生��力",
+          "name": "強い生命力",
           "value": "絶食に耐え毒への耐性を持つ"
         },
         {
@@ -2997,7 +3040,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "※",
-          "value": "{i}に意識��なく言葉を発しない"
+          "value": "{i}に意識はなく言葉を発しない"
         },
         {
           "name": "不滅の身体",
@@ -4938,7 +4981,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの���女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -5216,7 +5259,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "定義",
-          "value": "{u}の能力値と2d6で解錠判定する"
+          "value": "{u}の能力���と2d6で解錠判定する"
         }
       ]
     },
@@ -5403,7 +5446,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "廃墟",
-          "value": "かつてを思わせ��痕跡だけを残した街"
+          "value": "かつてを思わせる痕跡だけを残した街"
         }
       ]
     },
@@ -6511,7 +6554,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "聖櫃",
-          "value": "王女の肉体を収めた箱"
+          "value": "���女の肉体を収めた箱"
         },
         {
           "name": "王女の体",
