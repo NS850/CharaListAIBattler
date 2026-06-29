@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-26T13:15:00",
+  "generatedAt": "2026-06-29T13:15:03",
   "source": "characters_mine.json",
   "count": 227,
   "characters": [
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を監視��る烏。蛹を啄み死を待っている"
+          "value": "周辺を監視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。手直��しても大きい"
+          "value": "斃れた父の丈夫な上着。手直ししても大きい"
         },
         {
           "name": "手斧",
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦いより相手を観察することに夢中"
+          "value": "��いより相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -458,18 +458,17 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅人】テッサ（纏めた栗毛、少年のような落ち着いた口調）",
+      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
-        "未分類",
-        "limited"
+        "未分類"
       ],
       "displayOrder": 10000,
       "created": "2026-06-26",
-      "updated": "2026-06-26",
+      "updated": "2026-06-28",
       "url": "https://ai-battler.com/battle/8bf1449f-beeb-4505-989b-e1f28ace06db",
       "localPath": "未分類\\【旅人】テッサ.md",
-      "isHidden": true,
+      "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -478,23 +477,23 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "ロバのイサ",
-          "value": "旅荷を積んだロバ。{i}にとっては弟"
+          "value": "弟のような存在。丈夫。旅荷を積む"
         },
         {
-          "name": "装備",
-          "value": "まさかり、円盾、革のワンピース、頭巾"
+          "name": "服装",
+          "value": "革のワンピース、栗毛を纏めた頭巾"
         },
         {
-          "name": "性格",
-          "value": "のんびり、おおらか"
+          "name": "使い慣れた大斧",
+          "value": "体格以上だが扱える。薪割りや槌代わりに"
+        },
+        {
+          "name": "趣味",
+          "value": "風景画、道具の補修や制作"
         },
         {
           "name": "手紙を届ける鳥",
           "value": "昼は烏、夜は梟が見守り、時に助けてくれる"
-        },
-        {
-          "name": "趣味",
-          "value": "景色の絵描き"
         }
       ]
     },
@@ -637,7 +636,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根",
-          "value": "鈴音の鳴る硬質なペンギンの足"
+          "value": "鈴音の鳴る硬質なペンギンの���"
         }
       ]
     },
@@ -2327,7 +2326,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "つるはし",
-          "value": "��べ物だと主催者は主張する"
+          "value": "食べ物だと主催者は主張する"
         }
       ]
     },
@@ -4981,7 +4980,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの���女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -5259,13 +5258,13 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "定義",
-          "value": "{u}の能力���と2d6で解錠判定する"
+          "value": "{u}の能力値と2d6で解錠判定する"
         }
       ]
     },
     {
       "id": "f21af12f-ac40-4723-bab6-afb92affa2d9",
-      "name": "盲目姫と悪魔の契約",
+      "name": "盲目姫と悪魔の���約",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -6554,7 +6553,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "聖櫃",
-          "value": "���女の肉体を収めた箱"
+          "value": "王女の肉体を収めた箱"
         },
         {
           "name": "王女の体",
