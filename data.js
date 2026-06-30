@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-29T13:15:03",
+  "generatedAt": "2026-06-30T13:15:02",
   "source": "characters_mine.json",
   "count": 227,
   "characters": [
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "��いより相手を観察することに夢中"
+          "value": "戦いより相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -636,7 +636,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根",
-          "value": "鈴音の鳴る硬質なペンギンの���"
+          "value": "鈴音の鳴る硬質なペンギンの足"
         }
       ]
     },
@@ -775,7 +775,7 @@ window.CHARACTER_CATALOG = {
           "value": "猫顔のペンギン。海中に根を張る植物"
         },
         {
-          "name": "ネコペンギン",
+          "name": "ネコペ��ギン",
           "value": "主に小魚を食べる。よく伸び、すばしこい"
         },
         {
@@ -1556,7 +1556,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "箒",
-          "value": "魔女の箒。光を星のように集め掃く"
+          "value": "魔女��箒。光を星のように集め掃く"
         },
         {
           "name": "服装",
@@ -4254,7 +4254,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残���少女"
         },
         {
           "name": "箒槍",
@@ -5264,7 +5264,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "f21af12f-ac40-4723-bab6-afb92affa2d9",
-      "name": "盲目姫と悪魔の���約",
+      "name": "盲目姫と悪魔の契約",
       "promptName": "",
       "category": "未分類",
       "tags": [
