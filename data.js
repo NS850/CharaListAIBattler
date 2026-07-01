@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-06-30T13:15:02",
+  "generatedAt": "2026-07-01T13:15:11",
   "source": "characters_mine.json",
   "count": 227,
   "characters": [
@@ -1556,7 +1556,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "箒",
-          "value": "魔女��箒。光を星のように集め掃く"
+          "value": "魔女の箒。光を星のように集め掃く"
         },
         {
           "name": "服装",
@@ -3738,7 +3738,7 @@ window.CHARACTER_CATALOG = {
           "value": "現出する混沌、揺蕩う海"
         },
         {
-          "name": "魔法の起源",
+          "name": "���法の起源",
           "value": "この世に齎された初めの魔法"
         }
       ]
@@ -4254,7 +4254,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残���少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
