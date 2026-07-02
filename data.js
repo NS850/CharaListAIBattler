@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-01T13:15:11",
+  "generatedAt": "2026-07-02T22:06:04",
   "source": "characters_mine.json",
   "count": 227,
   "characters": [
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を監視する烏。蛹を啄み死を待っている"
+          "value": "周辺��監視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。手直ししても大きい"
+          "value": "斃れた父の丈夫な上着��手直ししても大きい"
         },
         {
           "name": "手斧",
@@ -427,7 +427,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-06-20",
+      "updated": "2026-07-02",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
       "isHidden": true,
@@ -439,7 +439,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "義足と車椅子",
-          "value": "血染めの木製義足。短時間の歩行は可能"
+          "value": "血染めの木製義足。立ち、歩くことも可能"
         },
         {
           "name": "死後の隷属",
@@ -447,11 +447,15 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "首無しの従者",
-          "value": "贖罪のため{i}に従属する少女の骸"
+          "value": "贖罪のため{i}の車椅子を押す少女の骸"
         },
         {
           "name": "死者に与える労働",
           "value": "掘削、踊り、警護"
+        },
+        {
+          "name": "趣味",
+          "value": "踊りの鑑賞"
         }
       ]
     },
@@ -775,7 +779,7 @@ window.CHARACTER_CATALOG = {
           "value": "猫顔のペンギン。海中に根を張る植物"
         },
         {
-          "name": "ネコペ��ギン",
+          "name": "ネコペンギン",
           "value": "主に小魚を食べる。よく伸び、すばしこい"
         },
         {
@@ -908,7 +912,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "デッドロック",
-          "value": "過剰スタックした石が自由を奪う"
+          "value": "過���スタックした石が自由を奪う"
         }
       ]
     },
@@ -2629,7 +2633,7 @@ window.CHARACTER_CATALOG = {
           "value": "ナイフ、隠密、発火、破壊と変性の魔術"
         },
         {
-          "name": "確保した逃げ道",
+          "name": "確保し��逃げ道",
           "value": "ルートや隠れ場所は頭に入っている"
         }
       ]
@@ -3512,7 +3516,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "冷徹な処理",
-          "value": "状況に左右されない無感情な装置"
+          "value": "状況に左��されない無感情な装置"
         },
         {
           "name": "自爆",
@@ -3738,7 +3742,7 @@ window.CHARACTER_CATALOG = {
           "value": "現出する混沌、揺蕩う海"
         },
         {
-          "name": "���法の起源",
+          "name": "魔法の起源",
           "value": "この世に齎された初めの魔法"
         }
       ]
@@ -3746,7 +3750,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "5c1cb845-655c-4046-906c-32aff40d6a18",
       "name": "形成された少女　ミルク",
-      "promptName": "形成された少女　ミルク（言葉の代わりに光の明滅で答える）",
+      "promptName": "形成��れた少女　ミルク（言葉の代わりに光の明滅で答える）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 31011,
@@ -4952,7 +4956,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合住宅の清掃"
+          "value": "神社��集合住宅の清掃"
         },
         {
           "name": "趣味",
@@ -7090,7 +7094,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火の魔力の装丁",
-          "value": "火の元素を惹き付け文字に留める美しい装丁"
+          "value": "火の元素を惹き付け文字に���める美しい装丁"
         },
         {
           "name": "炎の王国",
@@ -7410,7 +7414,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ゲルデの容姿",
-          "value": "処刑人の剣/少女/豪奢なドレス/黒髪赤目"
+          "value": "処刑人の剣/少女/��奢なドレス/黒髪赤目"
         }
       ]
     },
