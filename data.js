@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-02T22:06:04",
+  "generatedAt": "2026-07-03T13:15:02",
   "source": "characters_mine.json",
   "count": 227,
   "characters": [
@@ -7414,7 +7414,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ゲルデの容姿",
-          "value": "処刑人の剣/少女/��奢なドレス/黒髪赤目"
+          "value": "処刑人の剣/少女/豪奢なドレス/黒髪赤目"
         }
       ]
     },
