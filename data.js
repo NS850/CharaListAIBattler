@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-03T13:15:02",
+  "generatedAt": "2026-07-04T13:15:06",
   "source": "characters_mine.json",
-  "count": 227,
+  "count": 228,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺��監視する烏。蛹を啄み死を待っている"
+          "value": "周辺を監視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着��手直ししても大きい"
+          "value": "斃れた父の丈夫な上着。手直ししても大きい"
         },
         {
           "name": "手斧",
@@ -469,7 +469,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-26",
-      "updated": "2026-06-28",
+      "updated": "2026-07-03",
       "url": "https://ai-battler.com/battle/8bf1449f-beeb-4505-989b-e1f28ace06db",
       "localPath": "未分類\\【旅人】テッサ.md",
       "isHidden": false,
@@ -744,7 +744,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギンは果実"
+          "value": "ペンギンは果��"
         },
         {
           "name": "ペンギン",
@@ -820,7 +820,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "厳寒の地でも育つ逞しい野菜"
+          "value": "厳寒の地でも育���逞しい野菜"
         },
         {
           "name": "野菜ペンギン",
@@ -912,7 +912,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "デッドロック",
-          "value": "過���スタックした石が自由を奪う"
+          "value": "過剰スタックした石が自��を奪う"
         }
       ]
     },
@@ -1298,7 +1298,7 @@ window.CHARACTER_CATALOG = {
           "value": "花開いた箒槍が放つ光が刃となり薙ぎ祓う"
         },
         {
-          "name": "旧文明の落し子",
+          "name": "旧��明の落し子",
           "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
@@ -1344,6 +1344,46 @@ window.CHARACTER_CATALOG = {
         {
           "name": "バイト",
           "value": "神社や集合住宅の日常清掃"
+        }
+      ]
+    },
+    {
+      "id": "386ef080-a42e-463f-8c70-51d74dee46a3",
+      "name": "【魔法使い】エレノア",
+      "promptName": "【少女】エレノア（感情に乏しく無口「⋯ん」）",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited",
+        "non_battle"
+      ],
+      "displayOrder": 11310,
+      "created": "2026-07-04",
+      "updated": "2026-07-04",
+      "url": "https://ai-battler.com/battle/386ef080-a42e-463f-8c70-51d74dee46a3",
+      "localPath": "未分類\\【魔法使い】エレノア.md",
+      "isHidden": true,
+      "isNotBattle": true,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "外見",
+          "value": "金髪碧眼/幼さ残る少女"
+        },
+        {
+          "name": "箒",
+          "value": "捨てられていた古びた箒"
+        },
+        {
+          "name": "烏",
+          "value": "{i}を見守る烏"
+        },
+        {
+          "name": "光",
+          "value": "{i}の手の中から広がる光"
         }
       ]
     },
@@ -2633,7 +2673,7 @@ window.CHARACTER_CATALOG = {
           "value": "ナイフ、隠密、発火、破壊と変性の魔術"
         },
         {
-          "name": "確保し��逃げ道",
+          "name": "確保した逃げ道",
           "value": "ルートや隠れ場所は頭に入っている"
         }
       ]
@@ -2899,7 +2939,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "オオナメクジ",
-          "value": "白くべたつく体液は魔力を奪い輝く"
+          "value": "白くべたつく体液は���力を奪い輝く"
         },
         {
           "name": "巨大ゴキブリ",
@@ -3516,7 +3556,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "冷徹な処理",
-          "value": "状況に左��されない無感情な装置"
+          "value": "状況に左右されない無感情な装置"
         },
         {
           "name": "自爆",
@@ -3750,7 +3790,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "5c1cb845-655c-4046-906c-32aff40d6a18",
       "name": "形成された少女　ミルク",
-      "promptName": "形成��れた少女　ミルク（言葉の代わりに光の明滅で答える）",
+      "promptName": "形成された少女　ミルク（言葉の代わりに光の明滅で答える）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 31011,
@@ -4956,7 +4996,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社��集合住宅の清掃"
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
@@ -6346,7 +6386,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "衣服",
-          "value": "{i}は簡素な貫頭衣を着ている"
+          "value": "{i}は���素な貫頭衣を着ている"
         },
         {
           "name": "見た目",
@@ -7061,7 +7101,7 @@ window.CHARACTER_CATALOG = {
           "value": "鉱山集落コールセンの製造所"
         },
         {
-          "name": "文明",
+          "name": "文��",
           "value": "基本的な文明水準は中世"
         }
       ]
@@ -7094,7 +7134,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火の魔力の装丁",
-          "value": "火の元素を惹き付け文字に���める美しい装丁"
+          "value": "火の元素を惹き付け文字に留める美しい装丁"
         },
         {
           "name": "炎の王国",
