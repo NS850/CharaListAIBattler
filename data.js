@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-04T13:15:06",
+  "generatedAt": "2026-07-05T13:15:03",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -1383,7 +1383,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "光",
-          "value": "{i}の手の中から広がる光"
+          "value": "{i}の手の中から広がる陽の光"
         }
       ]
     },
@@ -2036,7 +2036,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "失われた魂",
-          "value": "遺体に本人の魂が戻る事は決してない"
+          "value": "遺体に本人の魂������る事は決してない"
         },
         {
           "name": "死者の花",
@@ -2939,7 +2939,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "オオナメクジ",
-          "value": "白くべたつく体液は���力を奪い輝く"
+          "value": "白くべたつく体液は魔力を奪い輝く"
         },
         {
           "name": "巨大ゴキブリ",
@@ -4274,7 +4274,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "魔法",
-          "value": "{i}と使い魔は自然の光を集め魔法を使う"
+          "value": "{i}と使い魔は自然の光を集め魔���を使う"
         }
       ]
     },
@@ -5183,7 +5183,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "身体・服装",
-          "value": "小柄、魔女帽子、生きている椅子"
+          "value": "��柄、魔女帽子、生きている椅子"
         },
         {
           "name": "性格",
@@ -6386,7 +6386,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "衣服",
-          "value": "{i}は���素な貫頭衣を着ている"
+          "value": "{i}は簡素な貫頭衣を着ている"
         },
         {
           "name": "見た目",
@@ -7101,7 +7101,7 @@ window.CHARACTER_CATALOG = {
           "value": "鉱山集落コールセンの製造所"
         },
         {
-          "name": "文��",
+          "name": "文明",
           "value": "基本的な文明水準は中世"
         }
       ]
