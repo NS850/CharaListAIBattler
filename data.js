@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-05T13:15:03",
+  "generatedAt": "2026-07-06T13:15:03",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -2036,7 +2036,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "失われた魂",
-          "value": "遺体に本人の魂������る事は決してない"
+          "value": "遺体に本人の魂が���る事は決してない"
         },
         {
           "name": "死者の花",
@@ -4274,7 +4274,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "魔法",
-          "value": "{i}と使い魔は自然の光を集め魔���を使う"
+          "value": "{i}と使い魔は自然の光を集め魔法を使う"
         }
       ]
     },
@@ -5183,7 +5183,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "身体・服装",
-          "value": "��柄、魔女帽子、生きている椅子"
+          "value": "小柄、魔女帽子、生きている椅子"
         },
         {
           "name": "性格",
