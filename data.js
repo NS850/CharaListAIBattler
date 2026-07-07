@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-06T13:15:03",
+  "generatedAt": "2026-07-07T13:15:02",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦いより相手を観察することに夢中"
+          "value": "戦い��り相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -427,7 +427,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-02",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
       "isHidden": true,
@@ -469,7 +469,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-26",
-      "updated": "2026-07-03",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/8bf1449f-beeb-4505-989b-e1f28ace06db",
       "localPath": "未分類\\【旅人】テッサ.md",
       "isHidden": false,
@@ -596,7 +596,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "厳寒の地でも育つ逞しい野菜"
+          "value": "厳寒の地��も育つ逞しい野菜"
         }
       ]
     },
@@ -604,18 +604,17 @@ window.CHARACTER_CATALOG = {
       "id": "cefd5a59-0e3f-46c3-b271-ae4514fb3327",
       "name": "クリスマスペンギンツリー",
       "promptName": "",
-      "category": "ペンギン",
+      "category": "未分類",
       "tags": [
-        "ペンギン",
-        "limited",
+        "未分類",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2024-12-15",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/cefd5a59-0e3f-46c3-b271-ae4514fb3327",
-      "localPath": "ペンギン\\クリスマスペンギンツリー.md",
-      "isHidden": true,
+      "localPath": "未分類\\クリスマスペンギンツリー.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -648,14 +647,16 @@ window.CHARACTER_CATALOG = {
       "id": "805cfd3d-e8a7-4af2-8972-0c5651815a88",
       "name": "風船ペンギンの群れ",
       "promptName": "",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類"
+      ],
       "displayOrder": 11021,
       "created": "2025-01-26",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/805cfd3d-e8a7-4af2-8972-0c5651815a88",
-      "localPath": "ペンギン\\風船ペンギンの群れ.md",
-      "isHidden": true,
+      "localPath": "未分類\\風船ペンギンの群れ.md",
+      "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -684,14 +685,17 @@ window.CHARACTER_CATALOG = {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "name": "温泉ペンギン",
       "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ）",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 11021,
       "created": "2025-01-27",
-      "updated": "2026-05-13",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1",
-      "localPath": "ペンギン\\温泉ペンギン.md",
-      "isHidden": true,
+      "localPath": "未分類\\温泉ペンギン.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -720,14 +724,17 @@ window.CHARACTER_CATALOG = {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
       "name": "バナナ型ペンギンはチョコレートの翼を広げ",
       "promptName": "バナナ型ペンギン",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 11021,
       "created": "2025-01-29",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
-      "localPath": "ペンギン\\バナナ型ペンギンはチョコレートの翼を広げ.md",
-      "isHidden": true,
+      "localPath": "未分類\\バナナ型ペンギンはチョコレートの翼を広げ.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -744,7 +751,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギンは果��"
+          "value": "ペンギン���果実"
         },
         {
           "name": "ペンギン",
@@ -820,7 +827,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "厳寒の地でも育���逞しい野菜"
+          "value": "厳寒の地��も育つ逞しい野菜"
         },
         {
           "name": "野菜ペンギン",
@@ -840,14 +847,17 @@ window.CHARACTER_CATALOG = {
       "id": "ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
       "name": "ペンギンドリンクバー",
       "promptName": "レストラン",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 11021,
       "created": "2025-07-02",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
-      "localPath": "ペンギン\\ペンギンドリンクバー.md",
-      "isHidden": true,
+      "localPath": "未分類\\ペンギンドリンクバー.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -912,7 +922,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "デッドロック",
-          "value": "過剰スタックした石が自��を奪う"
+          "value": "過剰スタックした石が自由を奪う"
         }
       ]
     },
@@ -920,14 +930,17 @@ window.CHARACTER_CATALOG = {
       "id": "86a935c6-75a1-4d04-84a8-b2f78f3bac78",
       "name": "ペンギン抱きの刑",
       "promptName": "ペンギンを育てている農夫",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 11021,
       "created": "2025-10-13",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/86a935c6-75a1-4d04-84a8-b2f78f3bac78",
-      "localPath": "ペンギン\\ペンギン抱きの刑.md",
-      "isHidden": true,
+      "localPath": "未分類\\ペンギン抱きの刑.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -1000,14 +1013,17 @@ window.CHARACTER_CATALOG = {
       "id": "d7cc3432-db51-498d-bb72-c36897d54ad2",
       "name": "ペンギン積み",
       "promptName": "ペンギンを積む商人",
-      "category": "ペンギン",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 11021,
       "created": "2026-01-10",
-      "updated": "2026-05-07",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/d7cc3432-db51-498d-bb72-c36897d54ad2",
-      "localPath": "ペンギン\\ペンギン積み.md",
-      "isHidden": true,
+      "localPath": "未分類\\ペンギン積み.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -1189,7 +1205,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7296a2f2-3e83-4ef8-9452-416530b5145b",
-      "name": "超音速カタツムリ",
+      "name": "超音速カタツム��",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -1298,7 +1314,7 @@ window.CHARACTER_CATALOG = {
           "value": "花開いた箒槍が放つ光が刃となり薙ぎ祓う"
         },
         {
-          "name": "旧��明の落し子",
+          "name": "旧文明の落し子",
           "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
@@ -2036,7 +2052,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "失われた魂",
-          "value": "遺体に本人の魂が���る事は決してない"
+          "value": "遺体に本人の魂が戻る事は決してない"
         },
         {
           "name": "死者の花",
@@ -2168,7 +2184,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火を熾す魔法",
-          "value": "掌からの発火。高熱だが小さく戦いに不向き"
+          "value": "掌からの発火。高熱だが小さく戦いに不向��"
         }
       ]
     },
@@ -2379,13 +2395,16 @@ window.CHARACTER_CATALOG = {
       "name": "ハーピィ出張買取サービス",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 22011,
       "created": "2024-08-05",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/d4a15810-0b7b-4805-bb3c-922700003242",
-      "localPath": "場所・施設\\ハーピィ出張買取サービス.md",
-      "isHidden": true,
+      "localPath": "未分類\\ハーピィ出張買取サービス.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -2407,13 +2426,16 @@ window.CHARACTER_CATALOG = {
       "name": "ハーピィ雑貨店",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "未分類",
+        "non_battle"
+      ],
       "displayOrder": 22011,
       "created": "2024-08-05",
-      "updated": "2026-04-21",
+      "updated": "2026-07-06",
       "url": "https://ai-battler.com/battle/6c6265a9-8983-493e-a59e-33f4ac9a5074",
-      "localPath": "場所・施設\\ハーピィ雑貨店.md",
-      "isHidden": true,
+      "localPath": "未分類\\ハーピィ雑貨店.md",
+      "isHidden": false,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -2426,7 +2448,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "店主",
-          "value": "翼の折れたハーピィ。常に気だるげ"
+          "value": "片翼の折れたハーピィ。常に気だるげ"
         }
       ]
     },
@@ -2752,7 +2774,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "1b1e7390-75d0-48b5-a33b-0f1ad08dd9f7",
       "name": "隊商の護衛",
-      "promptName": "（これは設定文なので人物としては登場しない）",
+      "promptName": "（これは設定文なので人物としては登場しない���",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 23011,
@@ -3202,7 +3224,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "クロスボウ",
-          "value": "脚に装備。強靭な脚力で引き絞り放つ"
+          "value": "脚に���備。強靭な脚力で引き絞り放つ"
         },
         {
           "name": "脚剣",
@@ -4952,7 +4974,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大鴉ラーベ",
-          "value": "ローレを見守っていた三本足の大鴉"
+          "value": "ローレを見守っていた三��足の大鴉"
         },
         {
           "name": "腰部の人工的刻印",
