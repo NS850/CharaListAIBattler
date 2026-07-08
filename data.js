@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-07T13:15:02",
+  "generatedAt": "2026-07-08T13:15:02",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を監視する烏。蛹を啄み死を待っている"
+          "value": "周辺を監視��る烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。手直ししても大きい"
+          "value": "斃れた父の丈夫な上着。手直��しても大きい"
         },
         {
           "name": "手斧",
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦い��り相手を観察することに夢中"
+          "value": "戦いより相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -2184,7 +2184,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火を熾す魔法",
-          "value": "掌からの発火。高熱だが小さく戦いに不向��"
+          "value": "��からの発火。高熱だが小さく戦いに不向き"
         }
       ]
     },
@@ -5097,7 +5097,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "幻惑の輝き",
-          "value": "{u}の精神を茸と同調させ感覚を同期する"
+          "value": "{u}の精神を茸と同調させ感覚を同期��る"
         },
         {
           "name": "茸が見せる世界",
