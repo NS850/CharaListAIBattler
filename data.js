@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-08T13:15:02",
+  "generatedAt": "2026-07-09T13:15:03",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -427,7 +427,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-06",
+      "updated": "2026-07-08",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
       "isHidden": true,
@@ -439,7 +439,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "義足と車椅子",
-          "value": "血染めの木製義足。立ち、歩くことも可能"
+          "value": "血染めの木製義足"
         },
         {
           "name": "死後の隷属",
@@ -450,12 +450,8 @@ window.CHARACTER_CATALOG = {
           "value": "贖罪のため{i}の車椅子を押す少女の骸"
         },
         {
-          "name": "死者に与える労働",
-          "value": "掘削、踊り、警護"
-        },
-        {
-          "name": "趣味",
-          "value": "踊りの鑑賞"
+          "name": "死者の踊り",
+          "value": "{i}が課す刑務の1つ。数少ない楽しみ"
         }
       ]
     },
@@ -596,7 +592,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "厳寒の地��も育つ逞しい野菜"
+          "value": "厳寒の地でも育つ逞しい野菜"
         }
       ]
     },
@@ -751,11 +747,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギン���果実"
+          "value": "ペンギンは果実"
         },
         {
           "name": "ペンギン",
-          "value": "困難な環境にも適応する逞しい植物"
+          "value": "困難な環境にも��応する逞しい植物"
         },
         {
           "name": "※",
@@ -827,7 +823,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "厳寒の地��も育つ逞しい野菜"
+          "value": "厳寒の地でも育つ逞しい野菜"
         },
         {
           "name": "野菜ペンギン",
@@ -846,7 +842,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
       "name": "ペンギンドリンクバー",
-      "promptName": "レストラン",
+      "promptName": "レスト���ン",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -906,7 +902,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "鳴き声1",
-          "value": "ングアアアアアア"
+          "value": "ングアア���アアア"
         },
         {
           "name": "鳴き声2",
@@ -1205,7 +1201,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7296a2f2-3e83-4ef8-9452-416530b5145b",
-      "name": "超音速カタツム��",
+      "name": "超音速カタツムリ",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -1315,7 +1311,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "旧文明の落し子",
-          "value": "機械と肉の揺籃が生んだ生体の少女"
+          "value": "機械と肉の��籃が生んだ生体の少女"
         }
       ]
     },
@@ -2184,7 +2180,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火を熾す魔法",
-          "value": "��からの発火。高熱だが小さく戦いに不向き"
+          "value": "掌からの発火。高熱だが小さく戦いに不向き"
         }
       ]
     },
@@ -2649,7 +2645,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自己延長の他人",
-          "value": "境界線を持たず他人は自分の為に動くと意識"
+          "value": "境界線を持たず他人は自分の為に動くと���識"
         },
         {
           "name": "理不尽な憤怒",
@@ -2774,7 +2770,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "1b1e7390-75d0-48b5-a33b-0f1ad08dd9f7",
       "name": "隊商の護衛",
-      "promptName": "（これは設定文なので人物としては登場しない���",
+      "promptName": "（これは設定文なので人物としては登場しない）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 23011,
@@ -3224,7 +3220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "クロスボウ",
-          "value": "脚に���備。強靭な脚力で引き絞り放つ"
+          "value": "脚に装備。強靭な脚力で引き絞り放つ"
         },
         {
           "name": "脚剣",
@@ -4974,7 +4970,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大鴉ラーベ",
-          "value": "ローレを見守っていた三��足の大鴉"
+          "value": "ローレを見守っていた三本足の大鴉"
         },
         {
           "name": "腰部の人工的刻印",
@@ -5097,7 +5093,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "幻惑の輝き",
-          "value": "{u}の精神を茸と同調させ感覚を同期��る"
+          "value": "{u}の精神を茸と同調させ感覚を同期する"
         },
         {
           "name": "茸が見せる世界",
@@ -7116,7 +7112,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "地域",
-          "value": "アークナード西部の山脈"
+          "value": "アークナ��ド西部の山脈"
         },
         {
           "name": "場所",
