@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-09T13:15:03",
+  "generatedAt": "2026-07-10T13:15:24",
   "source": "characters_mine.json",
   "count": 228,
   "characters": [
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を監視��る烏。蛹を啄み死を待っている"
+          "value": "周辺を���視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。手直��しても大きい"
+          "value": "斃れた父の丈夫な上着。���直ししても大きい"
         },
         {
           "name": "手斧",
@@ -419,7 +419,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "name": "【首切り役人】カリーナ",
-      "promptName": "【首切り役人】カリーナ（一人称：私　丁寧で誠実）",
+      "promptName": "【首切り役人】カリーナ（少女　一人称：私　丁寧で誠実）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -427,7 +427,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-08",
+      "updated": "2026-07-09",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
       "isHidden": true,
@@ -448,10 +448,6 @@ window.CHARACTER_CATALOG = {
         {
           "name": "首無しの従者",
           "value": "贖罪のため{i}の車椅子を押す少女の骸"
-        },
-        {
-          "name": "死者の踊り",
-          "value": "{i}が課す刑務の1つ。数少ない楽しみ"
         }
       ]
     },
@@ -751,7 +747,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "困難な環境にも��応する逞しい植物"
+          "value": "困難な環境にも適応する逞しい植物"
         },
         {
           "name": "※",
@@ -842,7 +838,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
       "name": "ペンギンドリンクバー",
-      "promptName": "レスト���ン",
+      "promptName": "レストラン",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -902,7 +898,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "鳴き声1",
-          "value": "ングアア���アアア"
+          "value": "ングアアアアアア"
         },
         {
           "name": "鳴き声2",
@@ -914,7 +910,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "コロニー",
-          "value": "ペンギンが管理するサーバ農場"
+          "value": "ペンギン���管理するサーバ農場"
         },
         {
           "name": "デッドロック",
@@ -1276,7 +1272,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」)",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　性格・口調：感情に乏しく内向的で��口「…ん」)",
       "category": "【魔法使い】ローレ",
       "tags": [
         "【魔法使い】ローレ"
@@ -1311,7 +1307,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "旧文明の落し子",
-          "value": "機械と肉の��籃が生んだ生体の少女"
+          "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
     },
@@ -1452,7 +1448,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c3fe0b2a-7df4-4e42-ab55-b27cd0864fbc",
-      "name": "食い詰めものの山賊たち",
+      "name": "食い��めものの山賊たち",
       "promptName": "山賊たち",
       "category": "未分類",
       "tags": [
@@ -2645,7 +2641,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自己延長の他人",
-          "value": "境界線を持たず他人は自分の為に動くと���識"
+          "value": "境界線を持たず他人は自分の為に動くと意識"
         },
         {
           "name": "理不尽な憤怒",
@@ -2911,7 +2907,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d988be8f-2bd1-419d-96d9-a398ed62040d",
-      "name": "飽食の晩餐会",
+      "name": "飽食の晩餐��",
       "promptName": "",
       "category": "シチュエーション",
       "tags": [],
@@ -5802,7 +5798,7 @@ window.CHARACTER_CATALOG = {
           "value": "食欲に囚われた人々の異様な腕力"
         },
         {
-          "name": "フォークとナイフ",
+          "name": "��ォークとナイフ",
           "value": "人々が{u}に突き立てるフォークとナイフ"
         },
         {
@@ -7112,7 +7108,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "地域",
-          "value": "アークナ��ド西部の山脈"
+          "value": "アークナード西部の山脈"
         },
         {
           "name": "場所",
