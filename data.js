@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-10T13:15:24",
+  "generatedAt": "2026-07-11T13:15:24",
   "source": "characters_mine.json",
-  "count": 228,
+  "count": 229,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -224,7 +224,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "烏",
-          "value": "周辺を���視する烏。蛹を啄み死を待っている"
+          "value": "周辺を監視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着。���直ししても大きい"
+          "value": "斃れた父の丈夫な上着。手直ししても大きい"
         },
         {
           "name": "手斧",
@@ -422,15 +422,14 @@ window.CHARACTER_CATALOG = {
       "promptName": "【首切り役人】カリーナ（少女　一人称：私　丁寧で誠実）",
       "category": "未分類",
       "tags": [
-        "未分類",
-        "limited"
+        "未分類"
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-09",
+      "updated": "2026-07-11",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
-      "isHidden": true,
+      "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -438,16 +437,16 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "義足と車椅子",
-          "value": "血染めの木製義足"
+          "name": "死者が押す車椅子",
+          "value": "{i}と剣を運ぶ椅子。戦いの場では降りる"
+        },
+        {
+          "name": "血染めの木製義足",
+          "value": "意思によらず動く両足。踊るような体捌き"
         },
         {
           "name": "死後の隷属",
-          "value": "生前の罪に縛られた死者たちを従える"
-        },
-        {
-          "name": "首無しの従者",
-          "value": "贖罪のため{i}の車椅子を押す少女の骸"
+          "value": "生前の罪に縛られた死者が剣の意思に従う"
         }
       ]
     },
@@ -490,6 +489,37 @@ window.CHARACTER_CATALOG = {
         {
           "name": "手紙を届ける鳥",
           "value": "昼は烏、夜は梟が見守り、時に助けてくれる"
+        }
+      ]
+    },
+    {
+      "id": "385de0fd-adcf-4a8a-a552-affed69233ea",
+      "name": "蛮族アザラシの襲撃",
+      "promptName": "",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-07-11",
+      "updated": "2026-07-11",
+      "url": "https://ai-battler.com/battle/385de0fd-adcf-4a8a-a552-affed69233ea",
+      "localPath": "未分類\\蛮族アザラシの襲撃.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "アザラシの特徴",
+          "value": "筋骨隆々、稲妻纏の鉄の斧、円盾"
+        },
+        {
+          "name": "ペンギンの鳴き声",
+          "value": "ングアアアアア/ペーッ"
         }
       ]
     },
@@ -910,7 +940,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "コロニー",
-          "value": "ペンギン���管理するサーバ農場"
+          "value": "ペンギンが管理するサーバ農場"
         },
         {
           "name": "デッドロック",
@@ -1272,7 +1302,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　性格・口調：感情に乏しく内向的で��口「…ん」)",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
       "tags": [
         "【魔法使い】ローレ"
@@ -1448,7 +1478,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c3fe0b2a-7df4-4e42-ab55-b27cd0864fbc",
-      "name": "食い��めものの山賊たち",
+      "name": "食い詰めものの山賊たち",
       "promptName": "山賊たち",
       "category": "未分類",
       "tags": [
@@ -1622,7 +1652,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ac36fd68-7070-4cdd-85e1-d6324d6eb73e",
-      "name": "【図書館の魔女】セレマ",
+      "name": "【図書館��魔女】セレマ",
       "promptName": "【図書館の魔女】セレマ（人称：私、あなた）",
       "category": "未分類",
       "tags": [],
@@ -2907,7 +2937,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d988be8f-2bd1-419d-96d9-a398ed62040d",
-      "name": "飽食の晩餐��",
+      "name": "飽食の晩餐会",
       "promptName": "",
       "category": "シチュエーション",
       "tags": [],
@@ -5798,7 +5828,7 @@ window.CHARACTER_CATALOG = {
           "value": "食欲に囚われた人々の異様な腕力"
         },
         {
-          "name": "��ォークとナイフ",
+          "name": "フォークとナイフ",
           "value": "人々が{u}に突き立てるフォークとナイフ"
         },
         {
