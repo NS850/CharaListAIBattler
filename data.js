@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-11T13:15:24",
+  "generatedAt": "2026-07-13T13:15:03",
   "source": "characters_mine.json",
   "count": 229,
   "characters": [
@@ -419,14 +419,14 @@ window.CHARACTER_CATALOG = {
     {
       "id": "0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "name": "【首切り役人】カリーナ",
-      "promptName": "【首切り役人】カリーナ（少女　一人称：私　丁寧で誠実）",
+      "promptName": "【首切り役人】カリーナ（一人称：私　外見：少女、大剣、襤褸の修道服、目隠　性格：謙虚、丁寧）",
       "category": "未分類",
       "tags": [
         "未分類"
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-11",
+      "updated": "2026-07-13",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類\\【首切り役人】カリーナ.md",
       "isHidden": false,
@@ -437,16 +437,24 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "死者が押す車椅子",
-          "value": "{i}と剣を運ぶ椅子。戦いの場では降りる"
+          "name": "カタコンベ",
+          "value": "転生を待つ死者が送られる広大な地下墓地"
+        },
+        {
+          "name": "廻る炎の車輪",
+          "value": "輪廻を司る神性。燃え盛る無数の瞳で監視"
+        },
+        {
+          "name": "監視者の瞳",
+          "value": "罪の重みで拘束する、意思砕く神の視線"
         },
         {
           "name": "血染めの木製義足",
-          "value": "意思によらず動く両足。踊るような体捌き"
+          "value": "監視者の意思で踊るように動く両足"
         },
         {
-          "name": "死後の隷属",
-          "value": "生前の罪に縛られた死者が剣の意思に従う"
+          "name": "処刑人の剣",
+          "value": "殆ど汎ゆる物を破断する。引きずるほど重い"
         }
       ]
     },
@@ -1652,7 +1660,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ac36fd68-7070-4cdd-85e1-d6324d6eb73e",
-      "name": "【図書館��魔女】セレマ",
+      "name": "【図書館の魔女】セレマ",
       "promptName": "【図書館の魔女】セレマ（人称：私、あなた）",
       "category": "未分類",
       "tags": [],
@@ -2631,7 +2639,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "良心の欠如",
-          "value": "傷つけ殺害しようとも動かない心"
+          "value": "傷つけ殺��しようとも動かない心"
         },
         {
           "name": "抜かりない隠蔽",
@@ -2702,7 +2710,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "悪い手癖",
-          "value": "気付かれずに手の内に隠す技術"
+          "value": "気付かれずに手の内に隠す技��"
         },
         {
           "name": "嫌いなもの",
@@ -2781,7 +2789,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ゴブリン",
-          "value": "力は弱いが数と悪知恵が厄介。残虐な魔物"
+          "value": "力は弱いが数と悪知恵が厄介。残虐��魔物"
         },
         {
           "name": "ホブゴブリン",
@@ -3834,7 +3842,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "5c1cb845-655c-4046-906c-32aff40d6a18",
       "name": "形成された少女　ミルク",
-      "promptName": "形成された少女　ミルク（言葉の代わりに光の明滅で答える）",
+      "promptName": "���成された少女　ミルク（言葉の代わりに光の明滅で答える）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 31011,
