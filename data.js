@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-14T13:15:04",
+  "generatedAt": "2026-07-16T13:15:03",
   "source": "characters_mine.json",
-  "count": 229,
+  "count": 230,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦いより相手を観察することに夢中"
+          "value": "戦��より相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -468,7 +468,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-06-26",
-      "updated": "2026-07-06",
+      "updated": "2026-07-15",
       "url": "https://ai-battler.com/battle/8bf1449f-beeb-4505-989b-e1f28ace06db",
       "localPath": "未分類\\【旅人】テッサ.md",
       "isHidden": false,
@@ -491,8 +491,8 @@ window.CHARACTER_CATALOG = {
           "value": "体格以上だが扱える。薪割りや槌代わりに"
         },
         {
-          "name": "趣味",
-          "value": "風景画、道具の補修や制作"
+          "name": "風景描き",
+          "value": "よく旅の風景を描き家族に送っている"
         },
         {
           "name": "手紙を届ける鳥",
@@ -502,7 +502,41 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "385de0fd-adcf-4a8a-a552-affed69233ea",
-      "name": "蛮族アザラシの襲撃",
+      "name": "蛮族アザラシ",
+      "promptName": "",
+      "category": "未分類",
+      "tags": [
+        "未分類"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-07-11",
+      "updated": "2026-07-15",
+      "url": "https://ai-battler.com/battle/385de0fd-adcf-4a8a-a552-affed69233ea",
+      "localPath": "未分類\\蛮族アザラシ.md",
+      "isHidden": false,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "アザラシの装備",
+          "value": "稲妻纏の斧、円盾"
+        },
+        {
+          "name": "厚い脂肪",
+          "value": "冷気に強く衝撃を吸収する丸みを帯びた身体"
+        },
+        {
+          "name": "アザラシの鳴き声",
+          "value": "電子音、あるいは轟く雷鳴"
+        }
+      ]
+    },
+    {
+      "id": "3719bb23-b5e2-4c96-b568-f4a20977ba04",
+      "name": "廻る死の巫女",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -510,10 +544,10 @@ window.CHARACTER_CATALOG = {
         "limited"
       ],
       "displayOrder": 10000,
-      "created": "2026-07-11",
-      "updated": "2026-07-11",
-      "url": "https://ai-battler.com/battle/385de0fd-adcf-4a8a-a552-affed69233ea",
-      "localPath": "未分類\\蛮族アザラシの襲撃.md",
+      "created": "2026-07-15",
+      "updated": "2026-07-15",
+      "url": "https://ai-battler.com/battle/3719bb23-b5e2-4c96-b568-f4a20977ba04",
+      "localPath": "未分類\\廻る死の巫女.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -522,12 +556,12 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "アザラシの特徴",
-          "value": "筋骨隆々、稲妻纏の鉄の斧、円盾"
+          "name": "身体に宿り廻る死",
+          "value": "輪廻を司る神の一相。苛み狂わせ死に向かう"
         },
         {
-          "name": "ペンギンの鳴き声",
-          "value": "ングアアアアア/ペーッ"
+          "name": "蝸牛と鼠の群れ",
+          "value": "互いに身体や排泄物を喰らい神を巡らせ合う"
         }
       ]
     },
@@ -824,7 +858,7 @@ window.CHARACTER_CATALOG = {
           "value": "尾びれで陸上を歩く紳士的な魚。趣味は釣り"
         },
         {
-          "name": "魚",
+          "name": "���",
           "value": "一定の知性を持ち会話を楽しむ"
         },
         {
@@ -1124,7 +1158,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "28ecf1de-f7e9-4ace-8c88-f2556f50ddee",
-      "name": "サバクトビペンギン(群生相)",
+      "name": "���バクトビペンギン(群生相)",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -1806,7 +1840,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ローブ",
-          "value": "何度も補修して着続けている"
+          "value": "何度も補修して着続��ている"
         }
       ]
     },
@@ -2639,7 +2673,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "良心の欠如",
-          "value": "傷つけ殺��しようとも動かない心"
+          "value": "傷つけ殺害しようとも動かない心"
         },
         {
           "name": "抜かりない隠蔽",
@@ -2710,7 +2744,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "悪い手癖",
-          "value": "気付かれずに手の内に隠す技��"
+          "value": "気付���れずに手の内に隠す技術"
         },
         {
           "name": "嫌いなもの",
@@ -2789,7 +2823,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ゴブリン",
-          "value": "力は弱いが数と悪知恵が厄介。残虐��魔物"
+          "value": "力は弱いが���と悪知恵が厄介。残虐な魔物"
         },
         {
           "name": "ホブゴブリン",
@@ -3842,7 +3876,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "5c1cb845-655c-4046-906c-32aff40d6a18",
       "name": "形成された少女　ミルク",
-      "promptName": "���成された少女　ミルク（言葉の代わりに光の明滅で答える）",
+      "promptName": "形成された少女　ミルク（言葉の代わりに光の明滅で答える）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 31011,
@@ -5048,7 +5082,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集���住宅の清掃"
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
@@ -7421,7 +7455,7 @@ window.CHARACTER_CATALOG = {
           "value": "通路から溢れんばかりの骸の波濤"
         },
         {
-          "name": "新��の蛇の杖",
+          "name": "新月の蛇の杖",
           "value": "光と生命を飲み込む木杖"
         },
         {
