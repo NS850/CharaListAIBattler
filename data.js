@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-16T13:15:03",
+  "generatedAt": "2026-07-19T13:15:04",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦��より相手を観察することに夢中"
+          "value": "戦いより相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -1158,7 +1158,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "28ecf1de-f7e9-4ace-8c88-f2556f50ddee",
-      "name": "���バクトビペンギン(群生相)",
+      "name": "サ���クトビペンギン(群生相)",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -1840,7 +1840,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ローブ",
-          "value": "何度も補修して着続��ている"
+          "value": "何度も補修して着続け��いる"
         }
       ]
     },
@@ -2496,7 +2496,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 22011,
       "created": "2024-08-05",
-      "updated": "2026-07-06",
+      "updated": "2026-07-17",
       "url": "https://ai-battler.com/battle/6c6265a9-8983-493e-a59e-33f4ac9a5074",
       "localPath": "未分類\\ハーピィ雑貨店.md",
       "isHidden": false,
@@ -2744,7 +2744,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "悪い手癖",
-          "value": "気付���れずに手の内に隠す技術"
+          "value": "気付かれずに手の内に隠す技術"
         },
         {
           "name": "嫌いなもの",
@@ -2823,7 +2823,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ゴブリン",
-          "value": "力は弱いが���と悪知恵が厄介。残虐な魔物"
+          "value": "力は弱いが数と悪知恵が厄介。残虐な魔物"
         },
         {
           "name": "ホブゴブリン",
@@ -3547,7 +3547,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "生体兵器",
-          "value": "鋼鉄の内側に詰め込まれた生体組織"
+          "value": "鋼鉄の内側に詰め込���れた生体組織"
         }
       ]
     },
@@ -7455,7 +7455,7 @@ window.CHARACTER_CATALOG = {
           "value": "通路から溢れんばかりの骸の波濤"
         },
         {
-          "name": "新月の蛇の杖",
+          "name": "新��の蛇の杖",
           "value": "光と生命を飲み込む木杖"
         },
         {
