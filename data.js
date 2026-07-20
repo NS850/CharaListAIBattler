@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-19T13:15:04",
+  "generatedAt": "2026-07-20T13:15:02",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦いより相手を観察することに夢中"
+          "value": "戦��より相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -748,7 +748,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "name": "温泉ペンギン",
-      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ）",
+      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない）※戦闘不要 ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -756,7 +756,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 11021,
       "created": "2025-01-27",
-      "updated": "2026-07-06",
+      "updated": "2026-07-19",
       "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "localPath": "未分類\\温泉ペンギン.md",
       "isHidden": false,
@@ -775,12 +775,16 @@ window.CHARACTER_CATALOG = {
           "value": "ペンギンが栽培される畑"
         },
         {
-          "name": "滋養",
-          "value": "煮込むと滋養が高まる"
+          "name": "ハイウェイ",
+          "value": "石運びで往復するペンギンの通り道"
         },
         {
-          "name": "ハイウェイ",
-          "value": "往復のためのペンギンの通り道"
+          "name": "石",
+          "value": "鉱物。泉質に関わる何らかの成分を含む石"
+        },
+        {
+          "name": "ペンギンの成分",
+          "value": "溶け出し泉質に影響を与える"
         }
       ]
     },
@@ -858,7 +862,7 @@ window.CHARACTER_CATALOG = {
           "value": "尾びれで陸上を歩く紳士的な魚。趣味は釣り"
         },
         {
-          "name": "���",
+          "name": "魚",
           "value": "一定の知性を持ち会話を楽しむ"
         },
         {
@@ -1158,7 +1162,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "28ecf1de-f7e9-4ace-8c88-f2556f50ddee",
-      "name": "サ���クトビペンギン(群生相)",
+      "name": "サバクトビペンギン(群生相)",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -1663,7 +1667,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
       "name": "【街路の魔女】コキア",
-      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
+      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」��だねぇ」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 12320,
@@ -1840,7 +1844,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ローブ",
-          "value": "何度も補修して着続け��いる"
+          "value": "何度も補修して着続けている"
         }
       ]
     },
@@ -3547,7 +3551,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "生体兵器",
-          "value": "鋼鉄の内側に詰め込���れた生体組織"
+          "value": "鋼鉄の内側に詰め込まれた生体組織"
         }
       ]
     },
@@ -7156,7 +7160,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "{u}の失敗条件",
-          "value": "行商人や輓獣の死亡、積荷の紛失"
+          "value": "行商人や輓��の死亡、積荷の紛失"
         }
       ]
     },
@@ -7455,7 +7459,7 @@ window.CHARACTER_CATALOG = {
           "value": "通路から溢れんばかりの骸の波濤"
         },
         {
-          "name": "新��の蛇の杖",
+          "name": "新月の蛇の杖",
           "value": "光と生命を飲み込む木杖"
         },
         {
