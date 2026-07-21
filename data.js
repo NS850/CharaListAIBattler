@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-20T13:15:02",
+  "generatedAt": "2026-07-21T13:15:05",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -408,7 +408,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "🏃競争心なし",
-          "value": "戦��より相手を観察することに夢中"
+          "value": "戦いより相手を観察することに夢中"
         },
         {
           "name": "特徴:女性",
@@ -756,7 +756,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 11021,
       "created": "2025-01-27",
-      "updated": "2026-07-19",
+      "updated": "2026-07-20",
       "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "localPath": "未分類\\温泉ペンギン.md",
       "isHidden": false,
@@ -772,7 +772,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "コロニー",
-          "value": "ペンギンが栽培される畑"
+          "value": "ペンギンが栽培される畑、つまり、温泉"
         },
         {
           "name": "ハイウェイ",
@@ -1667,7 +1667,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
       "name": "【街路の魔女】コキア",
-      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」��だねぇ」）",
+      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　��囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 12320,
@@ -3073,7 +3073,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "優しいお母さん",
-          "value": "料理上手。傷だらけの手と傷んだ髪"
+          "value": "料理上手。傷だら��の手と傷んだ髪"
         },
         {
           "name": "頑固なお父さん",
@@ -4671,7 +4671,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格",
-          "value": "不愛想・面倒見は良い"
+          "value": "��愛想・面倒見は良い"
         },
         {
           "name": "趣味",
@@ -5670,7 +5670,7 @@ window.CHARACTER_CATALOG = {
           "value": "身体に美味しい葉や果実を生やす"
         },
         {
-          "name": "ペンギンは温かい",
+          "name": "ペンギンは���かい",
           "value": "抱けば温かく絞り出される油はよく燃える"
         }
       ]
@@ -7160,7 +7160,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "{u}の失敗条件",
-          "value": "行商人や輓��の死亡、積荷の紛失"
+          "value": "行商人や輓獣の死亡、積荷の紛失"
         }
       ]
     },
@@ -7392,7 +7392,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "好奇心",
-          "value": "傷病の原因や治療法の追及に余念がない"
+          "value": "傷病の原因や治療法の追及に��念がない"
         }
       ]
     },
