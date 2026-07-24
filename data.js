@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-24T07:52:51",
+  "generatedAt": "2026-07-24T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -3073,7 +3073,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "優しいお母さん",
-          "value": "料理上手。傷だらけの手��傷んだ髪"
+          "value": "料理上手。傷だらけの手と傷んだ髪"
         },
         {
           "name": "頑固なお父さん",
@@ -3546,7 +3546,7 @@ window.CHARACTER_CATALOG = {
           "value": "汎用生体脳RAB-310(R3) 女性"
         },
         {
-          "name": "���光装置",
+          "name": "集光装置",
           "value": "光を集め浮力を生み出す5枚の花弁"
         },
         {
@@ -4078,7 +4078,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "deda29c7-c4f0-408f-88f3-dd041f3c3602",
-      "name": "【���法使い】ローレ（あなたとは、知り合い）",
+      "name": "【魔法使い】ローレ（あなたとは、知り合い）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
