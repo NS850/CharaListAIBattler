@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-26T05:17:50",
+  "generatedAt": "2026-07-26T13:15:18",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者���齎される力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説す��）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉���"
+          "value": "手足をもがれ脳のない魔女の肉体"
         },
         {
           "name": "烏",
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【��人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -4958,11 +4958,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "トリスメギストス",
-          "value": "愛用のラッパ銃。原理は錬金術の反応と嘯く"
+          "value": "愛用のラッパ銃。原理は��金術の反応と嘯く"
         },
         {
           "name": "売れっ子声優",
-          "value": "普段は抑揚なし。公言せ���声質を変え揶揄う"
+          "value": "普段は抑揚なし。公言せず声質を変え揶揄う"
         },
         {
           "name": "怪しい大釜と妙薬",
