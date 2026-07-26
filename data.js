@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-24T13:15:03",
+  "generatedAt": "2026-07-26T05:17:50",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者���齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説す��）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -220,11 +220,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉体"
+          "value": "手足をもがれ脳のない魔女の肉���"
         },
         {
           "name": "烏",
-          "value": "周辺��監視する烏。蛹を啄み死を待っている"
+          "value": "周辺を監視する烏。蛹を啄み死を待っている"
         },
         {
           "name": "収束",
@@ -300,7 +300,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "革の上着",
-          "value": "斃れた父の丈夫な上着��手直ししても大きい"
+          "value": "斃れた父の丈夫な上着。手直ししても大きい"
         },
         {
           "name": "手斧",
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【��人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1310,7 +1310,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "勇気と幸運",
-          "value": "渦巻き模様が邪気を払い勇気と幸運を齎す"
+          "value": "渦巻き模様が邪気を払い勇気と幸運を齎��"
         },
         {
           "name": "不滅と永遠",
@@ -1667,7 +1667,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
       "name": "【街路の魔女】コキア",
-      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ��」「だねぇ」）",
+      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 12320,
@@ -4108,7 +4108,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "使い魔ラーベ",
-          "value": "未来視の大鴉。{i}を優しく見守る存在"
+          "value": "未来視の大鴉。{i}を優しく見守る���在"
         },
         {
           "name": "頼れる使い魔",
@@ -4671,7 +4671,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格",
-          "value": "不愛想��面倒見は良い"
+          "value": "不愛想・面倒見は良い"
         },
         {
           "name": "趣味",
@@ -4962,7 +4962,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "売れっ子声優",
-          "value": "普段は抑揚なし。公言せず声質を変え揶揄う"
+          "value": "普段は抑揚なし。公言せ���声質を変え揶揄う"
         },
         {
           "name": "怪しい大釜と妙薬",
@@ -5436,7 +5436,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "姫と民の魂の所有",
-          "value": "姫の死亡まで契約が履行されれば悪魔の所有"
+          "value": "姫の死亡まで契約が履行されれ��悪魔の所有"
         }
       ]
     },
@@ -7160,7 +7160,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "{u}の失敗条件",
-          "value": "行商人や���獣の死亡、積荷の紛失"
+          "value": "行商人や輓獣の死亡、積荷の紛失"
         }
       ]
     },
