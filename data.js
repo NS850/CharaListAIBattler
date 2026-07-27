@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-26T13:15:18",
+  "generatedAt": "2026-07-27T13:15:09",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉体"
+          "value": "手足をもがれ脳のない魔女の肉���"
         },
         {
           "name": "烏",
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【��人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
