@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-27T13:15:09",
+  "generatedAt": "2026-07-28T13:15:11",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -2128,7 +2128,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "不朽の愛",
-          "value": "花を通して誰かが送る命の魔法"
+          "value": "��を通して誰かが送る命の魔法"
         }
       ]
     },
@@ -2252,7 +2252,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火を熾す魔法",
-          "value": "掌からの発火。高熱だが小さく戦いに不向き"
+          "value": "掌からの発火。���熱だが小さく戦いに不向き"
         }
       ]
     },
@@ -4005,7 +4005,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "白い少女",
-          "value": "産まれ泡立つ星が形を成す少女のようなもの"
+          "value": "産まれ泡立つ星が形を成��少女のようなもの"
         }
       ]
     },
@@ -4547,7 +4547,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "機構により鋭さを持つ箒。彗星の如く飛ぶ"
+          "value": "機構によ��鋭さを持つ箒。彗星の如く飛ぶ"
         },
         {
           "name": "収束",
@@ -4958,7 +4958,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "トリスメギストス",
-          "value": "愛用のラッパ銃。原理は��金術の反応と嘯く"
+          "value": "愛用のラッパ銃。原理は錬金術の反応と嘯く"
         },
         {
           "name": "売れっ子声優",
