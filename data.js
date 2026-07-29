@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-28T13:15:11",
+  "generatedAt": "2026-07-29T13:15:04",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -4962,7 +4962,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "売れっ子声優",
-          "value": "普段は抑揚なし。公言せず声質を変え揶揄う"
+          "value": "普段は抑揚なし。公言せ���声質を変え揶揄う"
         },
         {
           "name": "怪しい大釜と妙薬",
