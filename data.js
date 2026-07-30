@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-29T13:15:04",
+  "generatedAt": "2026-07-30T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -2128,7 +2128,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "不朽の愛",
-          "value": "��を通して誰かが送る命の魔法"
+          "value": "花を通して誰かが送る命の魔法"
         }
       ]
     },
@@ -2252,7 +2252,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "火を熾す魔法",
-          "value": "掌からの発火。���熱だが小さく戦いに不向き"
+          "value": "掌からの発火。高熱だが小さく戦いに不向き"
         }
       ]
     },
@@ -4005,7 +4005,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "白い少女",
-          "value": "産まれ泡立つ星が形を成��少女のようなもの"
+          "value": "産まれ泡立つ星が形を成す少女のようなもの"
         }
       ]
     },
@@ -4108,7 +4108,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "使い魔ラーベ",
-          "value": "未来視の大鴉。{i}を優しく見守る���在"
+          "value": "未来視の大鴉。{i}を優しく見守る存在"
         },
         {
           "name": "頼れる使い魔",
@@ -4962,7 +4962,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "売れっ子声優",
-          "value": "普段は抑揚なし。公言せ���声質を変え揶揄う"
+          "value": "普段は抑揚なし。公言せず声質を変え揶揄う"
         },
         {
           "name": "怪しい大釜と妙薬",
