@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-30T13:15:03",
+  "generatedAt": "2026-07-31T13:15:15",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -4108,7 +4108,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "使い魔ラーベ",
-          "value": "未来視の大鴉。{i}を優しく見守る存在"
+          "value": "未来視の大鴉。{i}を優しく見守る���在"
         },
         {
           "name": "頼れる使い魔",
@@ -4248,7 +4248,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "箒を模した槍。これに乗り彗星の如く飛ぶ"
+          "value": "箒を模した槍。これに乗り彗星の如��飛ぶ"
         },
         {
           "name": "性格・口調",
@@ -4547,7 +4547,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "機構によ��鋭さを持つ箒。彗星の如く飛ぶ"
+          "value": "機構により鋭さを持つ箒。彗星の如く飛ぶ"
         },
         {
           "name": "収束",
