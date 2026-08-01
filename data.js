@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-07-31T13:15:15",
+  "generatedAt": "2026-08-01T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎される��"
         },
         {
           "name": "一角",
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉���"
+          "value": "手足をもがれ脳のない魔女の肉体"
         },
         {
           "name": "烏",
@@ -235,7 +235,7 @@ window.CHARACTER_CATALOG = {
           "value": "鋭い蕾から咲く花。集めた光を放出する"
         },
         {
-          "name": "肉の路",
+          "name": "���の路",
           "value": "脈動する遺跡の通路。{i}が植わっている"
         }
       ]
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【��人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -811,7 +811,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "鳴き声1",
-          "value": "ングアアアアア"
+          "value": "ングアア��アア"
         },
         {
           "name": "鳴き声2",
@@ -1310,7 +1310,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "勇気と幸運",
-          "value": "渦巻き模様が邪気を払い勇気と幸運を齎��"
+          "value": "渦巻き模様が邪気を払い勇気と幸運を齎す"
         },
         {
           "name": "不滅と永遠",
@@ -1348,16 +1348,16 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」)",
-      "category": "【魔法使い】ローレ",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
+      "category": "未分類",
       "tags": [
-        "【魔法使い】ローレ"
+        "未分類"
       ],
       "displayOrder": 11310,
       "created": "2023-12-02",
-      "updated": "2026-05-17",
+      "updated": "2026-07-31",
       "url": "https://ai-battler.com/battle/ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
-      "localPath": "【魔法使い】ローレ\\【魔法使い】ローレ.md",
+      "localPath": "未分類\\【魔法使い】ローレ.md",
       "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -1374,16 +1374,16 @@ window.CHARACTER_CATALOG = {
           "value": "機構により鋭さ増す花状箒。彗星の如く飛ぶ"
         },
         {
+          "name": "箒",
+          "value": "光で境界を定め引寄せ掃き出し清める魔法具"
+        },
+        {
           "name": "収束",
           "value": "光を集め箒槍の花弁に蓄える。光は魔法の源"
         },
         {
           "name": "一掃",
           "value": "花開いた箒槍が放つ光が刃となり薙ぎ祓う"
-        },
-        {
-          "name": "旧文明の落し子",
-          "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
     },
@@ -2112,7 +2112,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "大鎌、巨躯、身体に咲いた黄の花"
+          "value": "大鎌、巨躯、身体に咲いた��の花"
         },
         {
           "name": "滅びた村",
@@ -3525,7 +3525,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "428113b2-fbc0-43fc-b861-b1a116f075f5",
-      "name": "HE-47 HELIADES（墜落後）",
+      "name": "HE-47 HELIADES（���落後）",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -4108,7 +4108,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "使い魔ラーベ",
-          "value": "未来視の大鴉。{i}を優しく見守る���在"
+          "value": "未来視の大鴉。{i}を優しく見守る存在"
         },
         {
           "name": "頼れる使い魔",
@@ -4248,7 +4248,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "箒を模した槍。これに乗り彗星の如��飛ぶ"
+          "value": "箒を模した槍。これに乗り彗星の如く飛ぶ"
         },
         {
           "name": "性格・口調",
@@ -4371,7 +4371,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "13b9616c-0328-423e-9b7a-03320a4ac5d4",
       "name": "【魔法使い】ローレ(既知の仲)",
-      "promptName": "【魔法使い】ローレ（性格・口調：感情に乏しく内向的で無口「…ん」）",
+      "promptName": "【魔法使い】ローレ（性格・口調：感��に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
       "tags": [],
       "displayOrder": 80001,
@@ -5436,7 +5436,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "姫と民の魂の所有",
-          "value": "姫の死亡まで契約が履行されれ��悪魔の所有"
+          "value": "���の死亡まで契約が履行されれば悪魔の所有"
         }
       ]
     },
