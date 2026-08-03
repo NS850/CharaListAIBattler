@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-03T01:03:16",
+  "generatedAt": "2026-08-03T13:15:04",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -1879,7 +1879,7 @@ window.CHARACTER_CATALOG = {
           "value": "幼く健気"
         },
         {
-          "name": "虐げられる弱者",
+          "name": "虐げら��る弱者",
           "value": "待ち受ける死に抵抗する力を持たない"
         }
       ]
@@ -1956,7 +1956,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "直感/判断力",
-          "value": "状況を見極め生き延びる"
+          "value": "状��を見極め生き延びる"
         }
       ]
     },
@@ -2446,7 +2446,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "つるはし",
-          "value": "炭鉱で岩石や石炭を掘る道具として使われる"
+          "value": "炭鉱で岩石や石炭を掘る道具として使���れる"
         },
         {
           "name": "つるはし",
@@ -3525,7 +3525,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "428113b2-fbc0-43fc-b861-b1a116f075f5",
-      "name": "HE-47 HELIADES（���落後）",
+      "name": "HE-47 HELIADES（墜落後）",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3996,7 +3996,7 @@ window.CHARACTER_CATALOG = {
           "value": "蔦のように繁茂し胎内の様に脈動する蒸気"
         },
         {
-          "name": "羽ばたく��木",
+          "name": "羽ばたく箒木",
           "value": "蛇のようにのたうち羽ばたき地を掃く光の木"
         },
         {
