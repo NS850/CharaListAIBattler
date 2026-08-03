@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-01T13:15:03",
+  "generatedAt": "2026-08-03T01:03:16",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される��"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -235,7 +235,7 @@ window.CHARACTER_CATALOG = {
           "value": "鋭い蕾から咲く花。集めた光を放出する"
         },
         {
-          "name": "���の路",
+          "name": "肉の路",
           "value": "脈動する遺跡の通路。{i}が植わっている"
         }
       ]
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【旅���】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -811,7 +811,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "鳴き声1",
-          "value": "ングアア��アア"
+          "value": "ングアアアアア"
         },
         {
           "name": "鳴き声2",
@@ -3996,7 +3996,7 @@ window.CHARACTER_CATALOG = {
           "value": "蔦のように繁茂し胎内の様に脈動する蒸気"
         },
         {
-          "name": "羽ばたく箒木",
+          "name": "羽ばたく��木",
           "value": "蛇のようにのたうち羽ばたき地を掃く光の木"
         },
         {
@@ -4371,7 +4371,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "13b9616c-0328-423e-9b7a-03320a4ac5d4",
       "name": "【魔法使い】ローレ(既知の仲)",
-      "promptName": "【魔法使い】ローレ（性格・口調：感��に乏しく内向的で無口「…ん」）",
+      "promptName": "【魔法使い】ローレ（性格・口調：感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
       "tags": [],
       "displayOrder": 80001,
