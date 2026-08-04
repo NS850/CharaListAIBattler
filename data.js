@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-03T13:15:04",
+  "generatedAt": "2026-08-04T13:15:02",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -2446,7 +2446,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "つるはし",
-          "value": "炭鉱で岩石や石炭を掘る道具として使���れる"
+          "value": "炭鉱で岩石や石炭を掘る道具として使われる"
         },
         {
           "name": "つるはし",
