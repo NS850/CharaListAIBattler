@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-04T13:15:02",
+  "generatedAt": "2026-08-05T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -2446,7 +2446,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "つるはし",
-          "value": "炭鉱で岩石や石炭を掘る道具として使われる"
+          "value": "炭鉱で岩石や石炭を掘る道具として使���れる"
         },
         {
           "name": "つるはし",
@@ -3525,7 +3525,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "428113b2-fbc0-43fc-b861-b1a116f075f5",
-      "name": "HE-47 HELIADES（墜落後）",
+      "name": "HE-47 HELIADES（���落後）",
       "promptName": "",
       "category": "未分類",
       "tags": [],
