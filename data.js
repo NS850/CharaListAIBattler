@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-06T13:15:02",
+  "generatedAt": "2026-08-07T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【旅���】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -3996,7 +3996,7 @@ window.CHARACTER_CATALOG = {
           "value": "蔦のように繁茂し胎内の様に脈動する蒸気"
         },
         {
-          "name": "羽ばたく箒木",
+          "name": "羽ばたく��木",
           "value": "蛇のようにのたうち羽ばたき地を掃く光の木"
         },
         {
