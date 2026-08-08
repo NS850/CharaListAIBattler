@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-07T13:15:03",
+  "generatedAt": "2026-08-08T13:15:03",
   "source": "characters_mine.json",
   "count": 230,
   "characters": [
@@ -2112,7 +2112,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "大鎌、巨躯、身体に咲いた��の花"
+          "value": "大鎌、巨躯、身体に咲いた黄の花"
         },
         {
           "name": "滅びた村",
@@ -3996,7 +3996,7 @@ window.CHARACTER_CATALOG = {
           "value": "蔦のように繁茂し胎内の様に脈動する蒸気"
         },
         {
-          "name": "羽ばたく��木",
+          "name": "羽ばたく箒木",
           "value": "蛇のようにのたうち羽ばたき地を掃く光の木"
         },
         {
