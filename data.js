@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-08T13:15:03",
+  "generatedAt": "2026-08-09T13:39:44",
   "source": "characters_mine.json",
-  "count": 230,
+  "count": 231,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎���れる力"
         },
         {
           "name": "一角",
@@ -562,6 +562,41 @@ window.CHARACTER_CATALOG = {
         {
           "name": "蝸牛と鼠の群れ",
           "value": "互いに身体や排泄物を喰らい神を巡らせ合う"
+        }
+      ]
+    },
+    {
+      "id": "d4b23c7d-5b62-4558-bc21-45006711367a",
+      "name": "【巫術師】フーチェ",
+      "promptName": "【巫術師】フーチェ・クチィエ（共通言語は片言。昂ぶると部族の言語（おそらく口汚い））",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-08-08",
+      "updated": "2026-08-09",
+      "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
+      "localPath": "未分類\\【巫術師】フーチェ.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "ゾンビの使役",
+          "value": "白粉を塗り薬と施術で整えた遺体を従える"
+        },
+        {
+          "name": "霊木の巫槍",
+          "value": "祖霊の宿る木の柄に装着した十文字の刃"
+        },
+        {
+          "name": "神降ろし",
+          "value": "���全な高揚により神と繋がる"
         }
       ]
     },
@@ -997,7 +1032,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "86a935c6-75a1-4d04-84a8-b2f78f3bac78",
       "name": "ペンギン抱きの刑",
-      "promptName": "ペンギンを育てている農夫",
+      "promptName": "ペンギンを���てている農夫",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1434,7 +1469,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "386ef080-a42e-463f-8c70-51d74dee46a3",
       "name": "【魔法使い】エレノア",
-      "promptName": "【少女】エレノア（感情に乏しく無口「⋯ん」）",
+      "promptName": "【少女】エレノア��感情に乏しく無口「⋯ん」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1652,7 +1687,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "知性",
-          "value": "自立稼働し生存本能を模倣する"
+          "value": "自��稼働し生存本能を模倣する"
         },
         {
           "name": "魔力",
@@ -1988,7 +2023,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "しっかり者の妹",
-          "value": "花が好きな少女"
+          "value": "花��好きな少女"
         },
         {
           "name": "元気な弟",
@@ -3069,7 +3104,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "可愛げのない弟",
-          "value": "損傷の激しい少年の遺体。木剣を振るう"
+          "value": "損傷の激しい少��の遺体。木剣を振るう"
         },
         {
           "name": "優しいお母さん",
@@ -3525,7 +3560,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "428113b2-fbc0-43fc-b861-b1a116f075f5",
-      "name": "HE-47 HELIADES（���落後）",
+      "name": "HE-47 HELIADES（墜落後）",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -5436,7 +5471,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "姫と民の魂の所有",
-          "value": "���の死亡まで契約が履行されれば悪魔の所有"
+          "value": "姫の死亡まで契約が履行されれば悪魔の所有"
         }
       ]
     },
