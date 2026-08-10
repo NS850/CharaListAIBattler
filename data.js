@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-09T13:39:44",
+  "generatedAt": "2026-08-10T14:12:24",
   "source": "characters_mine.json",
   "count": 231,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎���れる力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -1469,7 +1469,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "386ef080-a42e-463f-8c70-51d74dee46a3",
       "name": "【魔法使い】エレノア",
-      "promptName": "【少女】エレノア��感情に乏しく無口「⋯ん」）",
+      "promptName": "【少女】エレノア（感情に乏しく無口「⋯ん」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -2495,7 +2495,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4a15810-0b7b-4805-bb3c-922700003242",
-      "name": "ハーピィ出張買取サービス",
+      "name": "ハー���ィ出張買取サービス",
       "promptName": "",
       "category": "未分類",
       "tags": [
