@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-10T14:12:24",
+  "generatedAt": "2026-08-11T13:15:04",
   "source": "characters_mine.json",
   "count": 231,
   "characters": [
@@ -568,7 +568,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "d4b23c7d-5b62-4558-bc21-45006711367a",
       "name": "【巫術師】フーチェ",
-      "promptName": "【巫術師】フーチェ・クチィエ（共通言語は片言。昂ぶると部族の言語（おそらく口汚い））",
+      "promptName": "【巫術師】フーチェ・クチィエ（共通言語を持たず、部族の言語で話す））",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -576,7 +576,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
       "localPath": "未分類\\【巫術師】フーチェ.md",
       "isHidden": true,
@@ -587,16 +587,12 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "ゾンビの使役",
-          "value": "白粉を塗り薬と施術で整えた遺体を従える"
+          "name": "兄のゾンビ",
+          "value": "白粉を塗り防腐薬で整えられ遺体に見えない"
         },
         {
           "name": "霊木の巫槍",
           "value": "祖霊の宿る木の柄に装着した十文字の刃"
-        },
-        {
-          "name": "神降ろし",
-          "value": "���全な高揚により神と繋がる"
         }
       ]
     },
@@ -783,7 +779,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "name": "温泉ペンギン",
-      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない）※戦闘不要 ※ABは名前表記",
+      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない��※戦闘不要 ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1032,7 +1028,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "86a935c6-75a1-4d04-84a8-b2f78f3bac78",
       "name": "ペンギン抱きの刑",
-      "promptName": "ペンギンを���てている農夫",
+      "promptName": "ペンギンを育てている農夫",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1687,7 +1683,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "知性",
-          "value": "自��稼働し生存本能を模倣する"
+          "value": "自立稼働し生存本能を模倣する"
         },
         {
           "name": "魔力",
@@ -1695,7 +1691,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "造られたもの",
-          "value": "精神的な影響を受けない"
+          "value": "精神的な影響を受���ない"
         }
       ]
     },
@@ -2023,7 +2019,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "しっかり者の妹",
-          "value": "花��好きな少女"
+          "value": "花が好きな少女"
         },
         {
           "name": "元気な弟",
@@ -2495,7 +2491,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4a15810-0b7b-4805-bb3c-922700003242",
-      "name": "ハー���ィ出張買取サービス",
+      "name": "ハーピィ出張買取サービス",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -3104,7 +3100,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "可愛げのない弟",
-          "value": "損傷の激しい少��の遺体。木剣を振るう"
+          "value": "損傷の激しい少年の遺体。木剣を振るう"
         },
         {
           "name": "優しいお母さん",
@@ -4113,7 +4109,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "deda29c7-c4f0-408f-88f3-dd041f3c3602",
-      "name": "【魔法使い】ローレ（あなたとは、知り合い）",
+      "name": "【魔法使い】ローレ（あなたとは、���り合い）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -5670,7 +5666,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "※",
-          "value": "{i}は登場させず、{u}を描写"
+          "value": "{i}は登場��せず、{u}を描写"
         }
       ]
     },
