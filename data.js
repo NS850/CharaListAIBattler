@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-11T13:15:04",
+  "generatedAt": "2026-08-12T13:15:05",
   "source": "characters_mine.json",
   "count": 231,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉体"
+          "value": "手足をもがれ脳のない魔女の肉��"
         },
         {
           "name": "烏",
@@ -461,7 +461,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
       "name": "【旅人】テッサ",
-      "promptName": "【旅���】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
+      "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -567,8 +567,8 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4b23c7d-5b62-4558-bc21-45006711367a",
-      "name": "【巫術師】フーチェ",
-      "promptName": "【巫術師】フーチェ・クチィエ（共通言語を持たず、部族の言語で話す））",
+      "name": "【呪術師】フーチェ",
+      "promptName": "【呪術師】フーチェ・クチィエ（小柄。共通言語を持たず、部族の言語で話す））",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -576,9 +576,9 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
-      "updated": "2026-08-10",
+      "updated": "2026-08-12",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
-      "localPath": "未分類\\【巫術師】フーチェ.md",
+      "localPath": "未分類\\【呪術師】フーチェ.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -587,12 +587,16 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "兄のゾンビ",
-          "value": "白粉を塗り防腐薬で整えられ遺体に見えない"
+          "name": "祖霊との繋がり",
+          "value": "代々の霊が霊木を通じて助ける"
         },
         {
           "name": "霊木の巫槍",
-          "value": "祖霊の宿る木の柄に装着した十文字の刃"
+          "value": "呪われた者を更に呪う、祖霊の宿る杖槍"
+        },
+        {
+          "name": "支配の霊根",
+          "value": "槍の傷に憑く霊。手脚を縛り喉を塞ぐ"
         }
       ]
     },
@@ -779,7 +783,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "name": "温泉ペンギン",
-      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない��※戦闘不要 ※ABは名前表記",
+      "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない）※戦闘不要 ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -811,7 +815,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "石",
-          "value": "鉱物。泉質に関わる何らかの成分を含む石"
+          "value": "鉱物。泉質に関わる���らかの成分を含む石"
         },
         {
           "name": "ペンギンの成分",
@@ -821,7 +825,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
-      "name": "バナナ型ペンギンはチョコレートの翼を広げ",
+      "name": "バナナ型ペンギンはチョコレートの���を広げ",
       "promptName": "バナナ型ペンギン",
       "category": "未分類",
       "tags": [
@@ -854,7 +858,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "困難な環境にも適応する逞しい植物"
+          "value": "困難な環境にも適��する逞しい植物"
         },
         {
           "name": "※",
@@ -1691,7 +1695,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "造られたもの",
-          "value": "精神的な影響を受���ない"
+          "value": "精神的な影響を受けない"
         }
       ]
     },
@@ -4099,7 +4103,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "風読みの翼",
-          "value": "風を読み攻撃を予知する"
+          "value": "���を読み攻撃を予知する"
         },
         {
           "name": "幻狼",
@@ -4109,7 +4113,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "deda29c7-c4f0-408f-88f3-dd041f3c3602",
-      "name": "【魔法使い】ローレ（あなたとは、���り合い）",
+      "name": "【魔法使い】ローレ（あなたとは、知り合い）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -4361,7 +4365,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
-      "name": "【魔法使い】ローレ(応急処置)",
+      "name": "【魔法使い】ロー���(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -5666,7 +5670,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "※",
-          "value": "{i}は登場��せず、{u}を描写"
+          "value": "{i}は登場させず、{u}を描写"
         }
       ]
     },
@@ -7371,7 +7375,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、無数の根と蛇の路"
+          "value": "地の底、無数の根と���の路"
         },
         {
           "name": "生命の根源の装丁",
