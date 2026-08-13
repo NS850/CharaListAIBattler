@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-12T13:15:05",
+  "generatedAt": "2026-08-13T13:15:03",
   "source": "characters_mine.json",
-  "count": 231,
+  "count": 232,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉��"
+          "value": "手足をもがれ脳のない魔女の肉体"
         },
         {
           "name": "烏",
@@ -568,18 +568,17 @@ window.CHARACTER_CATALOG = {
     {
       "id": "d4b23c7d-5b62-4558-bc21-45006711367a",
       "name": "【呪術師】フーチェ",
-      "promptName": "【呪術師】フーチェ・クチィエ（小柄。共通言語を持たず、部族の言語で話す））",
+      "promptName": "【呪術師】フーチェ・クチィエ（小柄。共通言語を持たず、部族の言語で話す。芯が強い））",
       "category": "未分類",
       "tags": [
-        "未分類",
-        "limited"
+        "未分類"
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
       "updated": "2026-08-12",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
       "localPath": "未分類\\【呪術師】フーチェ.md",
-      "isHidden": true,
+      "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -588,15 +587,54 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "祖霊との繋がり",
-          "value": "代々の霊が霊木を通じて助ける"
+          "value": "血族代々の霊が霊木を通じて助ける"
         },
         {
           "name": "霊木の巫槍",
-          "value": "呪われた者を更に呪う、祖霊の宿る杖槍"
+          "value": "宿る祖霊の助けにより呪いを強める杖槍"
         },
         {
           "name": "支配の霊根",
-          "value": "槍の傷に憑く霊。手脚を縛り喉を塞ぐ"
+          "value": "槍による傷に憑く呪霊。手脚を縛り喉を塞ぐ"
+        }
+      ]
+    },
+    {
+      "id": "e5ae9dc9-266b-41e6-a4cb-849592e4c46a",
+      "name": "【狩人】メイ",
+      "promptName": "",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-08-12",
+      "updated": "2026-08-12",
+      "url": "https://ai-battler.com/battle/e5ae9dc9-266b-41e6-a4cb-849592e4c46a",
+      "localPath": "未分類\\【狩人】メイ.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "優れた感覚",
+          "value": "僅かな兆候から危険を察知する"
+        },
+        {
+          "name": "観察する赤い瞳",
+          "value": "射抜くような視線で状態を見抜く"
+        },
+        {
+          "name": "装備",
+          "value": "ナイフ、弓"
+        },
+        {
+          "name": "烏の友",
+          "value": "協力する烏。対象を追跡する"
         }
       ]
     },
@@ -647,7 +685,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "野菜ペンギン",
-          "value": "寒冷地で栽培されるペンギン"
+          "value": "寒冷���で栽培されるペンギン"
         },
         {
           "name": "鳴き声1",
@@ -815,7 +853,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "石",
-          "value": "鉱物。泉質に関わる���らかの成分を含む石"
+          "value": "鉱物。泉質に関わる何らかの成分を含む石"
         },
         {
           "name": "ペンギンの成分",
@@ -825,7 +863,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
-      "name": "バナナ型ペンギンはチョコレートの���を広げ",
+      "name": "バナナ型ペンギンはチ���コレートの翼を広げ",
       "promptName": "バナナ型ペンギン",
       "category": "未分類",
       "tags": [
@@ -858,7 +896,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギン",
-          "value": "困難な環境にも適��する逞しい植物"
+          "value": "困難な環境にも適応する逞しい植物"
         },
         {
           "name": "※",
@@ -908,7 +946,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4f7eaf4-8b22-4f29-b72a-396ba51e1d54",
-      "name": "ペンギンの住む機械",
+      "name": "ペ��ギンの住む機械",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -2743,7 +2781,7 @@ window.CHARACTER_CATALOG = {
           "value": "見栄っ張り、ナルシスト、虚言癖、無責任"
         },
         {
-          "name": "自己イメージ",
+          "name": "自己イメー���",
           "value": "誰からも愛される善人"
         },
         {
@@ -3144,7 +3182,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "疾病の媒介者",
-          "value": "不衛生な環境下で宿した疫病を伝染させる"
+          "value": "不衛生な��境下で宿した疫病を伝染させる"
         }
       ]
     },
@@ -4103,7 +4141,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "風読みの翼",
-          "value": "���を読み攻撃を予知する"
+          "value": "風を読み攻撃を予知する"
         },
         {
           "name": "幻狼",
@@ -4365,7 +4403,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
-      "name": "【魔法使い】ロー���(応急処置)",
+      "name": "【魔法使い】ローレ(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -4582,7 +4620,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "機構により鋭さを持つ箒。彗星の如く飛ぶ"
+          "value": "機構によ���鋭さを持つ箒。彗星の如く飛ぶ"
         },
         {
           "name": "収束",
@@ -6131,7 +6169,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "71154533-bfa2-4839-9999-f705226cad6a",
-      "name": "▼ タグ・リンク内格納 ▼",
+      "name": "▼ タグ・リンク内��納 ▼",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -6476,7 +6514,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "投擲用の所持品",
-          "value": "鉤縄/短剣/毒瓶/爆薬/閃光弾"
+          "value": "鉤縄/短剣/毒��/爆薬/閃光弾"
         },
         {
           "name": "その他所持品",
@@ -7375,7 +7413,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、無数の根と���の路"
+          "value": "地の底、無数の根と蛇の路"
         },
         {
           "name": "生命の根源の装丁",
