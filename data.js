@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-14T13:15:04",
+  "generatedAt": "2026-08-15T13:15:04",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -575,7 +575,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
-      "updated": "2026-08-12",
+      "updated": "2026-08-14",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
       "localPath": "未分類\\【呪術師】フーチェ.md",
       "isHidden": false,
@@ -591,11 +591,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "霊木の巫槍",
-          "value": "宿る祖霊の助けにより呪いを強める杖槍"
+          "value": "祖霊の助けにより呪いを強める杖槍"
         },
         {
           "name": "支配の霊根",
-          "value": "槍による傷に憑く呪霊。手脚を縛り喉を塞ぐ"
+          "value": "槍穴から這い寄る呪霊。手脚を縛り喉を塞ぐ"
         }
       ]
     },
@@ -685,7 +685,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "野菜ペンギン",
-          "value": "寒冷���で栽培されるペンギン"
+          "value": "寒冷地で栽培されるペンギン"
         },
         {
           "name": "鳴き声1",
@@ -863,7 +863,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
-      "name": "バナナ型ペンギンはチ���コレートの翼を広げ",
+      "name": "バナナ型ペンギンはチョコレートの翼を広げ",
       "promptName": "バナナ型ペンギン",
       "category": "未分類",
       "tags": [
@@ -946,7 +946,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4f7eaf4-8b22-4f29-b72a-396ba51e1d54",
-      "name": "ペ��ギンの住む機械",
+      "name": "ペンギンの住む機械",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -1340,7 +1340,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "野菜アルパカ",
-          "value": "おいしい毛を産出��る野菜。荷役を担う"
+          "value": "おいしい毛を産出する野菜。荷役を担う"
         }
       ]
     },
@@ -1387,7 +1387,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "不滅と永遠",
-          "value": "輪廻を示す殻の渦巻き模様が不滅の力を齎す"
+          "value": "輪廻を示す殻の渦巻き模様が不滅���力を齎す"
         },
         {
           "name": "再生と繁栄",
@@ -1740,7 +1740,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
       "name": "【街路の魔女】コキア",
-      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」��",
+      "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 12320,
@@ -1881,7 +1881,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "木剣",
-          "value": "少年にとっては相��で宝物"
+          "value": "少年にとっては相棒で宝物"
         },
         {
           "name": "無謀な挑戦",
@@ -2021,11 +2021,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "背負い袋",
-          "value": "最低限、必要なものは詰め込まれている"
+          "value": "最低��、必要なものは詰め込まれている"
         },
         {
           "name": "バックラー",
-          "value": "小さな盾。攻撃を���え込み、時に殴りつける"
+          "value": "小さな盾。攻撃を抑え込み、時に殴りつける"
         },
         {
           "name": "直感/判断力",
@@ -2296,7 +2296,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ad5304e3-59a7-4d08-84e7-a5468e1ffea3",
       "name": "【炭焼き魔女】コーレ",
-      "promptName": "【炭��き魔女】コーレ・フォイエル(一人称：私　口調：飄々としたダウナー「いひひ」「だよぉ」)",
+      "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々としたダウナー「いひひ」「だよぉ」)",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21041,
@@ -2801,7 +2801,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "59d4270d-1e71-4701-8d94-7a5698c28476",
       "name": "盗賊魔術師の少女",
-      "promptName": "���女",
+      "promptName": "少女",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -3264,7 +3264,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "18d00c67-ca73-4f7f-9c01-65f7c06b8051",
-      "name": "滅びた屋敷の鼠の魔女",
+      "name": "滅��た屋敷の鼠の魔女",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3500,7 +3500,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "好きなもの",
-          "value": "甘い物、紅茶、即興劇、知らないもの"
+          "value": "甘い物、紅茶、即��劇、知らないもの"
         },
         {
           "name": "苦手なこと",
@@ -4249,7 +4249,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "���飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -4620,7 +4620,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "箒槍",
-          "value": "機構によ���鋭さを持つ箒。彗星の如く飛ぶ"
+          "value": "機構により鋭さを持つ箒。彗星の如く飛ぶ"
         },
         {
           "name": "収束",
@@ -5270,7 +5270,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "身体・服装",
-          "value": "小柄、魔女帽���、生きている椅子"
+          "value": "小柄、魔女帽子、生きている椅子"
         },
         {
           "name": "性格",
@@ -5743,7 +5743,7 @@ window.CHARACTER_CATALOG = {
           "value": "身体に美味しい葉や果実を生やす"
         },
         {
-          "name": "ペンギンは温かい",
+          "name": "ペンギンは���かい",
           "value": "抱けば温かく絞り出される油はよく燃える"
         }
       ]
@@ -6169,7 +6169,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "71154533-bfa2-4839-9999-f705226cad6a",
-      "name": "▼ タグ・リンク内��納 ▼",
+      "name": "▼ タグ・リンク内格納 ▼",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -6510,11 +6510,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "目的",
-          "value": "誰も見たことのない物を見つける"
+          "value": "誰も見たこと��ない物を見つける"
         },
         {
           "name": "投擲用の所持品",
-          "value": "鉤縄/短剣/毒��/爆薬/閃光弾"
+          "value": "鉤縄/短剣/毒瓶/爆薬/閃光弾"
         },
         {
           "name": "その他所持品",
