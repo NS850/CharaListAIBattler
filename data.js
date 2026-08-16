@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-15T13:15:04",
+  "generatedAt": "2026-08-16T13:15:02",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -575,7 +575,7 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
-      "updated": "2026-08-14",
+      "updated": "2026-08-15",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
       "localPath": "未分類\\【呪術師】フーチェ.md",
       "isHidden": false,
@@ -587,7 +587,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "祖霊との繋がり",
-          "value": "血族代々の霊が霊木を通じて助ける"
+          "value": "血族代々の霊が霊木を通じて囁き助ける"
         },
         {
           "name": "霊木の巫槍",
@@ -595,7 +595,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "支配の霊根",
-          "value": "槍穴から這い寄る呪霊。手脚を縛り喉を塞ぐ"
+          "value": "槍がつけた傷から這い、縛りあげる呪霊"
         }
       ]
     },
@@ -1387,7 +1387,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "不滅と永遠",
-          "value": "輪廻を示す殻の渦巻き模様が不滅���力を齎す"
+          "value": "輪廻を示す殻の渦巻き模様が不滅の力を齎す"
         },
         {
           "name": "再生と繁栄",
@@ -1696,7 +1696,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "強靭な肉体",
+          "name": "強靭な肉��",
           "value": "頑強な骨格と膂力"
         }
       ]
@@ -1761,7 +1761,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "服装",
-          "value": "もこもことした秋色のローブ"
+          "value": "もこもことした秋色のロー��"
         },
         {
           "name": "烏",
@@ -2021,7 +2021,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "背負い袋",
-          "value": "最低��、必要なものは詰め込まれている"
+          "value": "最低限、必要なものは詰め込まれている"
         },
         {
           "name": "バックラー",
@@ -2374,7 +2374,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0adcaecb-cb51-4933-bf44-fd011051a09a",
-      "name": "運搬",
+      "name": "運��",
       "promptName": "(これは説明文。人物としては登場しない)",
       "category": "シチュエーション",
       "tags": [],
@@ -3264,7 +3264,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "18d00c67-ca73-4f7f-9c01-65f7c06b8051",
-      "name": "滅��た屋敷の鼠の魔女",
+      "name": "滅びた屋敷の鼠の魔女",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3500,7 +3500,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "好きなもの",
-          "value": "甘い物、紅茶、即��劇、知らないもの"
+          "value": "甘い物、紅茶、即興劇、知らないもの"
         },
         {
           "name": "苦手なこと",
@@ -4249,7 +4249,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "���飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -5049,7 +5049,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "4120610d-a01d-4697-b36a-56e8d528b89b",
-      "name": "【魔法使い】ローレ（{u}の解体）",
+      "name": "【魔法使い】ローレ（{u}の解��）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -5680,7 +5680,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "小屋",
-          "value": "隙間風、心許ない薪と食糧、簡素な寝床"
+          "value": "���間風、心許ない薪と食糧、簡素な寝床"
         }
       ]
     },
@@ -5743,7 +5743,7 @@ window.CHARACTER_CATALOG = {
           "value": "身体に美味しい葉や果実を生やす"
         },
         {
-          "name": "ペンギンは���かい",
+          "name": "ペンギンは温かい",
           "value": "抱けば温かく絞り出される油はよく燃える"
         }
       ]
@@ -6510,7 +6510,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "目的",
-          "value": "誰も見たこと��ない物を見つける"
+          "value": "誰も見たことのない物を見つける"
         },
         {
           "name": "投擲用の所持品",
@@ -7461,7 +7461,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "特徴",
-          "value": "小柄で愛らしい。青紫の髪、白のローブ"
+          "value": "小柄で愛らしい。青紫の髪、���のローブ"
         },
         {
           "name": "好奇心",
