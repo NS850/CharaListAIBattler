@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-16T13:15:02",
+  "generatedAt": "2026-08-17T13:15:02",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -5049,7 +5049,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "4120610d-a01d-4697-b36a-56e8d528b89b",
-      "name": "【魔法使い】ローレ（{u}の解��）",
+      "name": "【魔法使い】ローレ（{u}の解体）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
       "tags": [],
