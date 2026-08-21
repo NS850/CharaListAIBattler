@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-18T13:15:03",
+  "generatedAt": "2026-08-21T01:25:14",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される��"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -235,7 +235,7 @@ window.CHARACTER_CATALOG = {
           "value": "鋭い蕾から咲く花。集めた光を放出する"
         },
         {
-          "name": "���の路",
+          "name": "肉の路",
           "value": "脈動する遺跡の通路。{i}が植わっている"
         }
       ]
@@ -2374,7 +2374,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0adcaecb-cb51-4933-bf44-fd011051a09a",
-      "name": "運��",
+      "name": "運搬",
       "promptName": "(これは説明文。人物としては登場しない)",
       "category": "シチュエーション",
       "tags": [],
@@ -5049,7 +5049,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "4120610d-a01d-4697-b36a-56e8d528b89b",
-      "name": "【魔法使い】ローレ（{u}の解��）",
+      "name": "【魔法使い】ローレ（{u}の解体）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -7461,7 +7461,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "特徴",
-          "value": "小柄で愛らしい。青紫の髪、白のローブ"
+          "value": "小柄で愛らしい。青紫の髪、���のローブ"
         },
         {
           "name": "好奇心",
