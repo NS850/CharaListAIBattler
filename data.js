@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-21T01:25:14",
+  "generatedAt": "2026-08-21T13:15:03",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -1696,7 +1696,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "強靭な肉��",
+          "name": "強靭な肉体",
           "value": "頑強な骨格と膂力"
         }
       ]
@@ -1761,7 +1761,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "服装",
-          "value": "もこもことした秋色のロー��"
+          "value": "もこもことした秋色のローブ"
         },
         {
           "name": "烏",
@@ -4257,7 +4257,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大烏のラーベ",
-          "value": "体に星が浮かぶ三本足の大烏。未来を読む"
+          "value": "体に星が浮かぶ三本���の大烏。未来を読む"
         }
       ]
     },
@@ -7461,7 +7461,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "特徴",
-          "value": "小柄で愛らしい。青紫の髪、���のローブ"
+          "value": "小柄で愛らしい。青紫の髪、白のローブ"
         },
         {
           "name": "好奇心",
