@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-21T13:15:03",
+  "generatedAt": "2026-08-22T13:15:04",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する���",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -571,14 +571,15 @@ window.CHARACTER_CATALOG = {
       "promptName": "【呪術師】フーチェ・クチィエ（小柄。共通言語を持たず、部族の言語で話す。芯が強い））",
       "category": "未分類",
       "tags": [
-        "未分類"
+        "未分類",
+        "limited"
       ],
       "displayOrder": 10000,
       "created": "2026-08-08",
-      "updated": "2026-08-15",
+      "updated": "2026-08-21",
       "url": "https://ai-battler.com/battle/d4b23c7d-5b62-4558-bc21-45006711367a",
       "localPath": "未分類\\【呪術師】フーチェ.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -2029,7 +2030,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "直感/判断力",
-          "value": "状況を見極め生き延びる"
+          "value": "状���を見極め生き延びる"
         }
       ]
     },
@@ -2296,7 +2297,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ad5304e3-59a7-4d08-84e7-a5468e1ffea3",
       "name": "【炭焼き魔女】コーレ",
-      "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々としたダウナー「いひひ」「だよぉ」)",
+      "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々と���たダウナー「いひひ」「だよぉ」)",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21041,
@@ -2374,7 +2375,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0adcaecb-cb51-4933-bf44-fd011051a09a",
-      "name": "運搬",
+      "name": "運���",
       "promptName": "(これは説明文。人物としては登場しない)",
       "category": "シチュエーション",
       "tags": [],
@@ -4257,7 +4258,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大烏のラーベ",
-          "value": "体に星が浮かぶ三本���の大烏。未来を読む"
+          "value": "体に星が浮かぶ三本足の大烏。未来を読む"
         }
       ]
     },
@@ -5680,7 +5681,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "小屋",
-          "value": "���間風、心許ない薪と食糧、簡素な寝床"
+          "value": "隙間風、心許ない薪と食糧、簡素な寝床"
         }
       ]
     },
