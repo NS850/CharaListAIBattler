@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-22T13:15:04",
+  "generatedAt": "2026-08-24T04:00:02",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する���",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -1697,7 +1697,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "強靭な肉体",
+          "name": "強��な肉体",
           "value": "頑強な骨格と膂力"
         }
       ]
@@ -1762,7 +1762,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "服装",
-          "value": "もこもことした秋色のローブ"
+          "value": "もこもことした秋色��ローブ"
         },
         {
           "name": "烏",
@@ -1839,12 +1839,15 @@ window.CHARACTER_CATALOG = {
       "name": "血の気の多い自警団",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "未分類",
+        "limited"
+      ],
       "displayOrder": 21011,
       "created": "2024-02-11",
-      "updated": "2026-03-10",
+      "updated": "2026-08-22",
       "url": "https://ai-battler.com/battle/d9a28ed2-6088-4ee9-bac5-cbf392a88e65",
-      "localPath": "キャラクター（一般）\\血の気の多い自警団.md",
+      "localPath": "未分類\\血の気の多い自警団.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -2026,11 +2029,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バックラー",
-          "value": "小さな盾。攻撃を抑え込み、時に殴りつける"
+          "value": "小さな盾。攻撃を抑え込み、時に��りつける"
         },
         {
           "name": "直感/判断力",
-          "value": "状���を見極め生き延びる"
+          "value": "状況を見極め生き延びる"
         }
       ]
     },
@@ -2297,7 +2300,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ad5304e3-59a7-4d08-84e7-a5468e1ffea3",
       "name": "【炭焼き魔女】コーレ",
-      "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々と���たダウナー「いひひ」「だよぉ」)",
+      "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々としたダウナー「いひひ」「だよぉ」)",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21041,
@@ -2375,7 +2378,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0adcaecb-cb51-4933-bf44-fd011051a09a",
-      "name": "運���",
+      "name": "運搬",
       "promptName": "(これは説明文。人物としては登場しない)",
       "category": "シチュエーション",
       "tags": [],
@@ -3255,7 +3258,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "奇怪な膂力",
-          "value": "例外なく紙のように引き裂く異様な力"
+          "value": "例外なく紙のように引き裂く異���な力"
         },
         {
           "name": "はてしない迷宮",
@@ -4915,7 +4918,7 @@ window.CHARACTER_CATALOG = {
           "value": "あたし/あんた"
         },
         {
-          "name": "医術・薬術",
+          "name": "医術・薬���",
           "value": "精神や身体の異常を適切に処置する"
         },
         {
@@ -5745,7 +5748,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギンは温かい",
-          "value": "抱けば温かく絞り出される油はよく燃える"
+          "value": "抱けば温かく���り出される油はよく燃える"
         }
       ]
     },
@@ -7021,14 +7024,18 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6e32a0fd-1ed4-4935-b74e-cdfabc9af708",
       "name": "猫人夫妻の家",
-      "promptName": "",
-      "category": "シチュエーション",
-      "tags": [],
+      "promptName": "猫人夫妻",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited",
+        "non_battle"
+      ],
       "displayOrder": 999999,
       "created": "2025-09-24",
-      "updated": "2026-06-01",
+      "updated": "2026-08-22",
       "url": "https://ai-battler.com/battle/6e32a0fd-1ed4-4935-b74e-cdfabc9af708",
-      "localPath": "シチュエーション\\猫人夫妻の家.md",
+      "localPath": "未分類\\猫人夫妻の家.md",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
