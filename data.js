@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-24T04:00:02",
+  "generatedAt": "2026-08-24T13:15:02",
   "source": "characters_mine.json",
   "count": 232,
   "characters": [
@@ -2029,7 +2029,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バックラー",
-          "value": "小さな盾。攻撃を抑え込み、時に��りつける"
+          "value": "小さな盾。攻撃を抑え込み、時に殴りつける"
         },
         {
           "name": "直感/判断力",
@@ -2918,7 +2918,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "1b1e7390-75d0-48b5-a33b-0f1ad08dd9f7",
-      "name": "隊商の護衛",
+      "name": "���商の護衛",
       "promptName": "（これは設定文なので人物としては登場しない）",
       "category": "シチュエーション",
       "tags": [],
@@ -4918,7 +4918,7 @@ window.CHARACTER_CATALOG = {
           "value": "あたし/あんた"
         },
         {
-          "name": "医術・薬���",
+          "name": "医術・薬術",
           "value": "精神や身体の異常を適切に処置する"
         },
         {
@@ -5748,7 +5748,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "ペンギンは温かい",
-          "value": "抱けば温かく���り出される油はよく燃える"
+          "value": "抱けば温かく絞り出される油はよく燃える"
         }
       ]
     },
@@ -7621,7 +7621,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "骸骨弓兵",
-          "value": "4000体。援護射撃し敵の体勢を崩す"
+          "value": "4000体。援護射撃���敵の体勢を崩す"
         },
         {
           "name": "ゲルデの容姿",
