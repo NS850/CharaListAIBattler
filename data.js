@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-24T13:15:02",
+  "generatedAt": "2026-08-25T13:15:02",
   "source": "characters_mine.json",
-  "count": 232,
+  "count": 233,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -640,6 +640,38 @@ window.CHARACTER_CATALOG = {
       ]
     },
     {
+      "id": "aef4f12e-c532-4cac-a81a-abb2c612ba90",
+      "name": "自動販売機",
+      "promptName": "",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited",
+        "non_battle"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "url": "https://ai-battler.com/battle/aef4f12e-c532-4cac-a81a-abb2c612ba90",
+      "localPath": "未分類\\自動販売機.md",
+      "isHidden": true,
+      "isNotBattle": true,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "喋る自販機",
+          "value": "最新AI 搭載モデル！"
+        },
+        {
+          "name": "センサー",
+          "value": "人の体調を慮る"
+        }
+      ]
+    },
+    {
       "id": "60bf5064-7150-40f7-90f6-ef676de611ee",
       "name": "▼ペンギン・生き物",
       "promptName": "",
@@ -700,7 +732,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8e367330-fd44-4fe4-a1bc-965868b5d008",
-      "name": "野菜ペンギン",
+      "name": "野菜ペンギ���",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -854,7 +886,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "石",
-          "value": "鉱物。泉質に関わる何らかの成分を含む石"
+          "value": "���物。泉質に関わる何らかの成分を含む石"
         },
         {
           "name": "ペンギンの成分",
@@ -933,7 +965,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "魚",
-          "value": "尾びれで陸上を歩く紳士的な魚。趣味は釣り"
+          "value": "尾びれで陸上を歩く紳士的な���。趣味は釣り"
         },
         {
           "name": "魚",
@@ -1384,7 +1416,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "勇気と幸運",
-          "value": "渦巻き模様が邪気を払い勇気と幸運を齎す"
+          "value": "渦巻き模様が邪気を払い���気と幸運を齎す"
         },
         {
           "name": "不滅と永遠",
@@ -1598,7 +1630,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c3fe0b2a-7df4-4e42-ab55-b27cd0864fbc",
-      "name": "食い詰めものの山賊たち",
+      "name": "���い詰めものの山賊たち",
       "promptName": "山賊たち",
       "category": "未分類",
       "tags": [
@@ -1697,7 +1729,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "強��な肉体",
+          "name": "強靭な肉体",
           "value": "頑強な骨格と膂力"
         }
       ]
@@ -1762,7 +1794,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "服装",
-          "value": "もこもことした秋色��ローブ"
+          "value": "もこもことした秋色のローブ"
         },
         {
           "name": "烏",
@@ -1809,7 +1841,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "9eb097a8-b2f4-455b-a9e7-9d506766bac0",
       "name": "真面目な新人衛兵",
-      "promptName": "真面目な新人衛兵（一人称：自分　台詞例：「〜であります！」）",
+      "promptName": "真面目な新人衛兵��一人称：自分　台詞例：「〜であります！」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21011,
@@ -2245,13 +2277,17 @@ window.CHARACTER_CATALOG = {
       "id": "36c54f7f-0385-422f-8ec1-4fff95cb50b8",
       "name": "ごろつき（食通）",
       "promptName": "ごろつき",
-      "category": "シチュエーション",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited",
+        "non_battle"
+      ],
       "displayOrder": 21021,
       "created": "2024-08-22",
-      "updated": "2026-06-01",
+      "updated": "2026-08-24",
       "url": "https://ai-battler.com/battle/36c54f7f-0385-422f-8ec1-4fff95cb50b8",
-      "localPath": "シチュエーション\\ごろつき（食通）.md",
+      "localPath": "未分類\\ごろつき（食通）.md",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -2790,7 +2826,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "恐れること",
-          "value": "自己イメージが崩れること"
+          "value": "自己イメージが崩���ること"
         },
         {
           "name": "自己延長の他人",
@@ -2918,7 +2954,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "1b1e7390-75d0-48b5-a33b-0f1ad08dd9f7",
-      "name": "���商の護衛",
+      "name": "隊商の護衛",
       "promptName": "（これは設定文なので人物としては登場しない）",
       "category": "シチュエーション",
       "tags": [],
@@ -3114,7 +3150,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "スライム",
-          "value": "天井等から油断した{u}を襲い窒息させる"
+          "value": "天井等から油断し���{u}を襲い窒息させる"
         }
       ]
     },
@@ -3258,7 +3294,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "奇怪な膂力",
-          "value": "例外なく紙のように引き裂く異���な力"
+          "value": "例外なく紙のように引き裂く異様な力"
         },
         {
           "name": "はてしない迷宮",
@@ -3838,7 +3874,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "鋭利な鎌状の多脚",
-          "value": "昆虫めいて素早く走り、敵を引き裂く"
+          "value": "��虫めいて素早く走り、敵を引き裂く"
         },
         {
           "name": "静音・隠密性",
@@ -5046,7 +5082,7 @@ window.CHARACTER_CATALOG = {
           "value": "妙薬と称す美味な料理「おいしいよぉ……」"
         },
         {
-          "name": "外見の特徴",
+          "name": "外見の���徴",
           "value": "ジャンパースカート/片目隠れ/首の縫目"
         }
       ]
@@ -7621,7 +7657,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "骸骨弓兵",
-          "value": "4000体。援護射撃���敵の体勢を崩す"
+          "value": "4000体。援護射撃し敵の体勢を崩す"
         },
         {
           "name": "ゲルデの容姿",
