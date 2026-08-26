@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-25T13:15:02",
+  "generatedAt": "2026-08-26T13:15:02",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -3150,7 +3150,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "スライム",
-          "value": "天井等から油断し���{u}を襲い窒息させる"
+          "value": "天井等から油断した{u}を襲い窒息させる"
         }
       ]
     },
@@ -5082,7 +5082,7 @@ window.CHARACTER_CATALOG = {
           "value": "妙薬と称す美味な料理「おいしいよぉ……」"
         },
         {
-          "name": "外見の���徴",
+          "name": "外見の特徴",
           "value": "ジャンパースカート/片目隠れ/首の縫目"
         }
       ]
@@ -5988,7 +5988,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "フォークとナイフ",
-          "value": "人々が{u}に突き立てるフォークとナイフ"
+          "value": "人々が{u}に突き立てるフォークと��イフ"
         },
         {
           "name": "試されるモラル",
