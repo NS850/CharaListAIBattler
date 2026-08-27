@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-26T13:15:02",
+  "generatedAt": "2026-08-27T13:15:03",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎���れる力"
         },
         {
           "name": "一角",
@@ -5988,7 +5988,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "フォークとナイフ",
-          "value": "人々が{u}に突き立てるフォークと��イフ"
+          "value": "人々が{u}に突き立てるフォークとナイフ"
         },
         {
           "name": "試されるモラル",
