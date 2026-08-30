@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-29T13:15:06",
+  "generatedAt": "2026-08-30T13:15:03",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -2357,7 +2357,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "装備",
-          "value": "手入れされた手斧、鉄の背負い籠、ローブ"
+          "value": "手入れされた手���、鉄の背負い籠、ローブ"
         },
         {
           "name": "森の匂い",
@@ -5988,7 +5988,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "フォークとナイフ",
-          "value": "人々が{u}に突き立てるフォークとナイフ"
+          "value": "人々が{u}に突き立てるフォークと��イフ"
         },
         {
           "name": "試されるモラル",
