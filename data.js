@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-08-30T13:15:03",
+  "generatedAt": "2026-08-31T13:15:06",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎���れる力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -3874,7 +3874,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "鋭利な鎌状の多脚",
-          "value": "��虫めいて素早く走り、敵を引き裂く"
+          "value": "昆虫めいて素早く走り、敵を引き裂く"
         },
         {
           "name": "静音・隠密性",
@@ -5988,7 +5988,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "フォークとナイフ",
-          "value": "人々が{u}に突き立てるフォークと��イフ"
+          "value": "人々が{u}に突き立てるフォークとナイフ"
         },
         {
           "name": "試されるモラル",
