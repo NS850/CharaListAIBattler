@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-02T13:15:03",
+  "generatedAt": "2026-09-03T13:15:09",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に齎��れる力"
         },
         {
           "name": "一角",
@@ -717,7 +717,7 @@ window.CHARACTER_CATALOG = {
           "value": "厳寒の地でも育つ逞しい野菜"
         },
         {
-          "name": "野菜ペンギン",
+          "name": "野菜ペン��ン",
           "value": "寒冷地で栽培されるペンギン"
         },
         {
@@ -732,7 +732,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8e367330-fd44-4fe4-a1bc-965868b5d008",
-      "name": "野菜ペンギ���",
+      "name": "野菜ペ���ギン",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -886,7 +886,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "石",
-          "value": "���物。泉質に関わる何らかの成分を含む石"
+          "value": "鉱物。泉質に関わる何らかの成分を含む石"
         },
         {
           "name": "ペンギンの成分",
@@ -965,7 +965,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "魚",
-          "value": "尾びれで陸上を歩く紳士的な���。趣味は釣り"
+          "value": "尾びれで陸上を歩く紳士的な魚。趣味は釣り"
         },
         {
           "name": "魚",
@@ -1841,7 +1841,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "9eb097a8-b2f4-455b-a9e7-9d506766bac0",
       "name": "真面目な新人衛兵",
-      "promptName": "真面目な新人衛兵（一人称：自分　台詞例：「〜であります！」）",
+      "promptName": "真面目な新人衛兵��一人称：自分　台詞例：「〜であります！」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21011,
@@ -2357,7 +2357,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "装備",
-          "value": "手入れされた手斧、鉄の背負い籠、ローブ"
+          "value": "手入れされた手���、鉄の背負い籠、ローブ"
         },
         {
           "name": "森の匂い",
@@ -3150,7 +3150,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "スライム",
-          "value": "天井等から油断した{u}を襲い窒息させる"
+          "value": "天井等から油断し���{u}を襲い窒息させる"
         }
       ]
     },
@@ -4616,7 +4616,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少���"
         },
         {
           "name": "箒槍",
@@ -5082,7 +5082,7 @@ window.CHARACTER_CATALOG = {
           "value": "妙薬と称す美味な料理「おいしいよぉ……」"
         },
         {
-          "name": "外見の���徴",
+          "name": "外見の特徴",
           "value": "ジャンパースカート/片目隠れ/首の縫目"
         }
       ]
@@ -5210,7 +5210,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "4c7e24a6-7cef-4f80-ba16-710f878ccc9a",
       "name": "【魔法使い】ローレ（食事）",
-      "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
+      "promptName": "【魔法使い】���ーレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
       "tags": [],
       "displayOrder": 80001,
@@ -5976,7 +5976,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "異界の身体",
-          "value": "現世に実体のない{i}が死ぬことはない"
+          "value": "現世に実体のない{i}が死ぬことはな��"
         },
         {
           "name": "飽食の領域",
@@ -7653,7 +7653,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "腐敗巨人",
-          "value": "4体。巨岩を投擲し敵の守りを粉砕する"
+          "value": "4体。巨岩を��擲し敵の守りを粉砕する"
         },
         {
           "name": "骸骨弓兵",
