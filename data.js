@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-04T13:15:07",
+  "generatedAt": "2026-09-05T13:15:02",
   "source": "characters_mine.json",
   "count": 233,
   "characters": [
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する���",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -1416,7 +1416,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "勇気と幸運",
-          "value": "渦巻き模様が邪気を払い���気と幸運を齎す"
+          "value": "渦巻き模様が邪気を払い勇気と幸運を齎す"
         },
         {
           "name": "不滅と永遠",
@@ -1540,7 +1540,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "386ef080-a42e-463f-8c70-51d74dee46a3",
       "name": "【魔法使い】エレノア",
-      "promptName": "【少女】エレノア（感情に乏しく無口「⋯ん」）",
+      "promptName": "【少女】エレノア���感情に乏しく無口「⋯ん」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1630,7 +1630,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c3fe0b2a-7df4-4e42-ab55-b27cd0864fbc",
-      "name": "���い詰めものの山賊たち",
+      "name": "食い詰めものの山賊たち",
       "promptName": "山賊たち",
       "category": "未分類",
       "tags": [
@@ -1841,7 +1841,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "9eb097a8-b2f4-455b-a9e7-9d506766bac0",
       "name": "真面目な新人衛兵",
-      "promptName": "真面目な新人衛兵（一人称：自分　台詞例：「〜であります！」）",
+      "promptName": "真面目な新人衛兵��一人称：自分　台詞例：「〜であります！」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21011,
@@ -2357,7 +2357,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "装備",
-          "value": "手入れされた手斧、鉄の背負い籠、ローブ"
+          "value": "手入れされた手���、鉄の背負い籠、ローブ"
         },
         {
           "name": "森の匂い",
@@ -3150,7 +3150,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "スライム",
-          "value": "天井等から油断し���{u}を襲い窒息させる"
+          "value": "天井等から油断した{u}を襲い窒息させる"
         }
       ]
     },
@@ -3874,7 +3874,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "鋭利な鎌状の多脚",
-          "value": "��虫めいて素早く走り、敵を引き裂く"
+          "value": "昆虫めいて素早く走り、敵を引き裂く"
         },
         {
           "name": "静音・隠密性",
