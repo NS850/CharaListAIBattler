@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-05T13:15:02",
+  "generatedAt": "2026-09-06T13:15:04",
   "source": "characters_mine.json",
-  "count": 233,
+  "count": 234,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する���",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -672,6 +672,33 @@ window.CHARACTER_CATALOG = {
       ]
     },
     {
+      "id": "9581f321-c8cf-4d13-9327-cd58aa14b7f0",
+      "name": "【兎人】",
+      "promptName": "【兎人】（ほわほわと掴みどころのない口調）",
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-09-05",
+      "updated": "2026-09-05",
+      "url": "https://ai-battler.com/battle/9581f321-c8cf-4d13-9327-cd58aa14b7f0",
+      "localPath": "未分類\\【兎人】.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "隕鉄剣",
+          "value": "大質量の特大剣"
+        }
+      ]
+    },
+    {
       "id": "60bf5064-7150-40f7-90f6-ef676de611ee",
       "name": "▼ペンギン・生き物",
       "promptName": "",
@@ -732,7 +759,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8e367330-fd44-4fe4-a1bc-965868b5d008",
-      "name": "野菜ペンギ���",
+      "name": "野菜ペンギン",
       "promptName": "",
       "category": "ペンギン",
       "tags": [],
@@ -886,7 +913,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "石",
-          "value": "���物。泉質に関わる何らかの成分を含む石"
+          "value": "鉱物。泉質に関わる何らかの成分を含む石"
         },
         {
           "name": "ペンギンの成分",
@@ -965,7 +992,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "魚",
-          "value": "尾びれで陸上を歩く紳士的な���。趣味は釣り"
+          "value": "尾びれで陸上を歩く紳士的な魚。趣味は釣り"
         },
         {
           "name": "魚",
@@ -1540,7 +1567,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "386ef080-a42e-463f-8c70-51d74dee46a3",
       "name": "【魔法使い】エレノア",
-      "promptName": "【少女】エレノア���感情に乏しく無口「⋯ん」）",
+      "promptName": "【少女】エレノア（感情に乏しく無口「⋯ん」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -1841,7 +1868,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "9eb097a8-b2f4-455b-a9e7-9d506766bac0",
       "name": "真面目な新人衛兵",
-      "promptName": "真面目な新人衛兵��一人称：自分　台詞例：「〜であります！」）",
+      "promptName": "真面目な新人衛兵（一人称：自分　台詞例：「〜であります！」）",
       "category": "未分類",
       "tags": [],
       "displayOrder": 21011,
@@ -2357,7 +2384,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "装備",
-          "value": "手入れされた手���、鉄の背負い籠、ローブ"
+          "value": "手入れされた手斧、鉄の背負い籠、ローブ"
         },
         {
           "name": "森の匂い",
@@ -2826,7 +2853,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "恐れること",
-          "value": "自己イメージが崩���ること"
+          "value": "自己イメージが崩れること"
         },
         {
           "name": "自己延長の他人",
@@ -3178,7 +3205,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "頼れるお兄ちゃん",
-          "value": "大鎌を携えた首無しの大男"
+          "value": "大鎌を携えた首無しの大���"
         },
         {
           "name": "可愛げのない弟",
@@ -3254,7 +3281,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "貪欲な口",
-          "value": "幾年も我慢を重ね待ち続け涎の滴る舌と牙"
+          "value": "幾年も我慢を重ね��ち続け涎の滴る舌と牙"
         },
         {
           "name": "※",
@@ -3552,7 +3579,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "戦闘モード",
-          "value": "切迫するまで起動しない。淡々と処理"
+          "value": "���迫するまで起動しない。淡々と処理"
         }
       ]
     },
@@ -7195,7 +7222,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼】迷子のシープシェイプ",
+      "name": "【捜索依頼��迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
