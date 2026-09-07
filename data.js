@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-06T13:15:04",
+  "generatedAt": "2026-09-07T13:15:26",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -1366,7 +1366,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bbca7862-b192-460d-be1d-d05da70d0dd7",
-      "name": "チンチラおかし作り",
+      "name": "チンチラお��し作り",
       "promptName": "チンチラおかし",
       "category": "シチュエーション",
       "tags": [],
@@ -5316,7 +5316,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "3c8a54a0-7ed2-4b23-bb81-0b8e6e88d3df",
       "name": "【魔法使い】カイラ（酒の提供）",
-      "promptName": "【魔法使い】カイラ",
+      "promptName": "【魔法使い】���イラ",
       "category": "【魔法使い】カイラ",
       "tags": [],
       "displayOrder": 80002,
@@ -7484,7 +7484,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、無数の根と蛇の路"
+          "value": "地の底、���数の根と蛇の路"
         },
         {
           "name": "生命の根源の装丁",
