@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-07T13:15:26",
+  "generatedAt": "2026-09-08T13:15:03",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -2051,7 +2051,7 @@ window.CHARACTER_CATALOG = {
           "value": "重装甲の剣士、双剣の使い手"
         },
         {
-          "name": "身体・服装",
+          "name": "身体���服装",
           "value": "傷だらけの逞しい体格、黒い鎧、赤いマント"
         },
         {
@@ -2741,7 +2741,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "子ヒツジ",
-          "value": "胎内のような実の中に子羊が眠っている"
+          "value": "胎内のような実の中に子���が眠っている"
         },
         {
           "name": "ヒツジの茎",
@@ -2813,7 +2813,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "名役者",
-          "value": "人を信用させ自ら手を差し伸べさせる芝居"
+          "value": "人��信用させ自ら手を差し伸べさせる芝居"
         },
         {
           "name": "良心の欠如",
@@ -3205,7 +3205,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "頼れるお兄ちゃん",
-          "value": "大鎌を携えた首無しの大���"
+          "value": "大鎌を携えた首無しの大男"
         },
         {
           "name": "可愛げのない弟",
@@ -3281,7 +3281,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "貪欲な口",
-          "value": "幾年も我慢を重ね��ち続け涎の滴る舌と牙"
+          "value": "幾年も我慢を重ね待ち続け涎の滴る舌と牙"
         },
         {
           "name": "※",
@@ -3579,7 +3579,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "戦闘モード",
-          "value": "���迫するまで起動しない。淡々と処理"
+          "value": "切迫するまで起動しない。淡々と処理"
         }
       ]
     },
@@ -5146,7 +5146,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "星の大鴉ラーベ",
-          "value": "未来視で見守る父役。翼は陽熱を発する"
+          "value": "未来視で見守��父役。翼は陽熱を発する"
         },
         {
           "name": "魔法",
@@ -5316,7 +5316,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "3c8a54a0-7ed2-4b23-bb81-0b8e6e88d3df",
       "name": "【魔法使い】カイラ（酒の提供）",
-      "promptName": "【魔法使い】���イラ",
+      "promptName": "【魔法使い】カイラ",
       "category": "【魔法使い】カイラ",
       "tags": [],
       "displayOrder": 80002,
@@ -7222,7 +7222,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼��迷子のシープシェイプ",
+      "name": "【捜索依頼】迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -7484,7 +7484,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、���数の根と蛇の路"
+          "value": "地の底、無数の根と蛇の路"
         },
         {
           "name": "生命の根源の装丁",
