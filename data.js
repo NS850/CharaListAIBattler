@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-08T13:15:03",
+  "generatedAt": "2026-09-09T13:15:04",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -3579,7 +3579,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "戦闘モード",
-          "value": "切迫するまで起動しない。淡々と処理"
+          "value": "���迫するまで起動しない。淡々と処理"
         }
       ]
     },
@@ -5146,7 +5146,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "星の大鴉ラーベ",
-          "value": "未来視で見守��父役。翼は陽熱を発する"
+          "value": "未来視で見守る父役。翼は陽熱を発する"
         },
         {
           "name": "魔法",
@@ -5316,7 +5316,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "3c8a54a0-7ed2-4b23-bb81-0b8e6e88d3df",
       "name": "【魔法使い】カイラ（酒の提供）",
-      "promptName": "【魔法使い】カイラ",
+      "promptName": "【魔法使い】���イラ",
       "category": "【魔法使い】カイラ",
       "tags": [],
       "displayOrder": 80002,
@@ -7222,7 +7222,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼】迷子のシープシェイプ",
+      "name": "【捜索依頼��迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
