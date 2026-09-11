@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-09T13:15:04",
+  "generatedAt": "2026-09-11T13:15:02",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -3205,7 +3205,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "頼れるお兄ちゃん",
-          "value": "大鎌を携えた首無しの大男"
+          "value": "大鎌を携えた首無しの大���"
         },
         {
           "name": "可愛げのない弟",
@@ -3281,7 +3281,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "貪欲な口",
-          "value": "幾年も我慢を重ね待ち続け涎の滴る舌と牙"
+          "value": "幾年も我慢を重ね��ち続け涎の滴る舌と牙"
         },
         {
           "name": "※",
@@ -4568,7 +4568,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "髪",
-          "value": "ツインテール、日替わりの髪色"
+          "value": "ツインテー���、日替わりの髪色"
         },
         {
           "name": "身体・服装",
@@ -5316,7 +5316,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "3c8a54a0-7ed2-4b23-bb81-0b8e6e88d3df",
       "name": "【魔法使い】カイラ（酒の提供）",
-      "promptName": "【魔法使い】���イラ",
+      "promptName": "【魔法使い】カイラ",
       "category": "【魔法使い】カイラ",
       "tags": [],
       "displayOrder": 80002,
@@ -5935,7 +5935,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "性格",
-          "value": "少年らしい無邪気で活発な性格"
+          "value": "少年ら��い無邪気で活発な性格"
         },
         {
           "name": "口調",
@@ -7222,7 +7222,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼��迷子のシープシェイプ",
+      "name": "【捜索依頼】迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
