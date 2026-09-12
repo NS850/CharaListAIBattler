@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-11T13:15:02",
+  "generatedAt": "2026-09-12T13:15:02",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者���齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説す��）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -1366,7 +1366,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bbca7862-b192-460d-be1d-d05da70d0dd7",
-      "name": "チンチラお��し作り",
+      "name": "チンチラおかし作り",
       "promptName": "チンチラおかし",
       "category": "シチュエーション",
       "tags": [],
@@ -4568,7 +4568,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "髪",
-          "value": "ツインテー���、日替わりの髪色"
+          "value": "ツインテール、日替わりの髪色"
         },
         {
           "name": "身体・服装",
@@ -5935,7 +5935,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "性格",
-          "value": "少年ら��い無邪気で活発な性格"
+          "value": "少年らしい無邪気で活発な性格"
         },
         {
           "name": "口調",
@@ -7222,7 +7222,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼】迷子のシープシェイプ",
+      "name": "【捜索依頼��迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -7484,7 +7484,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、無数の根と蛇の路"
+          "value": "地の底、���数の根と蛇の路"
         },
         {
           "name": "生命の根源の装丁",
