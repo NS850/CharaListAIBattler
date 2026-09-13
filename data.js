@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-12T13:15:02",
+  "generatedAt": "2026-09-13T13:15:01",
   "source": "characters_mine.json",
   "count": 234,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者���齎される力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説す��）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -673,8 +673,8 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "9581f321-c8cf-4d13-9327-cd58aa14b7f0",
-      "name": "【兎人】",
-      "promptName": "【兎人】（ほわほわと掴みどころのない口調）",
+      "name": "【竜狩りの兎人】ヴィエラ",
+      "promptName": "【竜狩りの兎人】ヴィエラ（特徴：兎耳、白髪と赤い瞳　一人称：わたし　素直でほわほわ）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -682,9 +682,9 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 10000,
       "created": "2026-09-05",
-      "updated": "2026-09-05",
+      "updated": "2026-09-13",
       "url": "https://ai-battler.com/battle/9581f321-c8cf-4d13-9327-cd58aa14b7f0",
-      "localPath": "未分類\\【兎人】.md",
+      "localPath": "未分類\\【竜狩りの兎人】ヴィエラ.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -693,8 +693,20 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "隕鉄剣",
-          "value": "大質量の特大剣"
+          "name": "重力の魔法",
+          "value": "自身や触れた物を浮遊あるいは落下させる"
+        },
+        {
+          "name": "隕鉄大剣",
+          "value": "長大な外見以上の質量を持つ無骨な大剣"
+        },
+        {
+          "name": "竜殺し",
+          "value": "地から天上へ跳躍する豪快な斬り上げ"
+        },
+        {
+          "name": "落星",
+          "value": "天上から自由落下し周囲一帯ごと破砕"
         }
       ]
     },
@@ -789,7 +801,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "コロニー",
-          "value": "ペンギンが栽培される畑"
+          "value": "ペンギンが栽培さ���る畑"
         },
         {
           "name": "ペンギン",
@@ -870,7 +882,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギンは果実"
+          "value": "ペンギンは���実"
         },
         {
           "name": "ペンギン",
@@ -2051,7 +2063,7 @@ window.CHARACTER_CATALOG = {
           "value": "重装甲の剣士、双剣の使い手"
         },
         {
-          "name": "身体���服装",
+          "name": "身体・服装",
           "value": "傷だらけの逞しい体格、黒い鎧、赤いマント"
         },
         {
@@ -2741,7 +2753,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "子ヒツジ",
-          "value": "胎内のような実の中に子���が眠っている"
+          "value": "胎内のような実の中に子羊が眠っている"
         },
         {
           "name": "ヒツジの茎",
@@ -2777,7 +2789,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "プロの商売人",
-          "value": "一目でその価値を見極める"
+          "value": "一目でその価���を見極める"
         },
         {
           "name": "価値",
@@ -2813,7 +2825,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "名役者",
-          "value": "人��信用させ自ら手を差し伸べさせる芝居"
+          "value": "人を信用させ自ら手を差し伸べさせる芝居"
         },
         {
           "name": "良心の欠如",
@@ -3205,7 +3217,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "頼れるお兄ちゃん",
-          "value": "大鎌を携えた首無しの大���"
+          "value": "大鎌を携えた首無しの大男"
         },
         {
           "name": "可愛げのない弟",
@@ -3281,7 +3293,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "貪欲な口",
-          "value": "幾年も我慢を重ね��ち続け涎の滴る舌と牙"
+          "value": "幾年も我慢を重ね待ち続け涎の滴る舌と牙"
         },
         {
           "name": "※",
@@ -3579,7 +3591,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "戦闘モード",
-          "value": "���迫するまで起動しない。淡々と処理"
+          "value": "切迫するまで起動しない。淡々と処理"
         }
       ]
     },
@@ -5309,7 +5321,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "茸が見せる世界",
-          "value": "色彩の認識を変え声を聴かせ多幸感を与える"
+          "value": "色���の認識を変え声を聴かせ多幸感を与える"
         }
       ]
     },
@@ -7222,7 +7234,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "name": "【捜索依頼��迷子のシープシェイプ",
+      "name": "【捜索依頼】迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
       "tags": [
@@ -7484,7 +7496,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "根の王国",
-          "value": "地の底、���数の根と蛇の路"
+          "value": "地の底、無数の根と蛇の路"
         },
         {
           "name": "生命の根源の装丁",
