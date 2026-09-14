@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-13T13:15:01",
+  "generatedAt": "2026-09-14T13:15:01",
   "source": "characters_mine.json",
-  "count": 234,
+  "count": 235,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -673,19 +673,18 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "9581f321-c8cf-4d13-9327-cd58aa14b7f0",
-      "name": "【竜狩りの兎人】ヴィエラ",
-      "promptName": "【竜狩りの兎人】ヴィエラ（特徴：兎耳、白髪と赤い瞳　一人称：わたし　素直でほわほわ）",
+      "name": "【竜狩り兎】リュネ",
+      "promptName": "【竜狩り兎】リュネ（兎耳、白い長髪と閉じた赤い瞳　一人称わたし　眠たげ、素直でほわほわ）",
       "category": "未分類",
       "tags": [
-        "未分類",
-        "limited"
+        "未分類"
       ],
       "displayOrder": 10000,
       "created": "2026-09-05",
-      "updated": "2026-09-13",
+      "updated": "2026-09-14",
       "url": "https://ai-battler.com/battle/9581f321-c8cf-4d13-9327-cd58aa14b7f0",
-      "localPath": "未分類\\【竜狩りの兎人】ヴィエラ.md",
-      "isHidden": true,
+      "localPath": "未分類\\【竜狩り兎】リュネ.md",
+      "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -693,20 +692,66 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "重力の魔法",
-          "value": "自身や触れた物を浮遊あるいは落下させる"
+          "name": "幸運",
+          "value": "運を引き寄せる兎の特質"
+        },
+        {
+          "name": "夢見る瞳",
+          "value": "異なる結末、あり得る未来を見る瞳"
+        },
+        {
+          "name": "空歩き",
+          "value": "重力に影響されず空中に浮かび、また、歩く"
+        },
+        {
+          "name": "月に届く跳躍",
+          "value": "小柄な体躯に反した強大な脚力"
         },
         {
           "name": "隕鉄大剣",
-          "value": "長大な外見以上の質量を持つ無骨な大剣"
+          "value": "隕石を素材とした無骨な鎖付き鉄塊"
+        }
+      ]
+    },
+    {
+      "id": "202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
+      "name": "【終末時計兎】メト",
+      "promptName": "【終末時計兎】メト（兎耳、ぼさぼさの白髪に焦点の合わない赤い瞳　一人称あたし　「いひ」）",
+      "category": "未分類",
+      "tags": [
+        "未分類"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-09-14",
+      "updated": "2026-09-14",
+      "url": "https://ai-battler.com/battle/202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
+      "localPath": "未分類\\【終末時計兎】メト.md",
+      "isHidden": false,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "幸運",
+          "value": "運を引き寄せる兎の特質"
         },
         {
-          "name": "竜殺し",
-          "value": "地から天上へ跳躍する豪快な斬り上げ"
+          "name": "天上の監視者の瞳",
+          "value": "空に瞬く星々。本来辿る結末を歪める"
         },
         {
-          "name": "落星",
-          "value": "天上から自由落下し周囲一帯ごと破砕"
+          "name": "空歩き",
+          "value": "重力に影響されず空中に浮かび、また、歩く"
+        },
+        {
+          "name": "終末時計",
+          "value": "隕石群による破滅の時を知らせる呪具"
+        },
+        {
+          "name": "無抵抗",
+          "value": "あらゆる痛みを招き受け入れようとする"
         }
       ]
     },
@@ -801,7 +846,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "コロニー",
-          "value": "ペンギンが栽培さ���る畑"
+          "value": "ペンギンが栽培される畑"
         },
         {
           "name": "ペンギン",
@@ -882,7 +927,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギンは���実"
+          "value": "ペンギンは果実"
         },
         {
           "name": "ペンギン",
@@ -2789,7 +2834,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "プロの商売人",
-          "value": "一目でその価���を見極める"
+          "value": "一目でその価値を見極める"
         },
         {
           "name": "価値",
@@ -3869,7 +3914,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "永遠の眠り姫",
-          "value": "死の概念を失った不変の命"
+          "value": "死の概念を失った不変の���"
         },
         {
           "name": "囚われた太陽",
@@ -4059,7 +4104,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "9589fa05-f33b-4cc2-a1a5-dd12553641d7",
-      "name": "遺跡の自動販売機",
+      "name": "遺跡の自動販��機",
       "promptName": "",
       "category": "シチュエーション",
       "tags": [],
@@ -4311,7 +4356,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "2dc34616-8b86-4634-b8a3-32d61b2c482d",
       "name": "【魔法使い】ローレ(非戦闘)",
-      "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…ん」）",
+      "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…���」）",
       "category": "【魔法使い】ローレ",
       "tags": [],
       "displayOrder": 80001,
@@ -5321,7 +5366,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "茸が見せる世界",
-          "value": "色���の認識を変え声を聴かせ多幸感を与える"
+          "value": "色彩の認識を変え声を聴かせ多幸感を与える"
         }
       ]
     },
@@ -5731,7 +5776,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "廃墟",
-          "value": "かつてを思わせる痕跡だけを残した街"
+          "value": "かつてを思わせる痕跡だけを残した��"
         }
       ]
     },
@@ -7184,7 +7229,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "スフィンクス",
-          "value": "門衛。精神を搔き乱す瞳が志願者を選別する"
+          "value": "門��。精神を搔き乱す瞳が志願者を選別する"
         },
         {
           "name": "公正な判決",
@@ -7644,7 +7689,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "生息地",
-          "value": "ロスティドール魔術学院"
+          "value": "ロ���ティドール魔術学院"
         },
         {
           "name": "特徴①",
