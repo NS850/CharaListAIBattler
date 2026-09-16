@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-14T13:15:01",
+  "generatedAt": "2026-09-16T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た��に齎される力"
         },
         {
           "name": "一角",
@@ -232,7 +232,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "肉の月下美人",
-          "value": "鋭い蕾から咲く花。集めた光を放出する"
+          "value": "鋭い蕾から咲く花。集めた光を放出���る"
         },
         {
           "name": "肉の路",
@@ -308,7 +308,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "角笛",
-          "value": "獣の角の笛。危険を伝えるだけ"
+          "value": "獣の角の笛。危険を伝える��け"
         }
       ]
     },
@@ -697,7 +697,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "夢見る瞳",
-          "value": "異なる結末、あり得る未来を見る瞳"
+          "value": "異なる結末、あり得る未来��見る瞳"
         },
         {
           "name": "空歩き",
@@ -740,10 +740,6 @@ window.CHARACTER_CATALOG = {
         {
           "name": "天上の監視者の瞳",
           "value": "空に瞬く星々。本来辿る結末を歪める"
-        },
-        {
-          "name": "空歩き",
-          "value": "重力に影響されず空中に浮かび、また、歩く"
         },
         {
           "name": "終末時計",
@@ -1538,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1859,12 +1855,14 @@ window.CHARACTER_CATALOG = {
       "name": "【街路の魔女】コキア",
       "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "未分類"
+      ],
       "displayOrder": 12320,
       "created": "2025-11-17",
-      "updated": "2026-04-27",
+      "updated": "2026-09-14",
       "url": "https://ai-battler.com/battle/178066bd-e363-48f5-8544-ef43c694d77f",
-      "localPath": "その他・実験\\【街路の魔女】コキア.md",
+      "localPath": "未分類\\【街路の魔女】コキア.md",
       "isHidden": false,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -2405,11 +2403,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁具"
+          "value": "上空高くまで届く魔法の漁��"
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中身は軽い"
+          "value": "地上から視認できるほどの巨体。中��は軽い"
         },
         {
           "name": "予備の竿",
@@ -3579,7 +3577,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "花弁状の集光装置",
+          "name": "花弁状の集光装��",
           "value": "光を集め蓄える魔法の装置。動力源"
         },
         {
@@ -3914,7 +3912,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "永遠の眠り姫",
-          "value": "死の概念を失った不変の���"
+          "value": "死の��念を失った不変の命"
         },
         {
           "name": "囚われた太陽",
@@ -4104,7 +4102,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "9589fa05-f33b-4cc2-a1a5-dd12553641d7",
-      "name": "遺跡の自動販��機",
+      "name": "遺跡の自動販売機",
       "promptName": "",
       "category": "シチュエーション",
       "tags": [],
@@ -4356,7 +4354,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "2dc34616-8b86-4634-b8a3-32d61b2c482d",
       "name": "【魔法使い】ローレ(非戦闘)",
-      "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…���」）",
+      "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
       "tags": [],
       "displayOrder": 80001,
@@ -4600,7 +4598,7 @@ window.CHARACTER_CATALOG = {
           "value": "箒槍に光を集める"
         },
         {
-          "name": "旧文明の落し子",
+          "name": "旧文明の���し子",
           "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
@@ -5083,7 +5081,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大鴉ラーベ",
-          "value": "未来視で見守る父役。陽熱を発し火力担当"
+          "value": "未来視で見守る父役。陽熱を発し火��担当"
         }
       ]
     },
@@ -5776,7 +5774,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "廃墟",
-          "value": "かつてを思わせる痕跡だけを残した��"
+          "value": "かつてを��わせる痕跡だけを残した街"
         }
       ]
     },
@@ -7225,11 +7223,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "地域",
-          "value": "ロスフェルト公の領土、リーズ山脈の麓"
+          "value": "ロスフェルト公の領土、��ーズ山脈の麓"
         },
         {
           "name": "スフィンクス",
-          "value": "門��。精神を搔き乱す瞳が志願者を選別する"
+          "value": "門衛。精神を搔き乱す瞳が志願者を選別する"
         },
         {
           "name": "公正な判決",
@@ -7689,11 +7687,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "生息地",
-          "value": "ロ���ティドール魔術学院"
+          "value": "ロスティドール魔術学院"
         },
         {
           "name": "特徴①",
-          "value": "固い石の巨体、斧槍、翼"
+          "value": "固い石���巨体、斧槍、翼"
         },
         {
           "name": "特徴②",
