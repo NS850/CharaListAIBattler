@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-16T13:15:03",
+  "generatedAt": "2026-09-17T13:15:05",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た��に齎される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -232,7 +232,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "肉の月下美人",
-          "value": "鋭い蕾から咲く花。集めた光を放出���る"
+          "value": "鋭い蕾から咲く花。集めた光を放出する"
         },
         {
           "name": "肉の路",
@@ -308,7 +308,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "角笛",
-          "value": "獣の角の笛。危険を伝える��け"
+          "value": "獣の角の笛。危険を伝えるだけ"
         }
       ]
     },
@@ -2403,11 +2403,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁��"
+          "value": "上空高くまで届く魔法の漁具"
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中��は軽い"
+          "value": "地上から視認できるほどの巨体。中身は軽い"
         },
         {
           "name": "予備の竿",
@@ -2923,7 +2923,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "59d4270d-1e71-4701-8d94-7a5698c28476",
       "name": "盗賊魔術師の少女",
-      "promptName": "少女",
+      "promptName": "【盗賊】リネ（少女、赤髪「あはっ」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -2931,9 +2931,9 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 22021,
       "created": "2025-10-06",
-      "updated": "2025-10-08",
+      "updated": "2026-09-16",
       "url": "https://ai-battler.com/battle/59d4270d-1e71-4701-8d94-7a5698c28476",
-      "localPath": "キャラクター（一般）\\盗賊魔術師の少女.md",
+      "localPath": "未分類\\盗賊魔術師の少女.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -2942,24 +2942,24 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "悪い手癖",
-          "value": "気付かれずに手の内に隠す技術"
-        },
-        {
           "name": "嫌いなもの",
-          "value": "法や秩序、我慢、熟慮、善人ぶった人"
+          "value": "法や秩序、拘束、我慢、熟慮、善人ぶった人"
         },
         {
-          "name": "好きなもの",
-          "value": "きらきらした物、ゆらめく火、人を煽ること"
+          "name": "反抗心",
+          "value": "拘束、障害が強大なほど強く燃え上がる"
         },
         {
-          "name": "技能",
-          "value": "ナイフ、隠密、発火、破壊と変性の魔術"
+          "name": "発火と破壊の魔術",
+          "value": "瞬間に燃え上がり障害を打ち破る炎"
         },
         {
-          "name": "確保した逃げ道",
-          "value": "ルートや隠れ場所は頭に入っている"
+          "name": "閃きと反応",
+          "value": "瞬間的に反応し丁度いい対応を思いつく"
+        },
+        {
+          "name": "悪運の強さ",
+          "value": "奇跡的に窮地から逃れる運の��さ"
         }
       ]
     },
@@ -3577,7 +3577,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "花弁状の集光装��",
+          "name": "花弁状の集光装置",
           "value": "光を集め蓄える魔法の装置。動力源"
         },
         {
@@ -3912,7 +3912,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "永遠の眠り姫",
-          "value": "死の��念を失った不変の命"
+          "value": "死の概念を失った不変の命"
         },
         {
           "name": "囚われた太陽",
@@ -4598,7 +4598,7 @@ window.CHARACTER_CATALOG = {
           "value": "箒槍に光を集める"
         },
         {
-          "name": "旧文明の���し子",
+          "name": "旧文明の落し子",
           "value": "機械と肉の揺籃が生んだ生体の少女"
         }
       ]
@@ -5081,7 +5081,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "大鴉ラーベ",
-          "value": "未来視で見守る父役。陽熱を発し火��担当"
+          "value": "未来視で見守る父役。陽熱を発し火力担当"
         }
       ]
     },
@@ -5774,7 +5774,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "廃墟",
-          "value": "かつてを��わせる痕跡だけを残した街"
+          "value": "��つてを思わせる痕跡だけを残した街"
         }
       ]
     },
@@ -7223,7 +7223,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "地域",
-          "value": "ロスフェルト公の領土、��ーズ山脈の麓"
+          "value": "ロスフェルト公の領土、リーズ山脈の麓"
         },
         {
           "name": "スフィンクス",
@@ -7691,7 +7691,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "特徴①",
-          "value": "固い石���巨体、斧槍、翼"
+          "value": "固い石の巨体、斧槍、翼"
         },
         {
           "name": "特徴②",
