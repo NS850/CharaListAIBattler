@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-17T13:15:05",
+  "generatedAt": "2026-09-19T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎���れる力"
         },
         {
           "name": "一角",
@@ -697,7 +697,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "夢見る瞳",
-          "value": "異なる結末、あり得る未来��見る瞳"
+          "value": "異なる結末、あり得る未来を見る瞳"
         },
         {
           "name": "空歩き",
@@ -2922,8 +2922,8 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "59d4270d-1e71-4701-8d94-7a5698c28476",
-      "name": "盗賊魔術師の少女",
-      "promptName": "【盗賊】リネ（少女、赤髪「あはっ」）",
+      "name": "【盗賊魔術師】フィーリ",
+      "promptName": "【盗賊魔術師】フィーリ（少女、赤髪、腰にナイフ「あはっ」）",
       "category": "未分類",
       "tags": [
         "未分類",
@@ -2931,9 +2931,9 @@ window.CHARACTER_CATALOG = {
       ],
       "displayOrder": 22021,
       "created": "2025-10-06",
-      "updated": "2026-09-16",
+      "updated": "2026-09-17",
       "url": "https://ai-battler.com/battle/59d4270d-1e71-4701-8d94-7a5698c28476",
-      "localPath": "未分類\\盗賊魔術師の少女.md",
+      "localPath": "未分類\\【盗賊魔術師】フィーリ.md",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -2946,20 +2946,12 @@ window.CHARACTER_CATALOG = {
           "value": "法や秩序、拘束、我慢、熟慮、善人ぶった人"
         },
         {
-          "name": "反抗心",
-          "value": "拘束、障害が強大なほど強く燃え上がる"
-        },
-        {
           "name": "発火と破壊の魔術",
           "value": "瞬間に燃え上がり障害を打ち破る炎"
         },
         {
-          "name": "閃きと反応",
-          "value": "瞬間的に反応し丁度いい対応を思いつく"
-        },
-        {
-          "name": "悪運の強さ",
-          "value": "奇跡的に窮地から逃れる運の��さ"
+          "name": "機転・反応",
+          "value": "瞬間的に丁度いい対応が浮かぶ"
         }
       ]
     },
@@ -3524,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなりそこない",
+      "name": "少女のなり���こない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3845,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆発"
+          "value": "魔力により収束した光の爆���"
         }
       ]
     },
@@ -5774,7 +5766,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "廃墟",
-          "value": "��つてを思わせる痕跡だけを残した街"
+          "value": "かつてを思わせる痕跡だけを残した街"
         }
       ]
     },
