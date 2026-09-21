@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-19T13:15:03",
+  "generatedAt": "2026-09-21T13:15:09",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎���れる力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説���る）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写指���文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合住宅の清掃"
+          "value": "神社や���合住宅の清掃"
         },
         {
           "name": "趣味",
