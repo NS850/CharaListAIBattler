@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-21T13:15:09",
+  "generatedAt": "2026-09-22T13:15:04",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -167,7 +167,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
       "name": "タロット占い",
-      "promptName": "魔導書（浮かび、紳士的な口調で解説���る）",
+      "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 10000,
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆���"
+          "value": "魔力により収束した光の爆発"
         }
       ]
     },
@@ -5140,7 +5140,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑い方",
+          "name": "一人称/笑��方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や���合住宅の清掃"
+          "value": "神社や集��住宅の清掃"
         },
         {
           "name": "趣味",
