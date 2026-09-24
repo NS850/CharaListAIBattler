@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-23T13:15:04",
+  "generatedAt": "2026-09-24T13:15:02",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1565,7 +1565,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "収束",
-          "value": "光を集め箒槍の花弁に蓄える���光は魔法の源"
+          "value": "光を集め箒槍の花弁に蓄える。光は魔法の源"
         },
         {
           "name": "一掃",
@@ -1653,7 +1653,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "光",
-          "value": "{i}の手の中から広がる陽の��"
+          "value": "{i}の手の中から広がる陽の光"
         }
       ]
     },
@@ -2407,7 +2407,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中��は軽い"
+          "value": "地上から視認できるほどの巨体。中身は軽い"
         },
         {
           "name": "予備の竿",
@@ -2792,7 +2792,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "ヒツジの実",
-          "value": "暖かな羊毛がとれ食肉���もなる"
+          "value": "暖かな羊毛がとれ食肉にもなる"
         },
         {
           "name": "子ヒツジ",
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなりそこない",
+      "name": "少女のなり���こない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3657,7 +3657,7 @@ window.CHARACTER_CATALOG = {
           "value": "少女、白いジャケット、赤目、兎耳状集音器"
         },
         {
-          "name": "魔力の���",
+          "name": "魔力の靄",
           "value": "{i}の周辺では靄がかかり視界が悪い"
         },
         {
@@ -4254,7 +4254,7 @@ window.CHARACTER_CATALOG = {
           "value": "周辺の鴉と視界共有する"
         },
         {
-          "name": "風読みの翼",
+          "name": "���読みの翼",
           "value": "風を読み攻撃を予知する"
         },
         {
@@ -4517,7 +4517,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
-      "name": "【魔法使い】ローレ(応急処置)",
+      "name": "【��法使い】ローレ(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集��住宅の清掃"
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
