@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-24T13:15:02",
+  "generatedAt": "2026-09-25T14:21:09",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎���れる力"
         },
         {
           "name": "一角",
@@ -2403,11 +2403,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁具"
+          "value": "上空高くまで届く魔法の漁��"
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中身は軽い"
+          "value": "地上から視認できるほどの巨体。中��は軽い"
         },
         {
           "name": "予備の竿",
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマン",
+          "name": "シャーマ��",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなり���こない",
+      "name": "少女のなりそこない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆発"
+          "value": "魔力により収束した光の爆���"
         }
       ]
     },
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写指���文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -4254,7 +4254,7 @@ window.CHARACTER_CATALOG = {
           "value": "周辺の鴉と視界共有する"
         },
         {
-          "name": "���読みの翼",
+          "name": "風読みの翼",
           "value": "風を読み攻撃を予知する"
         },
         {
@@ -4517,7 +4517,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
-      "name": "【��法使い】ローレ(応急処置)",
+      "name": "【魔法使い】ローレ(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
       "tags": [],
