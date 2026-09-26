@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-25T14:21:09",
+  "generatedAt": "2026-09-26T13:15:02",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎���れる力"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -2403,7 +2403,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁��"
+          "value": "上空高くまで届く魔法の漁具"
         },
         {
           "name": "空魚",
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマ��",
+          "name": "シャーマン",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなりそこない",
+      "name": "少女のなり���こない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆���"
+          "value": "魔力により収束した光の爆発"
         }
       ]
     },
@@ -5140,7 +5140,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑い方",
+          "name": "一人称/笑��方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合住宅の清掃"
+          "value": "神社や集合��宅の清掃"
         },
         {
           "name": "趣味",
