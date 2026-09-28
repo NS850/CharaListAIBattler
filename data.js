@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-26T13:15:02",
+  "generatedAt": "2026-09-28T00:32:09",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆発"
+          "value": "魔力により収束した光の爆���"
         }
       ]
     },
@@ -5140,7 +5140,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑��方",
+          "name": "一人称/笑い方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
