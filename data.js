@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-09-28T00:32:09",
+  "generatedAt": "2026-09-28T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎され���力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -2403,7 +2403,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁具"
+          "value": "上空高くまで届く魔法の漁��"
         },
         {
           "name": "空魚",
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマン",
+          "name": "シャーマ��",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合��宅の清掃"
+          "value": "���社や集合住宅の清掃"
         },
         {
           "name": "趣味",
