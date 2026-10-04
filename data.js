@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-03T13:15:02",
+  "generatedAt": "2026-10-04T13:15:02",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1553,7 +1553,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔���帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -2403,7 +2403,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁具"
+          "value": "上空高くまで届く魔法の漁��"
         },
         {
           "name": "空魚",
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなり���こない",
+      "name": "少女のなりそこない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -4291,7 +4291,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格・口調",
-          "value": "ローレは感情に乏しく内向的で無口「…ん」"
+          "value": "ローレ��感情に乏しく内向的で無口「…ん」"
         },
         {
           "name": "使い魔ラーベ",
@@ -5272,7 +5272,7 @@ window.CHARACTER_CATALOG = {
           "value": "見守る烏。{i}は父のような愛着を向ける"
         },
         {
-          "name": "バイト先",
+          "name": "���イト先",
           "value": "神社や集合住宅の清掃"
         },
         {
