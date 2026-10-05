@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-04T13:15:02",
+  "generatedAt": "2026-10-05T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -2403,11 +2403,11 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "空竿と空網",
-          "value": "上空高くまで届く魔法の漁��"
+          "value": "上空高くまで届く魔法の漁具"
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中��は軽い"
+          "value": "地上から視認できるほどの巨体。中身は軽い"
         },
         {
           "name": "予備の竿",
@@ -4291,7 +4291,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格・口調",
-          "value": "ローレ��感情に乏しく内向的で無口「…ん」"
+          "value": "ローレは感情に乏しく内向的で無口「…ん」"
         },
         {
           "name": "使い魔ラーベ",
@@ -5272,8 +5272,8 @@ window.CHARACTER_CATALOG = {
           "value": "見守る烏。{i}は父のような愛着を向ける"
         },
         {
-          "name": "���イト先",
-          "value": "神社や集合住宅の清掃"
+          "name": "バイト先",
+          "value": "神社や集���住宅の清掃"
         },
         {
           "name": "趣味",
