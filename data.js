@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-05T13:15:03",
+  "generatedAt": "2026-10-06T13:15:04",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1553,7 +1553,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔���帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -2407,7 +2407,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中身は軽い"
+          "value": "地上から視認できるほどの巨体。中��は軽い"
         },
         {
           "name": "予備の竿",
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなりそこない",
+      "name": "少女のなり���こない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆���"
+          "value": "魔力により収束した光の爆発"
         }
       ]
     },
@@ -5140,7 +5140,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑い方",
+          "name": "一人称/笑��方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
@@ -5273,7 +5273,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集���住宅の清掃"
+          "value": "神社や集合���宅の清掃"
         },
         {
           "name": "趣味",
