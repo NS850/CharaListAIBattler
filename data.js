@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-06T13:15:04",
+  "generatedAt": "2026-10-07T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -838,7 +838,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギンは野菜"
+          "value": "ペンギ��は野菜"
         },
         {
           "name": "コロニー",
@@ -2407,7 +2407,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "空魚",
-          "value": "地上から視認できるほどの巨体。中��は軽い"
+          "value": "地上から視認できるほどの巨体。中身は軽い"
         },
         {
           "name": "予備の竿",
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマ��",
+          "name": "シャーマン",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -3516,7 +3516,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
-      "name": "少女のなり���こない",
+      "name": "少女のなりそこない",
       "promptName": "",
       "category": "未分類",
       "tags": [],
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指���文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -4559,13 +4559,17 @@ window.CHARACTER_CATALOG = {
       "id": "13b9616c-0328-423e-9b7a-03320a4ac5d4",
       "name": "【魔法使い】ローレ(既知の仲)",
       "promptName": "【魔法使い】ローレ（性格・口調：感情に乏しく内向的で無口「…ん」）",
-      "category": "【魔法使い】ローレ",
-      "tags": [],
+      "category": "未分類",
+      "tags": [
+        "未分類",
+        "limited",
+        "non_battle"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-21",
-      "updated": "2026-05-17",
+      "updated": "2026-10-06",
       "url": "https://ai-battler.com/battle/13b9616c-0328-423e-9b7a-03320a4ac5d4",
-      "localPath": "【魔法使い】ローレ\\【魔法使い】ローレ(既知の仲).md",
+      "localPath": "未分類\\【魔法使い】ローレ(既知の仲).md",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -4575,7 +4579,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少��"
         },
         {
           "name": "箒槍",
@@ -5140,7 +5144,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑��方",
+          "name": "一人称/笑い方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
@@ -5189,7 +5193,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格・口調",
-          "value": "ローレは感情に乏しく内向的で無口「…ん」"
+          "value": "ローレは感情に乏し���内向的で無口「…ん」"
         },
         {
           "name": "星の大鴉ラーベ",
@@ -5273,7 +5277,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合���宅の清掃"
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
