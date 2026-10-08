@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-07T13:15:03",
+  "generatedAt": "2026-10-08T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎され���力"
         },
         {
           "name": "一角",
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉体"
+          "value": "手足をもがれ脳のない魔女の肉��"
         },
         {
           "name": "烏",
@@ -697,7 +697,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "夢見る瞳",
-          "value": "異なる結末、あり得る未来を見る瞳"
+          "value": "異なる結末、あり得る未来��見る瞳"
         },
         {
           "name": "空歩き",
@@ -838,7 +838,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "前提",
-          "value": "ペンギ��は野菜"
+          "value": "ペンギンは野菜"
         },
         {
           "name": "コロニー",
@@ -1437,7 +1437,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "鳴声（基本/嬉）",
-          "value": "チュイチュイ/チュルチュル"
+          "value": "チュイチュイ/チュル��ュル"
         },
         {
           "name": "鳴声（不安）",
@@ -1503,7 +1503,7 @@ window.CHARACTER_CATALOG = {
           "value": "輪廻を示す殻の渦巻き模様が不滅の力を齎す"
         },
         {
-          "name": "再生と繁栄",
+          "name": "再生と繁���",
           "value": "神聖な螺旋模様が再生と繁栄の力を齎す"
         },
         {
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマン",
+          "name": "シャ��マン",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆発"
+          "value": "魔力により収束した光��爆発"
         }
       ]
     },
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写��示文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -4579,7 +4579,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少��"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -5193,11 +5193,11 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "性格・口調",
-          "value": "ローレは感情に乏し���内向的で無口「…ん」"
+          "value": "ローレは感情に乏しく内向的で無口「…ん」"
         },
         {
           "name": "星の大鴉ラーベ",
-          "value": "未来視で見守る父役。翼は陽熱を発する"
+          "value": "未来視で見守る父役。翼は陽熱を発す��"
         },
         {
           "name": "魔法",
@@ -5277,7 +5277,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集合住宅の清掃"
+          "value": "神社や��合住宅の清掃"
         },
         {
           "name": "趣味",
