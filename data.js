@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-09T13:15:02",
+  "generatedAt": "2026-10-10T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎される力"
+          "value": "見た者に��される力"
         },
         {
           "name": "一角",
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写��示文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -5197,7 +5197,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "星の大鴉ラーベ",
-          "value": "未来視で見守る父役。翼は陽熱を発する"
+          "value": "未来視で見守る父役。翼は陽熱を発す��"
         },
         {
           "name": "魔法",
@@ -5276,8 +5276,8 @@ window.CHARACTER_CATALOG = {
           "value": "見守る烏。{i}は父のような愛着を向ける"
         },
         {
-          "name": "バイト先",
-          "value": "���社や集合住宅の清掃"
+          "name": "バイ��先",
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
