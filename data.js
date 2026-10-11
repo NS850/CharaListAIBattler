@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-10T13:15:03",
+  "generatedAt": "2026-10-11T13:15:03",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に��される力"
+          "value": "見た者に齎���れる力"
         },
         {
           "name": "一角",
@@ -5276,8 +5276,8 @@ window.CHARACTER_CATALOG = {
           "value": "見守る烏。{i}は父のような愛着を向ける"
         },
         {
-          "name": "バイ��先",
-          "value": "神社や集合住宅の清掃"
+          "name": "バイト先",
+          "value": "神社や集��住宅の清掃"
         },
         {
           "name": "趣味",
