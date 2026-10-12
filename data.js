@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-11T13:15:03",
+  "generatedAt": "2026-10-12T13:15:02",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎���れる力"
+          "value": "見た者に齎さ��る力"
         },
         {
           "name": "一角",
@@ -1419,7 +1419,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bbca7862-b192-460d-be1d-d05da70d0dd7",
-      "name": "チンチラおかし作り",
+      "name": "���ンチラおかし作り",
       "promptName": "チンチラおかし",
       "category": "シチュエーション",
       "tags": [],
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1553,7 +1553,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/��髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -3021,7 +3021,7 @@ window.CHARACTER_CATALOG = {
           "value": "並の戦士よりも大柄で強靭な肉体を持つ"
         },
         {
-          "name": "シャーマン",
+          "name": "シャ��マン",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
       ]
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光の爆発"
+          "value": "魔力により収束した光��爆発"
         }
       ]
     },
@@ -5197,7 +5197,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "星の大鴉ラーベ",
-          "value": "未来視で見守る父役。翼は陽熱を発す��"
+          "value": "未来視で見守る父役。翼は陽熱を発する"
         },
         {
           "name": "魔法",
