@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-12T13:15:02",
+  "generatedAt": "2026-10-13T13:15:04",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -156,7 +156,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "創造性と幸運",
-          "value": "見た者に齎さ��る力"
+          "value": "見た者に齎される力"
         },
         {
           "name": "一角",
@@ -1419,7 +1419,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bbca7862-b192-460d-be1d-d05da70d0dd7",
-      "name": "���ンチラおかし作り",
+      "name": "チンチラおかし作り",
       "promptName": "チンチラおかし",
       "category": "シチュエーション",
       "tags": [],
@@ -1534,7 +1534,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
       "name": "【魔法使い】ローレ",
-      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
+      "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表���",
       "category": "未分類",
       "tags": [
         "未分類"
@@ -1553,7 +1553,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "外見",
-          "value": "月飾りの魔女帽子/��髮赤目/幼さ残る少女"
+          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
         },
         {
           "name": "箒槍",
@@ -3837,7 +3837,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "自爆",
-          "value": "魔力により収束した光��爆発"
+          "value": "魔力により収束した光の爆発"
         }
       ]
     },
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写��示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -5144,7 +5144,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人称/笑い方",
+          "name": "一人��/笑い方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
