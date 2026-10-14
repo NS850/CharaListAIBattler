@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-10-13T13:15:04",
+  "generatedAt": "2026-10-14T13:15:04",
   "source": "characters_mine.json",
   "count": 235,
   "characters": [
@@ -220,7 +220,7 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "蛹",
-          "value": "手足をもがれ脳のない魔女の肉��"
+          "value": "手足をもがれ脳のない魔女の肉体"
         },
         {
           "name": "烏",
@@ -4163,7 +4163,7 @@ window.CHARACTER_CATALOG = {
     {
       "id": "b969f04c-a9e4-4bd6-898e-5b80782c0320",
       "name": "羊水路",
-      "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
+      "promptName": "(シーンの描写��示文。人物としては登場させないこと)",
       "category": "シチュエーション",
       "tags": [],
       "displayOrder": 35001,
@@ -4259,7 +4259,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "幻狼",
-          "value": "魔力により幻影の狼の群れを呼び出す"
+          "value": "魔力に���り幻影の狼の群れを呼び出す"
         }
       ]
     },
@@ -5144,7 +5144,7 @@ window.CHARACTER_CATALOG = {
       "summary": "",
       "statuses": [
         {
-          "name": "一人��/笑い方",
+          "name": "一人称/笑い方",
           "value": "私/「イヒッ」「イヒヒッ」「イヒヒヒ…」"
         },
         {
@@ -5277,7 +5277,7 @@ window.CHARACTER_CATALOG = {
         },
         {
           "name": "バイト先",
-          "value": "神社や集��住宅の清掃"
+          "value": "神社や集合住宅の清掃"
         },
         {
           "name": "趣味",
