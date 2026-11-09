@@ -79,9 +79,15 @@ function buildVariantModel(characters) {
 
 // 一覧に出るのは公開分のみ。非表示キャラは単独では出ず、
 // 基準キャラの派生としてだけ選べる。
+// 例外（単独公開）: 【論理兎】ヴェリはサービス側では非表示だが、
+// 本人指示でカタログの一覧にも単独で出す（2026-11-10 本人明示指示。
+// gen_site.js の CATALOG_INCLUDE_HIDDEN_IDS と対で、対象はこの1件のみ）。
+const LISTED_HIDDEN_IDS = new Set([
+  "5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b" // 【論理兎】ヴェリ
+]);
 function listedCharacters() {
   return catalog.characters
-    .filter(char => !char.isHidden)
+    .filter(char => !char.isHidden || LISTED_HIDDEN_IDS.has(char.id))
     .sort((a, b) =>
       String(a.category || "").localeCompare(String(b.category || ""), "ja") ||
       Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||

@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T08:59:40",
+  "generatedAt": "2026-11-09T23:27:12",
   "source": "characters_mine.json",
-  "count": 54,
+  "count": 55,
   "characters": [
     {
       "id": "1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
@@ -304,6 +304,50 @@ window.CHARACTER_CATALOG = {
         {
           "name": "無抵抗",
           "value": "あらゆる痛みを招き受け入れようとする"
+        }
+      ]
+    },
+    {
+      "id": "5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b",
+      "name": "【論理兎】ヴェリ",
+      "promptName": "【論理兎】ヴェリ（兎耳、短めの白髪と切れ長の赤い瞳　一人称 私　無駄のない口調、結論から話す）",
+      "category": "未分類",
+      "group": "兎",
+      "tags": [
+        "未分類",
+        "limited"
+      ],
+      "displayOrder": 10000,
+      "created": "2026-11-09",
+      "updated": "2026-11-09",
+      "url": "https://ai-battler.com/battle/5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b",
+      "localPath": "未分類/【論理兎】ヴェリ.md",
+      "isHidden": true,
+      "isNotBattle": false,
+      "isNotSearchable": true,
+      "isSensitive": false,
+      "isCopyable": false,
+      "summary": "",
+      "statuses": [
+        {
+          "name": "幸運",
+          "value": "運を引き寄せる兎の特質。本人は認めない"
+        },
+        {
+          "name": "ヴァーバル",
+          "value": "文を読み定義を書き換える小型ビット"
+        },
+        {
+          "name": "ゴスペル",
+          "value": "検証した命題だけを事実として固定する"
+        },
+        {
+          "name": "ヴォーパル",
+          "value": "定義と検証が揃った時にだけ矛盾を斬る"
+        },
+        {
+          "name": "公理系",
+          "value": "自分の正しさの出発点。証明も疑いもしない"
         }
       ]
     },
