@@ -1,122 +1,206 @@
-const catalog = window.CHARACTER_CATALOG || { characters: []};
+const catalog = window.CHARACTER_CATALOG || { characters: [] };
 
 const els = {
-resultCount: document.querySelector("#resultCount"),
-cards: document.querySelector("#cards"),
-dialog: document.querySelector("#detailDialog"),
-detailTitle: document.querySelector("#detailTitle"),
-detailSub: document.querySelector("#detailSub"),
-detailBody: document.querySelector("#detailBody"),
-closeDialog: document.querySelector("#closeDialog")
+  resultCount: document.querySelector("#resultCount"),
+  cards: document.querySelector("#cards")
 };
 
 const variantModel = buildVariantModel(catalog.characters);
 
 function buildVariantModel(characters) {
-const byName = new Map();
-const variantsByMainId = new Map();
-const mainByVariantId = new Map();
+  const byName = new Map();
+  const variantsByMainId = new Map();
+  const mainByVariantId = new Map();
 
-characters.forEach(char => {
-if (char.name &&!byName.has(char.name)) byName.set(char.name, char);
-});
+  characters.forEach(char => {
+    if (char.name && !byName.has(char.name)) byName.set(char.name, char);
+  });
 
-// 1) フォルダ派生: フォルダ名（category）と同名のキャラを基準にする。
-// 基準キャラ自身が別フォルダにいてもよい（例: ローレ本体は未分類側）。
-characters.forEach(char => {
-if (!char.category) return;
-const main = byName.get(char.category);
-if (!main || main.id === char.id) return;
-mainByVariantId.set(char.id, main);
-});
+  // 1) フォルダ派生: フォルダ名（category）と同名のキャラを基準にする。
+  // 基準キャラ自身が別フォルダにいてもよい（例: ローレ本体は未分類側）。
+  characters.forEach(char => {
+    if (!char.category) return;
+    const main = byName.get(char.category);
+    if (!main || main.id === char.id) return;
+    mainByVariantId.set(char.id, main);
+  });
 
-// 2) 括弧付き派生: 「基準名（〜）」「基準名(〜)」の形で、基準名のキャラが実在するもの。
-characters.forEach(char => {
-if (mainByVariantId.has(char.id)) return;
-const match = String(char.name || "").match(/^(.+?)\s*[（(].+[）)]\s*$/);
-if (!match) return;
-const main = byName.get(match[1].trim());
-if (!main || main.id === char.id) return;
-mainByVariantId.set(char.id, main);
-});
+  // 2) 括弧付き派生: 「基準名（〜）」「基準名(〜)」の形で、基準名のキャラが実在するもの。
+  characters.forEach(char => {
+    if (mainByVariantId.has(char.id)) return;
+    const match = String(char.name || "").match(/^(.+?)\s*[（(].+[）)]\s*$/);
+    if (!match) return;
+    const main = byName.get(match[1].trim());
+    if (!main || main.id === char.id) return;
+    mainByVariantId.set(char.id, main);
+  });
 
-// 派生の派生は最終的な基準へ寄せる（循環時はその場で止める）。
-function ultimateMain(char) {
-let current = char;
-const seen = new Set([current.id]);
-while (mainByVariantId.has(current.id)) {
-const next = mainByVariantId.get(current.id);
-if (seen.has(next.id)) break;
-seen.add(next.id);
-current = next;
-}
-return current;
-}
+  // 派生の派生は最終的な基準へ寄せる（循環時はその場で止める）。
+  function ultimateMain(char) {
+    let current = char;
+    const seen = new Set([current.id]);
+    while (mainByVariantId.has(current.id)) {
+      const next = mainByVariantId.get(current.id);
+      if (seen.has(next.id)) break;
+      seen.add(next.id);
+      current = next;
+    }
+    return current;
+  }
 
-characters.forEach(char => {
-if (!mainByVariantId.has(char.id)) return;
-const main = ultimateMain(char);
-if (main.id === char.id) {
-mainByVariantId.delete(char.id);
-return;
-}
-mainByVariantId.set(char.id, main);
-if (!variantsByMainId.has(main.id)) variantsByMainId.set(main.id, []);
-variantsByMainId.get(main.id).push(char);
-});
+  characters.forEach(char => {
+    if (!mainByVariantId.has(char.id)) return;
+    const main = ultimateMain(char);
+    if (main.id === char.id) {
+      mainByVariantId.delete(char.id);
+      return;
+    }
+    mainByVariantId.set(char.id, main);
+    if (!variantsByMainId.has(main.id)) variantsByMainId.set(main.id, []);
+    variantsByMainId.get(main.id).push(char);
+  });
 
-variantsByMainId.forEach(variants => {
-variants.sort((a, b) =>
-Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
-String(a.name || "").localeCompare(String(b.name || ""), "ja")
-);
-});
+  variantsByMainId.forEach(variants => {
+    variants.sort((a, b) =>
+      Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
+      String(a.name || "").localeCompare(String(b.name || ""), "ja")
+    );
+  });
 
-characters.forEach(char => {
-const variants = variantsByMainId.get(char.id) || [];
-char.variantCount = variants.length;
-char.isVariant = mainByVariantId.has(char.id);
-char.mainId = char.isVariant? mainByVariantId.get(char.id).id: char.id;
-});
+  characters.forEach(char => {
+    const variants = variantsByMainId.get(char.id) || [];
+    char.variantCount = variants.length;
+    char.isVariant = mainByVariantId.has(char.id);
+    char.mainId = char.isVariant ? mainByVariantId.get(char.id).id : char.id;
+  });
 
-return { variantsByMainId, mainByVariantId};
-}
-
-function asArray(value) {
-if (!value) return [];
-return Array.isArray(value)? value: [value];
+  return { variantsByMainId, mainByVariantId };
 }
 
 // 一覧に出るのは公開分のみ。非表示キャラは単独では出ず、
-// 基準キャラの派生として詳細からだけ選べる。
+// 基準キャラの派生としてだけ選べる。
 function listedCharacters() {
-return catalog.characters
-.filter(char =>!char.isHidden)
-.sort((a, b) =>
-String(a.category || "").localeCompare(String(b.category || ""), "ja") ||
-Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
-String(a.name || "").localeCompare(String(b.name || ""), "ja")
-);
+  return catalog.characters
+    .filter(char => !char.isHidden)
+    .sort((a, b) =>
+      String(a.category || "").localeCompare(String(b.category || ""), "ja") ||
+      Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
+      String(a.name || "").localeCompare(String(b.name || ""), "ja")
+    );
 }
 
 const GROUP_ORDER = ["ペンギン", "ハーピィ", "兎"];
 
+// --- 派生パネル（全幅方式） ---
+// 派生リストはカードの子要素にしない。カードの中で広げると、
+// grid の同じ行にある他のカードが引っ張られて伸びてしまうため、
+// パネルは grid の独立した子として「そのカードがいる行の末尾」の直後に
+// 全幅（grid-column: 1 / -1）で差し込む。同時に開けるパネルは1つだけ。
+let openVariant = null; // { panel, card, toggle }
+
+function closeVariantPanel() {
+  if (!openVariant) return;
+  openVariant.panel.remove();
+  openVariant.toggle.setAttribute("aria-expanded", "false");
+  openVariant.card.classList.remove("open");
+  openVariant = null;
+}
+
+// カードがいる行の末尾のカードを返す（offsetTop が同じカード＝同じ行）。
+// パネルが開いている状態では行がずれるので、必ず閉じた状態で測ること。
+function rowEndCard(card) {
+  const grid = card.parentElement;
+  if (!grid) return card;
+  const cards = Array.from(grid.children).filter(el => el.classList.contains("card"));
+  const top = card.offsetTop;
+  let anchor = card;
+  cards.forEach(c => {
+    if (c.offsetTop === top) anchor = c;
+  });
+  return anchor;
+}
+
+function buildVariantPanel(char, variants) {
+  const panel = document.createElement("div");
+  panel.className = "variant-panel";
+  const header = document.createElement("div");
+  header.className = "variant-panel-head";
+  header.textContent = `${char.name || "(no name)"} の派生`;
+  panel.append(header);
+  const list = document.createElement("div");
+  list.className = "variant-list";
+  variants.forEach(variant => {
+    const row = document.createElement("div");
+    row.className = "variant-row";
+    const vName = document.createElement("span");
+    vName.textContent = variant.name || "(no name)";
+    row.append(vName);
+    if (variant.isHidden) {
+      const badge = document.createElement("span");
+      badge.className = "hidden-badge";
+      badge.textContent = "非表示";
+      row.append(badge);
+    }
+    row.addEventListener("click", event => {
+      event.stopPropagation();
+      window.open(variant.url, "_blank", "noreferrer");
+    });
+    list.append(row);
+  });
+  panel.append(list);
+  return panel;
+}
+
+function toggleVariantPanel(card, toggle, panel) {
+  const isThis = openVariant && openVariant.panel === panel;
+  closeVariantPanel();
+  if (isThis) return;
+  rowEndCard(card).after(panel);
+  toggle.setAttribute("aria-expanded", "true");
+  card.classList.add("open");
+  openVariant = { panel, card, toggle };
+}
+
+// 画面幅が変わって行の組み替えが起きたら、開いているパネルを現在の行末へ移す。
+window.addEventListener("resize", () => {
+  if (!openVariant) return;
+  const { panel, card } = openVariant;
+  panel.remove();
+  rowEndCard(card).after(panel);
+});
+
 function createCard(char) {
   const card = document.createElement("article");
   card.className = "card";
-  card.title = "AIバトラーで開く";
+  // カード自体のクリックで対戦ページへ（詳細表示は対戦ページと同義のため置かない）
   card.addEventListener("click", () => window.open(char.url, "_blank", "noreferrer"));
+
+  const head = document.createElement("div");
+  head.className = "card-head";
   const title = document.createElement("h2");
   title.textContent = char.name || "(no name)";
-  const detail = document.createElement("button");
-  detail.type = "button";
-  detail.className = "secondary-button compact";
-  detail.textContent = "詳細";
-  detail.addEventListener("click", event => {
-    event.stopPropagation();
-    openDetail(char);
-  });
-  card.append(title, detail);
+  head.append(title);
+
+  const variants = variantModel.variantsByMainId.get(char.id) || [];
+  if (variants.length) {
+    const panel = buildVariantPanel(char, variants);
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "variant-toggle";
+    toggle.setAttribute("aria-expanded", "false");
+    const label = document.createElement("span");
+    label.textContent = `派生 ${variants.length}件`;
+    const icon = document.createElement("span");
+    icon.className = "variant-toggle-icon";
+    icon.textContent = "▼";
+    toggle.append(label, icon);
+    toggle.addEventListener("click", event => {
+      event.stopPropagation();
+      toggleVariantPanel(card, toggle, panel);
+    });
+    head.append(toggle);
+  }
+  card.append(head);
   return card;
 }
 
@@ -131,6 +215,7 @@ function renderCards() {
     els.cards.append(empty);
     return;
   }
+
   const fragment = document.createDocumentFragment();
   const groupedIds = new Set();
   GROUP_ORDER.forEach((groupName, index) => {
@@ -151,16 +236,20 @@ function renderCards() {
     icon.className = "group-toggle-icon";
     icon.textContent = "▼";
     toggle.append(label, icon);
-    toggle.addEventListener("click", () => {
-      const open = section.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", String(open));
-    });
     const grid = document.createElement("div");
     grid.className = "cards group-body";
+    // CSSのキャッシュが古くても開閉が効くよう、表示はインラインでも制御する
+    grid.style.display = isFirst ? "grid" : "none";
+    toggle.addEventListener("click", () => {
+      const open = section.classList.toggle("open");
+      grid.style.display = open ? "grid" : "none";
+      toggle.setAttribute("aria-expanded", String(open));
+    });
     members.forEach(char => grid.append(createCard(char)));
     section.append(toggle, grid);
     fragment.append(section);
   });
+
   const rest = chars.filter(char => !groupedIds.has(char.id));
   if (rest.length) {
     const grid = document.createElement("div");
@@ -168,78 +257,8 @@ function renderCards() {
     rest.forEach(char => grid.append(createCard(char)));
     fragment.append(grid);
   }
+
   els.cards.append(fragment);
 }
 
-function section(title, text) {
-if (!text) return "";
-return `<h3>${escapeHtml(title)}</h3><pre>${escapeHtml(text)}</pre>`;
-}
-
-function escapeHtml(value) {
-return String(value || "")
-.replaceAll("&", "&amp;")
-.replaceAll("<", "&lt;")
-.replaceAll(">", "&gt;")
-.replaceAll('"', "&quot;");
-}
-
-function openDetail(char) {
-const main = char.isVariant? variantModel.mainByVariantId.get(char.id): char;
-const variants = variantModel.variantsByMainId.get(main.id) || [];
-const variantHtml = variants.length
-? `<h3>派生</h3><div class="variant-list">${variants.map(variant => `
-<article class="variant-item ${variant.id === char.id? "current": ""}">
-<div>
-<strong>${escapeHtml(variant.name)}</strong>
-<span>${escapeHtml([variant.isHidden && "非表示", variant.promptName, variant.updated && `更新: ${variant.updated}`].filter(Boolean).join(" / "))}</span>
-</div>
-<div class="variant-actions">
-<button class="secondary-button compact" type="button" data-detail-id="${escapeHtml(variant.id)}">詳細</button>
-<a class="primary-link compact" href="${escapeHtml(variant.url)}" target="_blank" rel="noreferrer">開く</a>
-</div>
-</article>
-`).join("")}</div>`
-: "";
-
-els.detailTitle.textContent = char.name || "(no name)";
-els.detailSub.textContent = [
-char.category,
-char.isVariant && main? `代表: ${main.name}`: "",
-char.promptName,
-char.updated && `更新: ${char.updated}`
-].filter(Boolean).join(" / ");
-const statuses = asArray(char.statuses);
-const tags = asArray(char.tags);
-const statusHtml = statuses.length
-? `<h3>Status</h3><dl>${statuses.map(s => `<dt>${escapeHtml(s.name)}</dt><dd>${escapeHtml(s.value)}</dd>`).join("")}</dl>`
-: "";
-const tagsHtml = tags.length
-? `<div class="badges detail-tags">${tags.map(tag => `<span class="badge">${escapeHtml(tag)}</span>`).join("")}</div>`
-: "";
-els.detailBody.innerHTML = `
-${tagsHtml}
-<p class="detail-summary">${escapeHtml(char.summary || "")}</p>
-${variantHtml}
-${statusHtml}
-${section("プロフィール", char.profile)}
-${section("スキル", char.skill)}
-${section("プロンプト", char.prompt)}
-<p class="local-path">${escapeHtml(char.localPath || "")}</p>
-<a class="primary-link wide" href="${escapeHtml(char.url)}" target="_blank" rel="noreferrer">AIバトラーで開く</a>
-`;
-els.detailBody.querySelectorAll("[data-detail-id]").forEach(button => {
-button.addEventListener("click", () => {
-const next = catalog.characters.find(item => item.id === button.dataset.detailId);
-if (next) openDetail(next);
-});
-});
-if (!els.dialog.open) els.dialog.showModal();
-}
-
-function bindEvents() {
-els.closeDialog.addEventListener("click", () => els.dialog.close());
-}
-
-bindEvents();
 renderCards();
