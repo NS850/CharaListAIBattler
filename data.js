@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T05:14:02",
+  "generatedAt": "2026-11-09T07:24:41",
   "source": "characters_mine.json",
-  "count": 234,
+  "count": 227,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -27,7 +27,10 @@ window.CHARACTER_CATALOG = {
       "name": "処刑",
       "promptName": "処刑人",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_非表示",
+        "850_シチュエーション"
+      ],
       "displayOrder": 10000,
       "created": "2025-10-13",
       "updated": "2026-06-01",
@@ -46,7 +49,9 @@ window.CHARACTER_CATALOG = {
       "name": "バラバラになった文字情報だけからなる人物",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 🌙"
+      ],
       "displayOrder": 10000,
       "created": "2025-11-08",
       "updated": "2026-01-12",
@@ -74,7 +79,10 @@ window.CHARACTER_CATALOG = {
       "name": "解体する師弟",
       "promptName": "師弟",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_その他"
+      ],
       "displayOrder": 10000,
       "created": "2025-11-15",
       "updated": "2026-04-27",
@@ -93,7 +101,9 @@ window.CHARACTER_CATALOG = {
       "name": "【錬金術師】マイス",
       "promptName": "【錬金術師】マイス　（少女　一人称：我々　二人称：君、貴方）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 10000,
       "created": "2025-11-16",
       "updated": "2026-01-12",
@@ -133,7 +143,10 @@ window.CHARACTER_CATALOG = {
       "name": "夢色のイッカク海馬",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 🌙",
+        "850_魚"
+      ],
       "displayOrder": 10000,
       "created": "2025-12-31",
       "updated": "2026-01-12",
@@ -169,7 +182,10 @@ window.CHARACTER_CATALOG = {
       "name": "タロット占い",
       "promptName": "魔導書（浮かび、紳士的な口調で解説する）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_本",
+        "850_シチュエーション"
+      ],
       "displayOrder": 10000,
       "created": "2026-01-05",
       "updated": "2026-06-01",
@@ -205,7 +221,9 @@ window.CHARACTER_CATALOG = {
       "name": "蛹束ねの仙人掌",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 10000,
       "created": "2026-05-05",
       "updated": "2026-05-08",
@@ -285,7 +303,9 @@ window.CHARACTER_CATALOG = {
       "name": "村の夜番の少女",
       "promptName": "村の夜番の少女(大人しく、怖がり)",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_村"
+      ],
       "displayOrder": 10000,
       "created": "2026-05-12",
       "updated": "2026-05-13",
@@ -716,7 +736,9 @@ window.CHARACTER_CATALOG = {
       "name": "▼ペンギン・生き物",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 11000,
       "created": "2024-03-05",
       "updated": "2026-04-21",
@@ -735,7 +757,11 @@ window.CHARACTER_CATALOG = {
       "name": "野菜ペンギンの収穫",
       "promptName": "",
       "category": "ペンギン",
-      "tags": [],
+      "tags": [
+        "850_🥬",
+        "850_ペンギン",
+        "850_シチュエーション"
+      ],
       "displayOrder": 11021,
       "created": "2024-06-16",
       "updated": "2026-01-12",
@@ -775,7 +801,9 @@ window.CHARACTER_CATALOG = {
       "name": "野菜ペンギン",
       "promptName": "",
       "category": "ペンギン",
-      "tags": [],
+      "tags": [
+        "850_ペンギン"
+      ],
       "displayOrder": 11021,
       "created": "2024-07-31",
       "updated": "2025-12-26",
@@ -982,7 +1010,9 @@ window.CHARACTER_CATALOG = {
       "name": "ネコペンギンを釣る魚",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 11021,
       "created": "2025-02-06",
       "updated": "2025-10-28",
@@ -1022,7 +1052,9 @@ window.CHARACTER_CATALOG = {
       "name": "ペンギンの住む機械",
       "promptName": "",
       "category": "ペンギン",
-      "tags": [],
+      "tags": [
+        "850_ペンギン"
+      ],
       "displayOrder": 11021,
       "created": "2025-06-09",
       "updated": "2025-10-28",
@@ -1188,7 +1220,9 @@ window.CHARACTER_CATALOG = {
       "name": "郵便風船ペンギン",
       "promptName": "",
       "category": "ペンギン",
-      "tags": [],
+      "tags": [
+        "850_ペンギン"
+      ],
       "displayOrder": 11021,
       "created": "2025-11-10",
       "updated": "2025-11-11",
@@ -1271,7 +1305,9 @@ window.CHARACTER_CATALOG = {
       "name": "ネコペンギンロールを作ろうとする魚夫妻",
       "promptName": "魚夫妻",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 11021,
       "created": "2026-01-16",
       "updated": "2026-02-12",
@@ -1311,7 +1347,9 @@ window.CHARACTER_CATALOG = {
       "name": "サバクトビペンギン(群生相)",
       "promptName": "",
       "category": "ペンギン",
-      "tags": [],
+      "tags": [
+        "850_ペンギン"
+      ],
       "displayOrder": 11022,
       "created": "2024-08-11",
       "updated": "2026-01-12",
@@ -1339,7 +1377,10 @@ window.CHARACTER_CATALOG = {
       "name": "プレゼントを届ける鳥",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_鳥",
+        "850_生物"
+      ],
       "displayOrder": 11031,
       "created": "2024-02-27",
       "updated": "2025-01-14",
@@ -1363,7 +1404,10 @@ window.CHARACTER_CATALOG = {
       "name": "カタツムリ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_カタツムリ"
+      ],
       "displayOrder": 11041,
       "created": "2024-02-22",
       "updated": "2026-04-21",
@@ -1382,7 +1426,10 @@ window.CHARACTER_CATALOG = {
       "name": "チンチラおかし作り",
       "promptName": "チンチラおかし",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事",
+        "850_シチュエーション"
+      ],
       "displayOrder": 11041,
       "created": "2025-12-20",
       "updated": "2026-06-01",
@@ -1422,7 +1469,10 @@ window.CHARACTER_CATALOG = {
       "name": "超音速カタツムリ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_カタツムリ"
+      ],
       "displayOrder": 11042,
       "created": "2023-12-08",
       "updated": "2025-11-02",
@@ -1441,7 +1491,11 @@ window.CHARACTER_CATALOG = {
       "name": "騎士を喰らうカタツムリ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔物",
+        "850_その他",
+        "850_カタツムリ"
+      ],
       "displayOrder": 11042,
       "created": "2024-02-19",
       "updated": "2026-01-12",
@@ -1477,7 +1531,10 @@ window.CHARACTER_CATALOG = {
       "name": "▼ キャラクター等 ▼",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_原作あり"
+      ],
       "displayOrder": 11300,
       "created": "2025-10-17",
       "updated": "2026-04-21",
@@ -1622,7 +1679,11 @@ window.CHARACTER_CATALOG = {
       "name": "漂う月の少女たち",
       "promptName": "漂う月の少女たち（特徴：長く波打つ海月のような白髪から覗く赤い目、無口、夢見心地で上の空「……？」）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔女",
+        "850 🌙",
+        "850_魚"
+      ],
       "displayOrder": 11311,
       "created": "2025-10-02",
       "updated": "2026-04-28",
@@ -1708,7 +1769,10 @@ window.CHARACTER_CATALOG = {
       "name": "強盗騎士",
       "promptName": "騎士",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_小悪党"
+      ],
       "displayOrder": 11502,
       "created": "2024-01-05",
       "updated": "2026-05-25",
@@ -1755,7 +1819,11 @@ window.CHARACTER_CATALOG = {
       "name": "ハイイログマ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔物",
+        "850_その他",
+        "850_森"
+      ],
       "displayOrder": 12011,
       "created": "2024-02-25",
       "updated": "2026-01-12",
@@ -1779,7 +1847,9 @@ window.CHARACTER_CATALOG = {
       "name": "生きている本の群れ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 12011,
       "created": "2024-09-11",
       "updated": "2025-09-27",
@@ -1849,7 +1919,10 @@ window.CHARACTER_CATALOG = {
       "name": "【図書館の魔女】セレマ",
       "promptName": "【図書館の魔女】セレマ（人称：私、あなた）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔女",
+        "850_本"
+      ],
       "displayOrder": 12330,
       "created": "2025-12-02",
       "updated": "2026-02-14",
@@ -1885,7 +1958,10 @@ window.CHARACTER_CATALOG = {
       "name": "真面目な新人衛兵",
       "promptName": "真面目な新人衛兵（一人称：自分　台詞例：「〜であります！」）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_街"
+      ],
       "displayOrder": 21011,
       "created": "2023-12-05",
       "updated": "2026-05-08",
@@ -1940,7 +2016,11 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年",
       "promptName": "少年（一人称：ぼく）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年",
+        "850_人",
+        "850_村"
+      ],
       "displayOrder": 21011,
       "created": "2024-02-16",
       "updated": "2026-05-10",
@@ -1972,7 +2052,9 @@ window.CHARACTER_CATALOG = {
       "name": "魔術師見習いの少年",
       "promptName": "少年（一人称：ぼく）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年"
+      ],
       "displayOrder": 21011,
       "created": "2024-04-29",
       "updated": "2026-05-10",
@@ -2004,7 +2086,12 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年と少女",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年",
+        "850_災禍",
+        "850_村",
+        "850_少女"
+      ],
       "displayOrder": 21011,
       "created": "2024-08-10",
       "updated": "2026-05-10",
@@ -2040,7 +2127,9 @@ window.CHARACTER_CATALOG = {
       "name": "【冒険者】クレイン",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 21011,
       "created": "2024-08-17",
       "updated": "2025-10-29",
@@ -2116,7 +2205,10 @@ window.CHARACTER_CATALOG = {
       "name": "農村の青年",
       "promptName": "農村の青年（一人称：ワシ　穏やかでのんびりとした口調）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_村"
+      ],
       "displayOrder": 21011,
       "created": "2025-06-06",
       "updated": "2026-04-21",
@@ -2152,7 +2244,9 @@ window.CHARACTER_CATALOG = {
       "name": "英雄きどりの若者",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人"
+      ],
       "displayOrder": 21011,
       "created": "2025-06-06",
       "updated": "2026-04-21",
@@ -2188,7 +2282,9 @@ window.CHARACTER_CATALOG = {
       "name": "若き英雄",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 21011,
       "created": "2025-06-11",
       "updated": "2025-10-29",
@@ -2224,7 +2320,10 @@ window.CHARACTER_CATALOG = {
       "name": "村娘",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_村"
+      ],
       "displayOrder": 21011,
       "created": "2026-03-07",
       "updated": "2026-04-21",
@@ -2248,7 +2347,9 @@ window.CHARACTER_CATALOG = {
       "name": "首無しの収穫者",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_村"
+      ],
       "displayOrder": 21011,
       "created": "2026-03-17",
       "updated": "2026-04-21",
@@ -2288,7 +2389,12 @@ window.CHARACTER_CATALOG = {
       "name": "【道草と花と】村の少女",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_村の少女",
+        "850_村",
+        "850_少女"
+      ],
       "displayOrder": 21021,
       "created": "2024-07-21",
       "updated": "2026-05-10",
@@ -2348,7 +2454,11 @@ window.CHARACTER_CATALOG = {
       "name": "昼の空魚釣り",
       "promptName": "恰幅の良い陽気な釣り人",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事",
+        "850_魚",
+        "850_シチュエーション"
+      ],
       "displayOrder": 21021,
       "created": "2025-09-23",
       "updated": "2026-06-01",
@@ -2380,7 +2490,10 @@ window.CHARACTER_CATALOG = {
       "name": "【炭焼き魔女】コーレ",
       "promptName": "【炭焼き魔女】コーレ・フォイエル(一人称：私　口調：飄々としたダウナー「いひひ」「だよぉ」)",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_魔女"
+      ],
       "displayOrder": 21041,
       "created": "2026-03-08",
       "updated": "2026-04-21",
@@ -2416,7 +2529,9 @@ window.CHARACTER_CATALOG = {
       "name": "図書館",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 22011,
       "created": "2023-12-27",
       "updated": "2026-06-01",
@@ -2440,7 +2555,9 @@ window.CHARACTER_CATALOG = {
       "name": "道具屋",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-10",
       "updated": "2026-06-01",
@@ -2459,7 +2576,11 @@ window.CHARACTER_CATALOG = {
       "name": "運搬",
       "promptName": "(これは説明文。人物としては登場しない)",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_依頼",
+        "850_街",
+        "850_シチュエーション"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-20",
       "updated": "2026-06-01",
@@ -2478,7 +2599,9 @@ window.CHARACTER_CATALOG = {
       "name": "宿屋",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-23",
       "updated": "2026-06-01",
@@ -2497,7 +2620,11 @@ window.CHARACTER_CATALOG = {
       "name": "ぶらさがり宿",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_街",
+        "850_シチュエーション",
+        "850_商業"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-24",
       "updated": "2026-06-01",
@@ -2516,7 +2643,9 @@ window.CHARACTER_CATALOG = {
       "name": "冒険者の酒場",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-24",
       "updated": "2026-06-01",
@@ -2535,7 +2664,10 @@ window.CHARACTER_CATALOG = {
       "name": "料理",
       "promptName": "（対戦不要。代わりに料理の様子を描写）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事",
+        "850_シチュエーション"
+      ],
       "displayOrder": 22011,
       "created": "2024-02-29",
       "updated": "2026-06-02",
@@ -2554,7 +2686,11 @@ window.CHARACTER_CATALOG = {
       "name": "道路掃除",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_掃除",
+        "850_その他",
+        "850_街"
+      ],
       "displayOrder": 22011,
       "created": "2024-03-21",
       "updated": "2026-06-01",
@@ -2582,7 +2718,9 @@ window.CHARACTER_CATALOG = {
       "name": "つるはし試食会",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事"
+      ],
       "displayOrder": 22011,
       "created": "2024-07-21",
       "updated": "2026-06-01",
@@ -2680,7 +2818,10 @@ window.CHARACTER_CATALOG = {
       "name": "酒場の乱闘",
       "promptName": "（対戦不要。代わりに三人称視点で酒場を描写）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_街",
+        "850_シチュエーション"
+      ],
       "displayOrder": 22011,
       "created": "2024-08-18",
       "updated": "2026-06-01",
@@ -2699,7 +2840,11 @@ window.CHARACTER_CATALOG = {
       "name": "口に合わない歓待",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事",
+        "850_村",
+        "850_シチュエーション"
+      ],
       "displayOrder": 22011,
       "created": "2024-08-18",
       "updated": "2026-06-01",
@@ -2718,7 +2863,10 @@ window.CHARACTER_CATALOG = {
       "name": "食事",
       "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_食事",
+        "850_シチュエーション"
+      ],
       "displayOrder": 22011,
       "created": "2024-09-03",
       "updated": "2026-06-01",
@@ -2737,7 +2885,10 @@ window.CHARACTER_CATALOG = {
       "name": "野菜ヒツジの収穫",
       "promptName": "（対戦不要。代わりに朝昼晩と分け手触りや村人との会話を含有し描写）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_🥬",
+        "850_その他"
+      ],
       "displayOrder": 22011,
       "created": "2025-02-05",
       "updated": "2026-06-03",
@@ -2777,7 +2928,11 @@ window.CHARACTER_CATALOG = {
       "name": "遠くから値踏みする商人",
       "promptName": "商人",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_人",
+        "850_シチュエーション",
+        "850_商業"
+      ],
       "displayOrder": 22021,
       "created": "2025-09-23",
       "updated": "2026-06-01",
@@ -2805,7 +2960,9 @@ window.CHARACTER_CATALOG = {
       "name": "悪意ある乞食の少女",
       "promptName": "少女",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_非表示"
+      ],
       "displayOrder": 22021,
       "created": "2025-10-05",
       "updated": "2026-06-01",
@@ -2845,7 +3002,9 @@ window.CHARACTER_CATALOG = {
       "name": "恩着せがましい隣人",
       "promptName": "隣人",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_非表示"
+      ],
       "displayOrder": 22021,
       "created": "2025-10-05",
       "updated": "2026-06-01",
@@ -2920,7 +3079,9 @@ window.CHARACTER_CATALOG = {
       "name": "けちな貧民",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_非表示"
+      ],
       "displayOrder": 22021,
       "created": "2025-10-11",
       "updated": "2025-10-16",
@@ -2991,7 +3152,10 @@ window.CHARACTER_CATALOG = {
       "name": "隊商の護衛",
       "promptName": "（これは設定文なので人物としては登場しない）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_依頼",
+        "850_商業"
+      ],
       "displayOrder": 23011,
       "created": "2024-01-11",
       "updated": "2026-06-01",
@@ -3010,7 +3174,10 @@ window.CHARACTER_CATALOG = {
       "name": "冒険者の救出",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_ダンジョン",
+        "850_シチュエーション"
+      ],
       "displayOrder": 23011,
       "created": "2024-02-28",
       "updated": "2026-06-01",
@@ -3029,7 +3196,10 @@ window.CHARACTER_CATALOG = {
       "name": "あなたは遺体を見つけた",
       "promptName": "遺体",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_ダンジョン",
+        "850_シチュエーション"
+      ],
       "displayOrder": 23011,
       "created": "2024-02-28",
       "updated": "2026-06-01",
@@ -3057,7 +3227,10 @@ window.CHARACTER_CATALOG = {
       "name": "村の防衛戦",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_村",
+        "850_シチュエーション"
+      ],
       "displayOrder": 23011,
       "created": "2024-03-03",
       "updated": "2026-06-01",
@@ -3081,7 +3254,9 @@ window.CHARACTER_CATALOG = {
       "name": "獄中のあなた",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 23011,
       "created": "2024-06-12",
       "updated": "2026-06-01",
@@ -3109,7 +3284,10 @@ window.CHARACTER_CATALOG = {
       "name": "蝗に襲われる村",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_災禍"
+      ],
       "displayOrder": 23011,
       "created": "2024-06-21",
       "updated": "2026-06-01",
@@ -3133,7 +3311,9 @@ window.CHARACTER_CATALOG = {
       "name": "飽食の晩餐会",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 23011,
       "created": "2024-07-01",
       "updated": "2026-06-01",
@@ -3193,7 +3373,9 @@ window.CHARACTER_CATALOG = {
       "name": "廃村の少女",
       "promptName": "少女",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_村の少女"
+      ],
       "displayOrder": 23021,
       "created": "2024-07-27",
       "updated": "2025-12-27",
@@ -3233,7 +3415,10 @@ window.CHARACTER_CATALOG = {
       "name": "コックローチ・スウォーム",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔物",
+        "850_その他"
+      ],
       "displayOrder": 25011,
       "created": "2024-02-20",
       "updated": "2026-04-21",
@@ -3265,7 +3450,9 @@ window.CHARACTER_CATALOG = {
       "name": "ミミック",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔物"
+      ],
       "displayOrder": 25011,
       "created": "2024-09-03",
       "updated": "2026-04-21",
@@ -3305,7 +3492,9 @@ window.CHARACTER_CATALOG = {
       "name": "地下墓地の処刑人",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 25021,
       "created": "2024-06-21",
       "updated": "2026-05-10",
@@ -3341,7 +3530,10 @@ window.CHARACTER_CATALOG = {
       "name": "滅びた屋敷の鼠の魔女",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_魔女",
+        "850_森"
+      ],
       "displayOrder": 25021,
       "created": "2025-09-19",
       "updated": "2026-01-12",
@@ -3360,7 +3552,10 @@ window.CHARACTER_CATALOG = {
       "name": "夢の中の画家",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 🌙",
+        "850_絵"
+      ],
       "displayOrder": 30000,
       "created": "2025-11-05",
       "updated": "2026-06-07",
@@ -3392,7 +3587,10 @@ window.CHARACTER_CATALOG = {
       "name": "ゴミ捨て場の九陽",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙",
+        "850 🌙"
+      ],
       "displayOrder": 30000,
       "created": "2026-01-15",
       "updated": "2026-05-11",
@@ -3460,7 +3658,9 @@ window.CHARACTER_CATALOG = {
       "name": "ゴミ捨て場の少女",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 🌙"
+      ],
       "displayOrder": 31010,
       "created": "2024-12-03",
       "updated": "2026-05-10",
@@ -3479,7 +3679,10 @@ window.CHARACTER_CATALOG = {
       "name": "少女のなりそこない",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙",
+        "850 🌙"
+      ],
       "displayOrder": 31011,
       "created": "2024-02-20",
       "updated": "2026-05-10",
@@ -3515,7 +3718,9 @@ window.CHARACTER_CATALOG = {
       "name": "暴走リサイクルボット",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2024-02-25",
       "updated": "2026-05-10",
@@ -3555,7 +3760,9 @@ window.CHARACTER_CATALOG = {
       "name": "AL1-C3",
       "promptName": "AL1-C3（通称：アリス、特徴：青いエプロンドレス、無邪気な夢想家「えへへっ」人称：わたし）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2024-02-27",
       "updated": "2026-05-25",
@@ -3595,7 +3802,9 @@ window.CHARACTER_CATALOG = {
       "name": "VO-H42E",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2024-08-30",
       "updated": "2026-05-10",
@@ -3635,7 +3844,9 @@ window.CHARACTER_CATALOG = {
       "name": "HE-47 HELIADES",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2024-09-04",
       "updated": "2026-05-10",
@@ -3707,7 +3918,9 @@ window.CHARACTER_CATALOG = {
       "name": "AL1-C3 (戦闘モード)",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "【魔導人形】"
+      ],
       "displayOrder": 31011,
       "created": "2024-09-30",
       "updated": "2026-05-10",
@@ -3766,7 +3979,9 @@ window.CHARACTER_CATALOG = {
       "name": "HO11 SAKURA",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2025-08-12",
       "updated": "2026-05-10",
@@ -3806,7 +4021,9 @@ window.CHARACTER_CATALOG = {
       "name": "RAB101 HARPYIA",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2025-09-03",
       "updated": "2026-05-10",
@@ -3953,7 +4170,9 @@ window.CHARACTER_CATALOG = {
       "name": "魔導輪の自動重騎兵",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙"
+      ],
       "displayOrder": 31011,
       "created": "2025-10-05",
       "updated": "2026-05-10",
@@ -4029,7 +4248,10 @@ window.CHARACTER_CATALOG = {
       "name": "形成された少女　ミルク",
       "promptName": "形成された少女　ミルク（言葉の代わりに光の明滅で答える）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 ⚙",
+        "850 🌙"
+      ],
       "displayOrder": 31011,
       "created": "2026-03-30",
       "updated": "2026-05-10",
@@ -4057,7 +4279,10 @@ window.CHARACTER_CATALOG = {
       "name": "遺跡の自動販売機",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850 ⚙",
+        "850_食事"
+      ],
       "displayOrder": 32011,
       "created": "2024-02-25",
       "updated": "2026-06-01",
@@ -4125,7 +4350,10 @@ window.CHARACTER_CATALOG = {
       "name": "羊水路",
       "promptName": "(シーンの描写指示文。人物としては登場させないこと)",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850 ⚙",
+        "850 🌙"
+      ],
       "displayOrder": 35001,
       "created": "2025-10-09",
       "updated": "2026-06-01",
@@ -4161,7 +4389,9 @@ window.CHARACTER_CATALOG = {
       "name": "アマツハバキ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850 🌙"
+      ],
       "displayOrder": 35001,
       "created": "2025-10-12",
       "updated": "2025-10-27",
@@ -4308,7 +4538,9 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(非戦闘)",
       "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-04",
       "updated": "2026-03-31",
@@ -4340,7 +4572,11 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（重傷）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_重傷",
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-04",
       "updated": "2025-01-14",
@@ -4416,7 +4652,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（温泉）",
       "promptName": "【魔法使い】ローレ（一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」、呼び捨て）",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-13",
       "updated": "2026-06-06",
@@ -4448,7 +4687,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(人狼化)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-15",
       "updated": "2025-01-14",
@@ -4564,7 +4806,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】カイラ(臨時雇用)",
       "promptName": "",
       "category": "【魔法使い】カイラ",
-      "tags": [],
+      "tags": [
+        "850_魔法使い",
+        "850_カイラ"
+      ],
       "displayOrder": 80001,
       "created": "2024-08-25",
       "updated": "2025-11-04",
@@ -4639,7 +4884,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(一人)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2024-09-03",
       "updated": "2025-01-14",
@@ -4679,7 +4927,9 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(重傷)",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "【魔法使い】"
+      ],
       "displayOrder": 80001,
       "created": "2024-09-03",
       "updated": "2026-03-30",
@@ -4719,7 +4969,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(茸)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2024-09-13",
       "updated": "2025-01-14",
@@ -4799,7 +5052,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】カイラ（非戦闘）",
       "promptName": "",
       "category": "【魔法使い】カイラ",
-      "tags": [],
+      "tags": [
+        "850_魔法使い",
+        "850_カイラ"
+      ],
       "displayOrder": 80001,
       "created": "2024-09-14",
       "updated": "2025-11-04",
@@ -4839,7 +5095,9 @@ window.CHARACTER_CATALOG = {
       "name": "兵士(人狼)",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_兵士"
+      ],
       "displayOrder": 80001,
       "created": "2024-09-27",
       "updated": "2025-01-20",
@@ -4923,7 +5181,11 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(新年)",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_行事",
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2025-01-01",
       "updated": "2026-01-02",
@@ -5090,7 +5352,9 @@ window.CHARACTER_CATALOG = {
       "name": "板垣カノエ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_原作あり"
+      ],
       "displayOrder": 80001,
       "created": "2025-09-29",
       "updated": "2025-10-17",
@@ -5130,7 +5394,9 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（{u}の解体）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ"
+      ],
       "displayOrder": 80001,
       "created": "2025-11-12",
       "updated": "2025-11-15",
@@ -5170,7 +5436,9 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（解体）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ"
+      ],
       "displayOrder": 80001,
       "created": "2025-11-14",
       "updated": "2026-03-29",
@@ -5210,7 +5478,9 @@ window.CHARACTER_CATALOG = {
       "name": "生月 ローレ（温泉）",
       "promptName": "生月 ローレ（一人称：わたし）",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ"
+      ],
       "displayOrder": 80001,
       "created": "2025-12-16",
       "updated": "2025-12-17",
@@ -5250,7 +5520,10 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（食事）",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
-      "tags": [],
+      "tags": [
+        "850_ローレ",
+        "850_魔法使い"
+      ],
       "displayOrder": 80001,
       "created": "2026-04-05",
       "updated": "2026-04-05",
@@ -5329,7 +5602,12 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】カイラ（酒の提供）",
       "promptName": "【魔法使い】カイラ",
       "category": "【魔法使い】カイラ",
-      "tags": [],
+      "tags": [
+        "850_街外れ",
+        "850_魔法使い",
+        "850_カイラ",
+        "850_商業"
+      ],
       "displayOrder": 80002,
       "created": "2024-08-13",
       "updated": "2025-11-04",
@@ -5365,7 +5643,11 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】カイラ(薬)",
       "promptName": "【魔法使い】カイラ",
       "category": "【魔法使い】カイラ",
-      "tags": [],
+      "tags": [
+        "850_魔法使い",
+        "850_カイラ",
+        "850_商業"
+      ],
       "displayOrder": 80002,
       "created": "2024-09-03",
       "updated": "2025-11-04",
@@ -5405,7 +5687,12 @@ window.CHARACTER_CATALOG = {
       "name": "カイラの店とAL1-C3",
       "promptName": "【魔法使い】カイラ",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_街外れ",
+        "850_魔法使い",
+        "850_カイラ",
+        "850_商業"
+      ],
       "displayOrder": 80002,
       "created": "2025-11-02",
       "updated": "2025-11-02",
@@ -5460,7 +5747,10 @@ window.CHARACTER_CATALOG = {
       "name": "[クエスト]遺跡調査の護衛",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_依頼"
+      ],
       "displayOrder": 90001,
       "created": "2023-12-31",
       "updated": "2025-10-29",
@@ -5596,7 +5886,10 @@ window.CHARACTER_CATALOG = {
       "name": "[クエスト]大蜘蛛の巣",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_依頼",
+        "850_村"
+      ],
       "displayOrder": 90001,
       "created": "2024-08-16",
       "updated": "2025-01-20",
@@ -5668,7 +5961,10 @@ window.CHARACTER_CATALOG = {
       "name": "笑顔の少年",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年",
+        "850_その他"
+      ],
       "displayOrder": 90001,
       "created": "2024-09-19",
       "updated": "2026-05-10",
@@ -5687,7 +5983,11 @@ window.CHARACTER_CATALOG = {
       "name": "在るべき景色の絵画",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_絵",
+        "850_シチュエーション"
+      ],
       "displayOrder": 90001,
       "created": "2024-09-22",
       "updated": "2026-06-06",
@@ -5711,7 +6011,11 @@ window.CHARACTER_CATALOG = {
       "name": "無常な流れ",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_街",
+        "850_シチュエーション"
+      ],
       "displayOrder": 90001,
       "created": "2025-05-18",
       "updated": "2026-06-01",
@@ -5739,7 +6043,10 @@ window.CHARACTER_CATALOG = {
       "name": "寒波、小屋",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_シチュエーション"
+      ],
       "displayOrder": 90001,
       "created": "2025-05-18",
       "updated": "2026-06-01",
@@ -5795,7 +6102,11 @@ window.CHARACTER_CATALOG = {
       "name": "寒波、小屋、ペンギン",
       "promptName": "（描写指示文。キャラクターとして登場させないこと）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他",
+        "850_ペンギン",
+        "850_シチュエーション"
+      ],
       "displayOrder": 90001,
       "created": "2026-05-19",
       "updated": "2026-05-23",
@@ -5859,7 +6170,9 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年(重傷)",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年"
+      ],
       "displayOrder": 94001,
       "created": "2024-08-09",
       "updated": "2026-05-10",
@@ -5895,7 +6208,9 @@ window.CHARACTER_CATALOG = {
       "name": "魔術師見習いの少年(重傷)",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年"
+      ],
       "displayOrder": 94001,
       "created": "2024-08-18",
       "updated": "2025-01-11",
@@ -5931,7 +6246,9 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年(非戦闘)",
       "promptName": "村の少年",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_少年"
+      ],
       "displayOrder": 94001,
       "created": "2024-09-08",
       "updated": "2026-05-10",
@@ -6158,7 +6475,9 @@ window.CHARACTER_CATALOG = {
       "name": "【夢馬】ナイトメア",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 95001,
       "created": "2024-03-08",
       "updated": "2025-10-16",
@@ -6246,30 +6565,13 @@ window.CHARACTER_CATALOG = {
       ]
     },
     {
-      "id": "71154533-bfa2-4839-9999-f705226cad6a",
-      "name": "▼ タグ・リンク内格納 ▼",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 100000,
-      "created": "2025-11-02",
-      "updated": "2026-01-17",
-      "url": "https://ai-battler.com/battle/71154533-bfa2-4839-9999-f705226cad6a",
-      "localPath": "その他・実験/▼ タグ・リンク内格納 ▼.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
       "id": "fd9b9872-555c-4fb0-a154-7eefcf589dc0",
       "name": "【忘却王立劇団】撃砕のジュモルテス",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_原作あり"
+      ],
       "displayOrder": 100001,
       "created": "2023-12-01",
       "updated": "2025-11-02",
@@ -6343,120 +6645,6 @@ window.CHARACTER_CATALOG = {
           "value": "冷静な性格のCが操作している"
         }
       ]
-    },
-    {
-      "id": "5a5743b2-bbe3-4afd-8e7a-77faadcc6bf2",
-      "name": "🌙⚙🐧",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 110000,
-      "created": "2025-09-27",
-      "updated": "2026-01-17",
-      "url": "https://ai-battler.com/battle/5a5743b2-bbe3-4afd-8e7a-77faadcc6bf2",
-      "localPath": "その他・実験/🌙⚙🐧.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
-      "id": "bf317df4-5b14-4b85-a0b9-ef7e38509cee",
-      "name": "🖼️",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 110000,
-      "created": "2025-10-28",
-      "updated": "2026-06-07",
-      "url": "https://ai-battler.com/battle/bf317df4-5b14-4b85-a0b9-ef7e38509cee",
-      "localPath": "その他・実験/🖼️.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
-      "id": "e80d3d39-e000-4bdf-8707-7cc0522ce419",
-      "name": "🏘️",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 120000,
-      "created": "2025-10-17",
-      "updated": "2026-01-17",
-      "url": "https://ai-battler.com/battle/e80d3d39-e000-4bdf-8707-7cc0522ce419",
-      "localPath": "その他・実験/🏘️.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
-      "id": "13e429c5-d65c-47c7-bb4e-6094c236db83",
-      "name": "🌲",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 120000,
-      "created": "2025-10-28",
-      "updated": "2026-01-17",
-      "url": "https://ai-battler.com/battle/13e429c5-d65c-47c7-bb4e-6094c236db83",
-      "localPath": "その他・実験/🌲.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
-      "id": "c677ee92-952c-4ea8-8d92-aa5f5f6d2004",
-      "name": "🍳🎬",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 190000,
-      "created": "2026-01-12",
-      "updated": "2026-01-17",
-      "url": "https://ai-battler.com/battle/c677ee92-952c-4ea8-8d92-aa5f5f6d2004",
-      "localPath": "その他・実験/🍳🎬.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
-    },
-    {
-      "id": "ba9edad3-a3a1-4b89-90a7-5b1c7d2f67e5",
-      "name": "🧙",
-      "promptName": "",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 190000,
-      "created": "2026-02-14",
-      "updated": "2026-02-14",
-      "url": "https://ai-battler.com/battle/ba9edad3-a3a1-4b89-90a7-5b1c7d2f67e5",
-      "localPath": "その他・実験/🧙.md",
-      "isHidden": false,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": []
     },
     {
       "id": "5c9b7e2c-fd6a-49fd-937d-4ed72c01158a",
@@ -6652,7 +6840,9 @@ window.CHARACTER_CATALOG = {
       "name": "訓練",
       "promptName": "（対戦不要。代わりに訓練風景を描写）",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 999999,
       "created": "2024-02-27",
       "updated": "2026-06-01",
@@ -6676,7 +6866,9 @@ window.CHARACTER_CATALOG = {
       "name": "悪夢に誘う睡眠発作",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 999999,
       "created": "2024-03-08",
       "updated": "2026-06-01",
@@ -6719,7 +6911,9 @@ window.CHARACTER_CATALOG = {
       "name": "[判定]落とし穴",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 999999,
       "created": "2024-03-14",
       "updated": "2025-01-20",
@@ -6755,7 +6949,9 @@ window.CHARACTER_CATALOG = {
       "name": "あなたの生命力",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 999999,
       "created": "2024-03-16",
       "updated": "2026-06-01",
@@ -6955,7 +7151,9 @@ window.CHARACTER_CATALOG = {
       "name": "酒場での出会い",
       "promptName": "",
       "category": "シチュエーション",
-      "tags": [],
+      "tags": [
+        "850_その他"
+      ],
       "displayOrder": 999999,
       "created": "2024-08-10",
       "updated": "2026-06-01",
@@ -7026,7 +7224,9 @@ window.CHARACTER_CATALOG = {
       "name": "コンセプトアートを作るミドリ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_原作あり"
+      ],
       "displayOrder": 999999,
       "created": "2025-06-25",
       "updated": "2025-10-28",
@@ -7128,7 +7328,9 @@ window.CHARACTER_CATALOG = {
       "name": "【平穏に暮らす】ハンナ",
       "promptName": "ハンナ（一人称：私　可愛らしくも気品ある話し方）",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "850_森"
+      ],
       "displayOrder": 999999,
       "created": "2025-12-17",
       "updated": "2026-05-10",
@@ -7164,7 +7366,9 @@ window.CHARACTER_CATALOG = {
       "name": "〈ロスティドール魔術学院の門〉",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-11-27",
       "updated": "2026-05-10",
@@ -7196,7 +7400,9 @@ window.CHARACTER_CATALOG = {
       "name": "湖の古老",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-11-30",
       "updated": "2026-05-10",
@@ -7236,7 +7442,9 @@ window.CHARACTER_CATALOG = {
       "name": "【捜索依頼】迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-02",
       "updated": "2026-05-10",
@@ -7316,7 +7524,9 @@ window.CHARACTER_CATALOG = {
       "name": "〈試作型自立稼働からくりの暴走〉",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-15",
       "updated": "2026-05-10",
@@ -7348,7 +7558,9 @@ window.CHARACTER_CATALOG = {
       "name": "〈火の魔導書〉",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-17",
       "updated": "2026-05-10",
@@ -7388,7 +7600,9 @@ window.CHARACTER_CATALOG = {
       "name": "〈風の魔導書〉",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-18",
       "updated": "2026-05-10",
@@ -7428,7 +7642,9 @@ window.CHARACTER_CATALOG = {
       "name": "〈読んではいけない書物〉",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-18",
       "updated": "2026-05-10",
@@ -7468,7 +7684,9 @@ window.CHARACTER_CATALOG = {
       "name": "生命の根源の書",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2024-12-19",
       "updated": "2026-05-10",
@@ -7508,7 +7726,9 @@ window.CHARACTER_CATALOG = {
       "name": "貞淑な薬術師 ロベリア",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2025-01-01",
       "updated": "2026-05-10",
@@ -7544,7 +7764,9 @@ window.CHARACTER_CATALOG = {
       "name": "秘密の地下牢",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2025-01-01",
       "updated": "2026-05-10",
@@ -7576,7 +7798,9 @@ window.CHARACTER_CATALOG = {
       "name": "悪意の魂術師 ロベリア",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2025-01-01",
       "updated": "2026-05-10",
@@ -7616,7 +7840,9 @@ window.CHARACTER_CATALOG = {
       "name": "【石の守衛】魔術学院のガーゴイル",
       "promptName": "",
       "category": "未分類",
-      "tags": [],
+      "tags": [
+        "アルカンデル"
+      ],
       "displayOrder": 9599999,
       "created": "2025-01-03",
       "updated": "2026-05-10",

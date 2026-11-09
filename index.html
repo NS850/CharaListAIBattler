@@ -7,67 +7,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="app-header">
-    <div>
-      <h1>AIバトラー キャラクターカタログ</h1>
-      <p id="metaLine">読み込み中...</p>
-    </div>
-    <a class="header-link" href="https://ai-battler.com/" target="_blank" rel="noreferrer">AIバトラー</a>
-  </header>
-
   <main class="layout">
-    <aside class="filters" id="filters" aria-label="絞り込み">
-      <button id="filtersToggle" class="filters-toggle" type="button" aria-expanded="false" aria-controls="filtersBody">
-        <span class="filters-toggle-label">絞り込み</span>
-        <span class="filters-toggle-icon" aria-hidden="true">▼</span>
-      </button>
-      <div id="filtersBody" class="filters-body">
-      <div class="filters-body-inner">
-      <label class="field">
-        <span>検索</span>
-        <input id="searchInput" type="search" placeholder="名前・タグ・説明を検索">
-      </label>
+    <div class="top-bar">
+      <span id="resultCount" class="result-count">0件</span>
+    </div>
 
-      <label class="field">
-        <span>カテゴリ</span>
-        <select id="categorySelect"></select>
-      </label>
-
-      <label class="field">
-        <span>タグ</span>
-        <select id="tagSelect"></select>
-      </label>
-
-      <label class="field">
-        <span>種類</span>
-        <select id="typeSelect">
-          <option value="">すべて</option>
-          <option value="battle">戦闘あり</option>
-          <option value="nonBattle">非戦闘</option>
-        </select>
-      </label>
-
-      <label class="field">
-        <span>並び順</span>
-        <select id="sortSelect">
-          <option value="order">表示順</option>
-          <option value="updated">更新日が新しい</option>
-          <option value="name">名前</option>
-        </select>
-      </label>
-
-      <button id="clearButton" class="secondary-button" type="button">絞り込み解除</button>
-      </div><!-- /filters-body-inner -->
-      </div><!-- /filtersBody -->
-    </aside>
-
-    <section class="content">
-      <div class="result-bar">
-        <strong id="resultCount">0件</strong>
-        <span id="activeFilters"></span>
-      </div>
-      <div id="cards" class="cards" aria-live="polite"></div>
-    </section>
+    <div id="cards" class="cards" aria-live="polite"></div>
   </main>
 
   <dialog id="detailDialog" class="detail-dialog">
