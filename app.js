@@ -4,7 +4,6 @@ const state = {
   category: "",
   tag: "",
   type: "",
-  showVariants: false,
   sort: "order"
 };
 
@@ -14,7 +13,6 @@ const els = {
   categorySelect: document.querySelector("#categorySelect"),
   tagSelect: document.querySelector("#tagSelect"),
   typeSelect: document.querySelector("#typeSelect"),
-  variantToggle: document.querySelector("#variantToggle"),
   sortSelect: document.querySelector("#sortSelect"),
   clearButton: document.querySelector("#clearButton"),
   resultCount: document.querySelector("#resultCount"),
@@ -41,19 +39,53 @@ if (els.filtersToggle && els.filtersBody) {
 const variantModel = buildVariantModel(catalog.characters);
 
 function buildVariantModel(characters) {
-  const representativesByCategory = new Map();
+  const byName = new Map();
   const variantsByMainId = new Map();
   const mainByVariantId = new Map();
 
   characters.forEach(char => {
-    if (char.category && char.name === char.category) {
-      representativesByCategory.set(char.category, char);
-    }
+    if (char.name && !byName.has(char.name)) byName.set(char.name, char);
   });
 
+  // 1) フォルダ派生: フォルダ名（category）と同名のキャラを基準にする。
+  //    基準キャラ自身が別フォルダにいてもよい（例: 【魔法使い】ローレ本体は未分類側）。
   characters.forEach(char => {
-    const main = representativesByCategory.get(char.category);
+    if (!char.category) return;
+    const main = byName.get(char.category);
     if (!main || main.id === char.id) return;
+    mainByVariantId.set(char.id, main);
+  });
+
+  // 2) 括弧付き派生: 「基準名（〜）」「基準名(〜)」の形で、基準名のキャラが実在するもの。
+  characters.forEach(char => {
+    if (mainByVariantId.has(char.id)) return;
+    const match = String(char.name || "").match(/^(.+?)\s*[（(].+[）)]\s*$/);
+    if (!match) return;
+    const main = byName.get(match[1].trim());
+    if (!main || main.id === char.id) return;
+    mainByVariantId.set(char.id, main);
+  });
+
+  // 派生の派生は最終的な基準へ寄せる（循環時はその場で止める）。
+  function ultimateMain(char) {
+    let current = char;
+    const seen = new Set([current.id]);
+    while (mainByVariantId.has(current.id)) {
+      const next = mainByVariantId.get(current.id);
+      if (seen.has(next.id)) break;
+      seen.add(next.id);
+      current = next;
+    }
+    return current;
+  }
+
+  characters.forEach(char => {
+    if (!mainByVariantId.has(char.id)) return;
+    const main = ultimateMain(char);
+    if (main.id === char.id) {
+      mainByVariantId.delete(char.id);
+      return;
+    }
     mainByVariantId.set(char.id, main);
     if (!variantsByMainId.has(main.id)) variantsByMainId.set(main.id, []);
     variantsByMainId.get(main.id).push(char);
@@ -96,16 +128,16 @@ function optionList(select, values, allLabel) {
 }
 
 function setupFilters() {
-  const chars = catalog.characters;
+  // 絞り込み候補は公開分（AIバトラー側で表示のもの）だけから作る
+  const chars = catalog.characters.filter(c => !c.isHidden);
   optionList(els.categorySelect, uniqueSorted(chars.map(c => c.category)), "すべて");
   optionList(els.tagSelect, uniqueSorted(chars.flatMap(c => asArray(c.tags))), "すべて");
-  els.metaLine.textContent = `${catalog.count || chars.length}件 / ${catalog.generatedAt || ""} 生成`;
+  els.metaLine.textContent = `公開 ${chars.length}件 / ${catalog.generatedAt || ""} 生成（非表示の派生は各キャラの詳細から）`;
 }
 
 function matchesType(char) {
   if (state.type === "battle") return !char.isNotBattle;
   if (state.type === "nonBattle") return char.isNotBattle;
-  if (state.type === "hidden") return char.isHidden;
   return true;
 }
 
@@ -140,9 +172,10 @@ function matchesGroup(char, words) {
 function filteredCharacters() {
   const q = normalize(state.query).trim();
   const words = q ? q.split(/\s+/) : [];
+  // 一覧に出るのは公開分のみ。非表示キャラは単独では出ず、
+  // 基準キャラの派生として詳細からだけ選べる（検索は派生側にも当てる）。
   let chars = catalog.characters.filter(char => {
-    if (state.showVariants) return matchesCharacter(char, words);
-    if (char.isVariant) return false;
+    if (char.isHidden) return false;
     return matchesGroup(char, words);
   });
 
@@ -170,8 +203,7 @@ function renderCards() {
     state.query && `検索: ${state.query}`,
     state.category && `カテゴリ: ${state.category}`,
     state.tag && `タグ: ${state.tag}`,
-    state.type && `種類: ${els.typeSelect.selectedOptions[0].textContent}`,
-    state.showVariants && "派生も表示"
+    state.type && `種類: ${els.typeSelect.selectedOptions[0].textContent}`
   ].filter(Boolean).join(" / ");
 
   els.cards.innerHTML = "";
@@ -205,8 +237,7 @@ function renderCards() {
     badges.className = "badges";
     badges.append(badge(char.isNotBattle ? "非戦闘" : "戦闘あり", char.isNotBattle ? "muted" : "accent"));
     if (char.isVariant) badges.append(badge("派生", "muted"));
-    if (!char.isVariant && char.variantCount) badges.append(badge(`派生 ${char.variantCount}件`, "accent"));
-    if (char.isHidden) badges.append(badge("非表示", "muted"));
+    if (char.variantCount) badges.append(badge(`派生 ${char.variantCount}件`, "accent"));
     asArray(char.tags).slice(0, 5).forEach(tag => badges.append(badge(tag)));
 
     const actions = document.createElement("div");
@@ -251,7 +282,7 @@ function openDetail(char) {
         <article class="variant-item ${variant.id === char.id ? "current" : ""}">
           <div>
             <strong>${escapeHtml(variant.name)}</strong>
-            <span>${escapeHtml([variant.promptName, variant.updated && `更新: ${variant.updated}`].filter(Boolean).join(" / "))}</span>
+            <span>${escapeHtml([variant.isHidden && "非表示", variant.promptName, variant.updated && `更新: ${variant.updated}`].filter(Boolean).join(" / "))}</span>
           </div>
           <div class="variant-actions">
             <button class="secondary-button compact" type="button" data-detail-id="${escapeHtml(variant.id)}">詳細</button>
@@ -313,21 +344,16 @@ function bindEvents() {
     state.type = event.target.value;
     renderCards();
   });
-  els.variantToggle.addEventListener("change", event => {
-    state.showVariants = event.target.checked;
-    renderCards();
-  });
   els.sortSelect.addEventListener("change", event => {
     state.sort = event.target.value;
     renderCards();
   });
   els.clearButton.addEventListener("click", () => {
-    Object.assign(state, { query: "", category: "", tag: "", type: "", showVariants: false, sort: "order" });
+    Object.assign(state, { query: "", category: "", tag: "", type: "", sort: "order" });
     els.searchInput.value = "";
     els.categorySelect.value = "";
     els.tagSelect.value = "";
     els.typeSelect.value = "";
-    els.variantToggle.checked = false;
     els.sortSelect.value = "order";
     renderCards();
   });
