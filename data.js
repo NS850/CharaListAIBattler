@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T04:45:48",
+  "generatedAt": "2026-11-09T05:14:02",
   "source": "characters_mine.json",
-  "count": 235,
+  "count": 234,
   "characters": [
     {
       "id": "80ccd563-d579-4751-906a-59daf88edbd3",
@@ -373,46 +373,6 @@ window.CHARACTER_CATALOG = {
         {
           "name": "浸透勁",
           "value": "脱力し放つ内側へと波紋のように伝わる打撃"
-        }
-      ]
-    },
-    {
-      "id": "e97b78e9-cf2d-4e85-91e4-841a24ba7848",
-      "name": "【眠れる書の精霊】ビブリ",
-      "promptName": "【眠れる書の精霊】ビブリ・ヴォルメル（一人称:わたくし、古風で少し噛み合わない口調）",
-      "category": "未分類",
-      "tags": [],
-      "displayOrder": 10000,
-      "created": "2026-06-11",
-      "updated": "2026-06-11",
-      "url": "https://ai-battler.com/battle/e97b78e9-cf2d-4e85-91e4-841a24ba7848",
-      "localPath": "その他・実験/【眠れる書の精霊】ビブリ.md",
-      "isHidden": true,
-      "isNotBattle": false,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": [
-        {
-          "name": "📖蔵書の具現",
-          "value": "記憶した書物の一場面を実体化できる"
-        },
-        {
-          "name": "🔖召喚の栞",
-          "value": "登場人物を一時召喚/感情が乱れると暴走"
-        },
-        {
-          "name": "💡百科全書",
-          "value": "知識量は膨大/実用は苦手"
-        },
-        {
-          "name": "🏃競争心なし",
-          "value": "戦いより相手を観察することに夢中"
-        },
-        {
-          "name": "特徴:女性",
-          "value": "黒髪ロング/本を抱えている/目を細める癖"
         }
       ]
     },
@@ -7209,7 +7169,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-11-27",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/c3b48d5e-0853-46cf-99af-75ad55e286a6",
-      "localPath": "場所・施設/〈ロスティドール魔術学院の門〉.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7241,7 +7201,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-11-30",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/4a1d8639-0c79-4609-b511-27ac5a427d07",
-      "localPath": "キャラクター（一般）/湖の古老.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7276,16 +7236,12 @@ window.CHARACTER_CATALOG = {
       "name": "【捜索依頼】迷子のシープシェイプ",
       "promptName": "",
       "category": "未分類",
-      "tags": [
-        "未分類",
-        "limited",
-        "non_battle"
-      ],
+      "tags": [],
       "displayOrder": 9599999,
       "created": "2024-12-02",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/a1911d50-4f87-4617-b894-b26d0ab859a4",
-      "localPath": "キャラクター（一般）/【捜索依頼】迷子のシープシェイプ.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7320,16 +7276,12 @@ window.CHARACTER_CATALOG = {
       "name": "【護衛依頼】羊毛を求めて",
       "promptName": "",
       "category": "未分類",
-      "tags": [
-        "未分類",
-        "limited",
-        "non_battle"
-      ],
+      "tags": [],
       "displayOrder": 9599999,
       "created": "2024-12-03",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/ea0b48a3-b8f2-4466-931a-d1a9df7a5449",
-      "localPath": "キャラクター（一般）/【護衛依頼】羊毛を求めて.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7369,7 +7321,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-12-15",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/a3b990c6-f4b3-449e-9a56-85d9b3318ff2",
-      "localPath": "ロボット・機械/〈試作型自立稼働からくりの暴走〉.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7401,7 +7353,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-12-17",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/a127f8aa-670a-48e9-a4be-8c8b317cbaa8",
-      "localPath": "その他・実験/〈火の魔導書〉.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7441,7 +7393,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-12-18",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/a4220987-343c-4c2c-afb6-fdd130af1e98",
-      "localPath": "その他・実験/〈風の魔導書〉.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7481,7 +7433,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-12-18",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/78975762-8a78-4c59-8600-fe9e3d461772",
-      "localPath": "その他・実験/〈読んではいけない書物〉.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7521,7 +7473,7 @@ window.CHARACTER_CATALOG = {
       "created": "2024-12-19",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/14b23d1b-ed40-43a7-956f-97c5170299f0",
-      "localPath": "その他・実験/生命の根源の書.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7556,16 +7508,12 @@ window.CHARACTER_CATALOG = {
       "name": "貞淑な薬術師 ロベリア",
       "promptName": "",
       "category": "未分類",
-      "tags": [
-        "未分類",
-        "limited",
-        "non_battle"
-      ],
+      "tags": [],
       "displayOrder": 9599999,
       "created": "2025-01-01",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/46818ea3-e0b7-4660-9dab-e7e2a08c670e",
-      "localPath": "キャラクター（一般）/貞淑な薬術師 ロベリア.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7601,7 +7549,7 @@ window.CHARACTER_CATALOG = {
       "created": "2025-01-01",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/a6131724-5b23-4d2a-b617-1bb640fdd7dc",
-      "localPath": "場所・施設/秘密の地下牢.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
@@ -7633,7 +7581,7 @@ window.CHARACTER_CATALOG = {
       "created": "2025-01-01",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/97f4c838-3f67-4c36-9db2-5f95a0dcd971",
-      "localPath": "敵・モンスター/悪意の魂術師 ロベリア.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
@@ -7673,7 +7621,7 @@ window.CHARACTER_CATALOG = {
       "created": "2025-01-03",
       "updated": "2026-05-10",
       "url": "https://ai-battler.com/battle/3d773cb5-9909-49a4-87b9-f0cbc7a0bd8d",
-      "localPath": "敵・モンスター/【石の守衛】魔術学院のガーゴイル.md",
+      "localPath": "",
       "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
