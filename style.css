@@ -21,10 +21,10 @@ body {
   color: var(--ink);
 }
 
+/* スマートフォン前提（広い画面向けは末尾のメディアクエリで拡張） */
 .layout {
-  max-width: 1080px;
   margin: 0 auto;
-  padding: 14px 16px 32px;
+  padding: 10px 12px 28px;
 }
 
 /* 上部の細いバー: 件数だけ */
@@ -84,12 +84,63 @@ button {
   font-size: 13px;
 }
 
+/* グループの括り: 枠＋見出しで纏め、その下にグループ外を並べる */
+.group {
+  margin-top: 14px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.group-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 44px;
+  padding: 4px 2px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-strong);
+  cursor: pointer;
+}
+
+.group-toggle-icon {
+  font-size: 11px;
+  transform: rotate(-90deg);
+  transition: transform 0.2s;
+}
+
+.group.open .group-toggle-icon {
+  transform: rotate(0deg);
+}
+
+/* グループは開閉式。閉じている間は中身を出さない */
+.group-body {
+  display: none;
+  margin-top: 8px;
+}
+
+.group.open .group-body {
+  display: grid;
+}
+
 /* カードは名称＋詳細ボタンだけ。クリックで対戦ページへ */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.cards.rest {
+  margin-top: 14px;
+}
+
+.group .card {
+  background: var(--bg);
 }
 
 .card {
@@ -97,6 +148,7 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  min-height: 52px;
   padding: 10px 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -110,13 +162,15 @@ button {
 
 .card h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.4;
   overflow-wrap: anywhere;
 }
 
 .card .secondary-button {
   flex-shrink: 0;
+  min-height: 40px;
+  padding: 8px 14px;
 }
 
 .empty {
@@ -286,5 +340,31 @@ dd {
 
   dl {
     grid-template-columns: 1fr;
+  }
+}
+
+/* 広い画面では複数列に開く */
+@media (min-width: 761px) {
+  .layout {
+    max-width: 1080px;
+    padding: 14px 16px 32px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 10px;
+  }
+
+  .card {
+    min-height: 0;
+  }
+
+  .card h2 {
+    font-size: 15px;
+  }
+
+  .card .secondary-button {
+    min-height: 32px;
+    padding: 5px 9px;
   }
 }

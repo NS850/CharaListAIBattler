@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T07:31:33",
+  "generatedAt": "2026-11-09T07:45:16",
   "source": "characters_mine.json",
   "count": 54,
   "characters": [
@@ -8,6 +8,7 @@ window.CHARACTER_CATALOG = {
       "name": "村の夜番の少女",
       "promptName": "村の夜番の少女(大人しく、怖がり)",
       "category": "未分類",
+      "group": "",
       "tags": [
         "850_村"
       ],
@@ -42,6 +43,7 @@ window.CHARACTER_CATALOG = {
       "name": "雪だるま",
       "promptName": "",
       "category": "シチュエーション",
+      "group": "",
       "tags": [],
       "displayOrder": 10000,
       "created": "2026-05-19",
@@ -70,6 +72,7 @@ window.CHARACTER_CATALOG = {
       "name": "【木人】ツバキ",
       "promptName": "【木人】ツバキ（小柄で細身の木製ゴーレム。礼儀正しい女性口調、服装：チーパオ）",
       "category": "未分類",
+      "group": "",
       "tags": [],
       "displayOrder": 10000,
       "created": "2026-05-20",
@@ -106,6 +109,7 @@ window.CHARACTER_CATALOG = {
       "name": "【首切り役人】カリーナ",
       "promptName": "【首切り役人】カリーナ（一人称：私　外見：少女、大剣、襤褸の修道服、目隠　性格：謙虚、丁寧）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類"
       ],
@@ -148,6 +152,7 @@ window.CHARACTER_CATALOG = {
       "name": "【旅人】テッサ",
       "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類"
       ],
@@ -190,6 +195,7 @@ window.CHARACTER_CATALOG = {
       "name": "蛮族アザラシ",
       "promptName": "",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類"
       ],
@@ -224,6 +230,7 @@ window.CHARACTER_CATALOG = {
       "name": "【竜狩り兎】リュネ",
       "promptName": "【竜狩り兎】リュネ（兎耳、白い長髪と閉じた赤い瞳　一人称わたし　眠たげ、素直でほわほわ）",
       "category": "未分類",
+      "group": "兎",
       "tags": [
         "未分類"
       ],
@@ -266,6 +273,7 @@ window.CHARACTER_CATALOG = {
       "name": "【終末時計兎】メト",
       "promptName": "【終末時計兎】メト（兎耳、ぼさぼさの白髪に焦点の合わない赤い瞳　一人称あたし　「いひ」）",
       "category": "未分類",
+      "group": "兎",
       "tags": [
         "未分類"
       ],
@@ -304,6 +312,7 @@ window.CHARACTER_CATALOG = {
       "name": "野菜ペンギンの収穫",
       "promptName": "",
       "category": "ペンギン",
+      "group": "ペンギン",
       "tags": [
         "850_🥬",
         "850_ペンギン",
@@ -348,6 +357,7 @@ window.CHARACTER_CATALOG = {
       "name": "野菜ペンギン",
       "promptName": "",
       "category": "ペンギン",
+      "group": "ペンギン",
       "tags": [
         "850_ペンギン"
       ],
@@ -390,6 +400,7 @@ window.CHARACTER_CATALOG = {
       "name": "クリスマスペンギンツリー",
       "promptName": "",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -433,6 +444,7 @@ window.CHARACTER_CATALOG = {
       "name": "風船ペンギンの群れ",
       "promptName": "",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類"
       ],
@@ -471,6 +483,7 @@ window.CHARACTER_CATALOG = {
       "name": "温泉ペンギン",
       "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない）※戦闘不要 ※ABは名前表記",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -514,6 +527,7 @@ window.CHARACTER_CATALOG = {
       "name": "バナナ型ペンギンはチョコレートの翼を広げ",
       "promptName": "バナナ型ペンギン",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -557,6 +571,7 @@ window.CHARACTER_CATALOG = {
       "name": "ペンギンドリンクバー",
       "promptName": "厳寒の地のレストランに設置されたドリンクバー（ペンギンの木）",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -600,6 +615,7 @@ window.CHARACTER_CATALOG = {
       "name": "ペンギン抱きの刑",
       "promptName": "ペンギンを育てている農夫",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -643,6 +659,7 @@ window.CHARACTER_CATALOG = {
       "name": "ペンギン積み",
       "promptName": "ペンギンを積む商人",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "未分類",
         "non_battle"
@@ -686,6 +703,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ",
       "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類"
       ],
@@ -728,6 +746,7 @@ window.CHARACTER_CATALOG = {
       "name": "生月 ローレ",
       "promptName": "生月 ローレ（むつき ろーれ　一人称：わたし）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited",
@@ -772,6 +791,7 @@ window.CHARACTER_CATALOG = {
       "name": "【街路の魔女】コキア",
       "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類"
       ],
@@ -806,6 +826,7 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年",
       "promptName": "少年（一人称：ぼく）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "850_少年",
         "850_人",
@@ -842,6 +863,7 @@ window.CHARACTER_CATALOG = {
       "name": "ハーピィ出張買取サービス",
       "promptName": "",
       "category": "未分類",
+      "group": "ハーピィ",
       "tags": [
         "未分類",
         "non_battle"
@@ -873,6 +895,7 @@ window.CHARACTER_CATALOG = {
       "name": "ハーピィ雑貨店",
       "promptName": "",
       "category": "未分類",
+      "group": "ハーピィ",
       "tags": [
         "未分類",
         "non_battle"
@@ -904,6 +927,7 @@ window.CHARACTER_CATALOG = {
       "name": "哨戒ハーピィ部隊",
       "promptName": "哨戒ハーピィ部隊（挨拶は「ハイホー！」）",
       "category": "未分類",
+      "group": "ハーピィ",
       "tags": [],
       "displayOrder": 30000,
       "created": "2026-05-11",
@@ -940,6 +964,7 @@ window.CHARACTER_CATALOG = {
       "name": "AL1-C3",
       "promptName": "AL1-C3（通称：アリス、特徴：青いエプロンドレス、無邪気な夢想家「えへへっ」人称：わたし）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "850 ⚙"
       ],
@@ -982,6 +1007,7 @@ window.CHARACTER_CATALOG = {
       "name": "AL1-C3 (戦闘モード)",
       "promptName": "",
       "category": "未分類",
+      "group": "",
       "tags": [
         "【魔導人形】"
       ],
@@ -1024,6 +1050,7 @@ window.CHARACTER_CATALOG = {
       "name": "【紅月の白狼】ローレ",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited"
@@ -1063,6 +1090,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（あなたとは、知り合い）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [],
       "displayOrder": 80001,
       "created": "2024-08-03",
@@ -1103,6 +1131,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（野営中）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited",
@@ -1143,6 +1172,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(非戦闘)",
       "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ"
       ],
@@ -1177,6 +1207,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（重傷）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_重傷",
         "850_ローレ",
@@ -1217,6 +1248,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(お礼)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [],
       "displayOrder": 80001,
       "created": "2024-08-12",
@@ -1257,6 +1289,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（温泉）",
       "promptName": "【魔法使い】ローレ（一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」、呼び捨て）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ",
         "850_魔法使い"
@@ -1292,6 +1325,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(人狼化)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ",
         "850_魔法使い"
@@ -1327,6 +1361,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [],
       "displayOrder": 80001,
       "created": "2024-08-19",
@@ -1367,6 +1402,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(既知の仲)",
       "promptName": "【魔法使い】ローレ（性格・口調：感情に乏しく内向的で無口「…ん」）",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類",
         "limited",
@@ -1411,6 +1447,7 @@ window.CHARACTER_CATALOG = {
       "name": "【黒陽】ラーベ",
       "promptName": "【黒陽】ラーベ（烏。人ではない）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited"
@@ -1450,6 +1487,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(一人)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ",
         "850_魔法使い"
@@ -1493,6 +1531,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(重傷)",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】"
       ],
@@ -1535,6 +1574,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(茸)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ",
         "850_魔法使い"
@@ -1574,6 +1614,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(不快な茸)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited",
@@ -1618,6 +1659,7 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年(冒険)",
       "promptName": "村の少年",
       "category": "未分類",
+      "group": "",
       "tags": [
         "未分類",
         "limited",
@@ -1662,6 +1704,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ(新年)",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_行事",
         "850_ローレ",
@@ -1706,6 +1749,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（料理）",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited",
@@ -1746,6 +1790,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（{u}を料理）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited",
@@ -1790,6 +1835,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（{u}の解体）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ"
       ],
@@ -1832,6 +1878,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（解体）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ"
       ],
@@ -1874,6 +1921,7 @@ window.CHARACTER_CATALOG = {
       "name": "生月 ローレ（温泉）",
       "promptName": "生月 ローレ（一人称：わたし）",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ"
       ],
@@ -1916,6 +1964,7 @@ window.CHARACTER_CATALOG = {
       "name": "【魔法使い】ローレ（食事）",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "850_ローレ",
         "850_魔法使い"
@@ -1955,6 +2004,7 @@ window.CHARACTER_CATALOG = {
       "name": "魔女の茸",
       "promptName": "",
       "category": "【魔法使い】ローレ",
+      "group": "",
       "tags": [
         "【魔法使い】ローレ",
         "limited"
@@ -1998,6 +2048,7 @@ window.CHARACTER_CATALOG = {
       "name": "寒波、小屋、ペンギン",
       "promptName": "（描写指示文。キャラクターとして登場させないこと）",
       "category": "未分類",
+      "group": "ペンギン",
       "tags": [
         "850_その他",
         "850_ペンギン",
@@ -2038,6 +2089,7 @@ window.CHARACTER_CATALOG = {
       "name": "ハーピィ雑貨店(トマト栽培)",
       "promptName": "",
       "category": "未分類",
+      "group": "ハーピィ",
       "tags": [],
       "displayOrder": 91001,
       "created": "2024-09-05",
@@ -2066,6 +2118,7 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年(重傷)",
       "promptName": "",
       "category": "未分類",
+      "group": "",
       "tags": [
         "850_少年"
       ],
@@ -2104,6 +2157,7 @@ window.CHARACTER_CATALOG = {
       "name": "村の少年(非戦闘)",
       "promptName": "村の少年",
       "category": "未分類",
+      "group": "",
       "tags": [
         "850_少年"
       ],

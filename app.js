@@ -99,43 +99,76 @@ String(a.name || "").localeCompare(String(b.name || ""), "ja")
 );
 }
 
-function renderCards() {
-const chars = listedCharacters();
-els.resultCount.textContent = `${chars.length}件`;
+const GROUP_ORDER = ["ペンギン", "ハーピィ", "兎"];
 
-els.cards.innerHTML = "";
-if (!chars.length) {
-const empty = document.createElement("p");
-empty.className = "empty";
-empty.textContent = "キャラクターがありません。";
-els.cards.append(empty);
-return;
+function createCard(char) {
+  const card = document.createElement("article");
+  card.className = "card";
+  card.title = "AIバトラーで開く";
+  card.addEventListener("click", () => window.open(char.url, "_blank", "noreferrer"));
+  const title = document.createElement("h2");
+  title.textContent = char.name || "(no name)";
+  const detail = document.createElement("button");
+  detail.type = "button";
+  detail.className = "secondary-button compact";
+  detail.textContent = "詳細";
+  detail.addEventListener("click", event => {
+    event.stopPropagation();
+    openDetail(char);
+  });
+  card.append(title, detail);
+  return card;
 }
 
-const fragment = document.createDocumentFragment();
-chars.forEach(char => {
-const card = document.createElement("article");
-card.className = "card";
-card.title = "AIバトラーで開く";
-// カード自体のクリックで対戦ページへ。詳細ボタンだけはダイアログを開く
-card.addEventListener("click", () => window.open(char.url, "_blank", "noreferrer"));
-
-const title = document.createElement("h2");
-title.textContent = char.name || "(no name)";
-
-const detail = document.createElement("button");
-detail.type = "button";
-detail.className = "secondary-button compact";
-detail.textContent = "詳細";
-detail.addEventListener("click", event => {
-event.stopPropagation();
-openDetail(char);
-});
-
-card.append(title, detail);
-fragment.append(card);
-});
-els.cards.append(fragment);
+function renderCards() {
+  const chars = listedCharacters();
+  els.resultCount.textContent = `${chars.length}件`;
+  els.cards.innerHTML = "";
+  if (!chars.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty";
+    empty.textContent = "キャラクターがありません。";
+    els.cards.append(empty);
+    return;
+  }
+  const fragment = document.createDocumentFragment();
+  const groupedIds = new Set();
+  GROUP_ORDER.forEach((groupName, index) => {
+    const members = chars.filter(char => char.group === groupName);
+    if (!members.length) return;
+    members.forEach(char => groupedIds.add(char.id));
+    // グループは開閉式。先頭のグループだけ開いておく
+    const isFirst = index === 0;
+    const section = document.createElement("section");
+    section.className = isFirst ? "group open" : "group";
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "group-toggle";
+    toggle.setAttribute("aria-expanded", String(isFirst));
+    const label = document.createElement("span");
+    label.textContent = groupName;
+    const icon = document.createElement("span");
+    icon.className = "group-toggle-icon";
+    icon.textContent = "▼";
+    toggle.append(label, icon);
+    toggle.addEventListener("click", () => {
+      const open = section.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(open));
+    });
+    const grid = document.createElement("div");
+    grid.className = "cards group-body";
+    members.forEach(char => grid.append(createCard(char)));
+    section.append(toggle, grid);
+    fragment.append(section);
+  });
+  const rest = chars.filter(char => !groupedIds.has(char.id));
+  if (rest.length) {
+    const grid = document.createElement("div");
+    grid.className = "cards rest";
+    rest.forEach(char => grid.append(createCard(char)));
+    fragment.append(grid);
+  }
+  els.cards.append(fragment);
 }
 
 function section(title, text) {
