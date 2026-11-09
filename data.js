@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T07:57:31",
+  "generatedAt": "2026-11-09T08:59:40",
   "source": "characters_mine.json",
   "count": 54,
   "characters": [

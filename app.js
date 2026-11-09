@@ -92,9 +92,9 @@ function listedCharacters() {
 const GROUP_ORDER = ["ペンギン", "ハーピィ", "兎"];
 
 // --- 派生パネル（全幅方式） ---
-// 派生リストはカードの子要素にしない。カードの中で広げると、
-// grid の同じ行にある他のカードが引っ張られて伸びてしまうため、
-// パネルは grid の独立した子として「そのカードがいる行の末尾」の直後に
+// 派生リストは行の子要素にしない。行の中で広げると、
+// grid の同じ段にある他の行が引っ張られて伸びてしまうため、
+// パネルは grid の独立した子として「その行がいる段の末尾」の直後に
 // 全幅（grid-column: 1 / -1）で差し込む。同時に開けるパネルは1つだけ。
 let openVariant = null; // { panel, card, toggle }
 
@@ -106,12 +106,12 @@ function closeVariantPanel() {
   openVariant = null;
 }
 
-// カードがいる行の末尾のカードを返す（offsetTop が同じカード＝同じ行）。
-// パネルが開いている状態では行がずれるので、必ず閉じた状態で測ること。
+// 行がいる段の末尾の行を返す（offsetTop が同じ行＝同じ段）。
+// パネルが開いている状態では段がずれるので、必ず閉じた状態で測ること。
 function rowEndCard(card) {
   const grid = card.parentElement;
   if (!grid) return card;
-  const cards = Array.from(grid.children).filter(el => el.classList.contains("card"));
+  const cards = Array.from(grid.children).filter(el => el.classList.contains("row"));
   const top = card.offsetTop;
   let anchor = card;
   cards.forEach(c => {
@@ -169,17 +169,23 @@ window.addEventListener("resize", () => {
   rowEndCard(card).after(panel);
 });
 
-function createCard(char) {
-  const card = document.createElement("article");
-  card.className = "card";
-  // カード自体のクリックで対戦ページへ（詳細表示は対戦ページと同義のため置かない）
-  card.addEventListener("click", () => window.open(char.url, "_blank", "noreferrer"));
+function createRow(char) {
+  const row = document.createElement("div");
+  row.className = "row";
+  // 名前は実リンク（キーボードでも辿れる）。行の余白クリックでも対戦ページへ。
+  // リンクやトグル自身のクリックは二重に開かないよう行側では拾わない
+  row.addEventListener("click", event => {
+    if (event.target.closest("a, button")) return;
+    window.open(char.url, "_blank", "noreferrer");
+  });
 
-  const head = document.createElement("div");
-  head.className = "card-head";
-  const title = document.createElement("h2");
-  title.textContent = char.name || "(no name)";
-  head.append(title);
+  const name = document.createElement("a");
+  name.className = "name";
+  name.href = char.url;
+  name.target = "_blank";
+  name.rel = "noreferrer";
+  name.textContent = char.name || "(no name)";
+  row.append(name);
 
   const variants = variantModel.variantsByMainId.get(char.id) || [];
   if (variants.length) {
@@ -196,17 +202,19 @@ function createCard(char) {
     toggle.append(label, icon);
     toggle.addEventListener("click", event => {
       event.stopPropagation();
-      toggleVariantPanel(card, toggle, panel);
+      toggleVariantPanel(row, toggle, panel);
     });
-    head.append(toggle);
+    row.append(toggle);
   }
-  card.append(head);
-  return card;
+  return row;
 }
 
 function renderCards() {
   const chars = listedCharacters();
-  els.resultCount.textContent = `${chars.length}件`;
+  els.resultCount.innerHTML = "";
+  const countNum = document.createElement("b");
+  countNum.textContent = String(chars.length);
+  els.resultCount.append(countNum, " 件");
   els.cards.innerHTML = "";
   if (!chars.length) {
     const empty = document.createElement("p");
@@ -231,13 +239,17 @@ function renderCards() {
     toggle.className = "group-toggle";
     toggle.setAttribute("aria-expanded", String(isFirst));
     const label = document.createElement("span");
+    label.className = "group-name";
     label.textContent = groupName;
+    const count = document.createElement("span");
+    count.className = "group-count";
+    count.textContent = `${members.length}件`;
     const icon = document.createElement("span");
     icon.className = "group-toggle-icon";
     icon.textContent = "▼";
-    toggle.append(label, icon);
+    toggle.append(label, count, icon);
     const grid = document.createElement("div");
-    grid.className = "cards group-body";
+    grid.className = "rows group-body";
     // CSSのキャッシュが古くても開閉が効くよう、表示はインラインでも制御する
     grid.style.display = isFirst ? "grid" : "none";
     toggle.addEventListener("click", () => {
@@ -245,7 +257,7 @@ function renderCards() {
       grid.style.display = open ? "grid" : "none";
       toggle.setAttribute("aria-expanded", String(open));
     });
-    members.forEach(char => grid.append(createCard(char)));
+    members.forEach(char => grid.append(createRow(char)));
     section.append(toggle, grid);
     fragment.append(section);
   });
@@ -253,8 +265,8 @@ function renderCards() {
   const rest = chars.filter(char => !groupedIds.has(char.id));
   if (rest.length) {
     const grid = document.createElement("div");
-    grid.className = "cards rest";
-    rest.forEach(char => grid.append(createCard(char)));
+    grid.className = "rows rest";
+    rest.forEach(char => grid.append(createRow(char)));
     fragment.append(grid);
   }
 

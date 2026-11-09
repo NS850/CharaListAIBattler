@@ -1,12 +1,17 @@
+/* 案B「深夜の図鑑」（2026-11-09 本人選択で実装）
+   墨色の地に金の罫。名前を大きく置く夜の図鑑。
+   間隔スケール: 4 / 8 / 12 / 16 / 24 / 32 (px) を基本とし、それ以外は使わない。
+   構造: カードと入れ子を廃し、罫で区切る行（.row）のリストにした。
+   名前は実リンクで、キーボードでも辿れる。 */
 :root {
-  color-scheme: light;
-  --bg: #f6f3ec;
-  --panel: #fffdf8;
-  --text: #20242a;
-  --muted: #6a7280;
-  --line: #ddd6c7;
-  --accent: #2f6f6a;
-  --accent-strong: #174f4a;
+  color-scheme: dark;
+  --night: #131920;
+  --night-2: #1a212b;
+  --ink: #ede9df;
+  --muted: #98a2ae;
+  --rule: #2b3542;
+  --gold: #d2a24c;
+  --gold-soft: #2a2417;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -16,54 +21,76 @@
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
+  background: var(--night);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--night);
 }
 
 /* スマートフォン前提（広い画面向けは末尾のメディアクエリで拡張） */
 .layout {
   margin: 0 auto;
-  padding: 10px 12px 28px;
+  padding: 16px 16px 40px;
 }
 
 .top-bar {
   display: flex;
   justify-content: flex-end;
-  padding: 2px 2px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--gold);
 }
 
 .result-count {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
-/* グループの括り: 枠＋見出しで纏め、その下にグループ外を並べる */
+.result-count b {
+  color: var(--gold);
+  font-size: 16px;
+}
+
+/* グループ: 枠で囲わず、見出し＋罫で区切る。開閉式 */
 .group {
-  margin-top: 14px;
-  padding: 10px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: var(--panel);
+  margin-top: 32px;
 }
 
 .group-toggle {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
   width: 100%;
   min-height: 44px;
-  padding: 4px 2px;
+  padding: 4px 0 8px;
   border: none;
+  border-bottom: 1px solid var(--rule);
   background: none;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--accent-strong);
+  font: inherit;
+  color: var(--ink);
   cursor: pointer;
+  text-align: left;
+}
+
+.group-name {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.group-count {
+  font-size: 12px;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
 }
 
 .group-toggle-icon {
   font-size: 11px;
+  color: var(--muted);
   transform: rotate(-90deg);
   transition: transform 0.2s;
 }
@@ -75,55 +102,48 @@ body {
 /* グループは開閉式。閉じている間は中身を出さない */
 .group-body {
   display: none;
-  margin-top: 8px;
 }
 
 .group.open .group-body {
   display: grid;
 }
 
-/* カードは名称のみ。クリックで対戦ページへ。派生がいる場合は展開トグルを付ける */
-.cards {
+/* 行: 名前リンク＋（あれば）派生トグル。罫区切り */
+.rows {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8px;
-  /* パネルや背の高いカードに同じ行のカードが引っ張られて伸びないように */
+  /* パネルや背の高い行に同じ行の行が引っ張られて伸びないように */
   align-items: start;
 }
 
-.cards.rest {
-  margin-top: 14px;
+.rows.rest {
+  margin-top: 24px;
 }
 
-.group .card {
-  background: var(--bg);
-}
-
-.card {
-  padding: 10px 12px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--panel);
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
   cursor: pointer;
 }
 
-.card:hover {
-  border-color: var(--accent);
-}
-
-.card-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  min-height: 32px;
-}
-
-.card h2 {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.4;
+.row a.name {
+  flex: 1;
+  padding: 8px 0;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
   overflow-wrap: anywhere;
+}
+
+.row a.name:hover {
+  color: var(--gold);
 }
 
 .variant-toggle {
@@ -131,14 +151,19 @@ body {
   align-items: center;
   gap: 5px;
   flex-shrink: 0;
-  min-height: 36px;
-  padding: 6px 10px;
-  border: 1px solid var(--line);
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
   border-radius: 999px;
-  background: var(--panel);
-  color: var(--accent-strong);
+  background: var(--night-2);
+  color: var(--gold);
   font-size: 12px;
   cursor: pointer;
+}
+
+.variant-toggle[aria-expanded="true"] {
+  background: var(--gold-soft);
+  border-color: var(--gold);
 }
 
 .variant-toggle-icon {
@@ -147,48 +172,39 @@ body {
   transition: transform 0.2s;
 }
 
-.card.open .variant-toggle-icon {
+.row.open .variant-toggle-icon {
   transform: rotate(0deg);
 }
 
-/* 派生パネル: カードの外に置く全幅の独立要素。開いた行の下に差し込む */
 .variant-panel {
   grid-column: 1 / -1;
-  padding: 2px 12px 6px;
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  background: var(--panel);
+  margin-left: 4px;
+  padding: 4px 0 12px 16px;
+  border-bottom: 1px solid var(--rule);
+  border-left: 1px solid var(--gold);
 }
 
 .variant-panel-head {
   padding: 8px 2px 0;
   font-size: 13px;
   font-weight: 700;
-  color: var(--accent-strong);
-}
-
-.variant-list {
-  margin-top: 4px;
+  color: var(--gold);
 }
 
 .variant-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   min-height: 44px;
   padding: 8px 4px;
-  border-top: 1px solid var(--line);
-  font-size: 14px;
+  font-size: 15px;
   overflow-wrap: anywhere;
-}
-
-.variant-row:first-child {
-  border-top: none;
+  cursor: pointer;
 }
 
 .variant-row:hover {
-  color: var(--accent-strong);
+  color: var(--gold);
 }
 
 .hidden-badge {
@@ -203,19 +219,25 @@ body {
   text-align: center;
 }
 
-/* 広い画面では複数列に開く */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* 広い画面では2列に開く */
 @media (min-width: 761px) {
   .layout {
     max-width: 1080px;
-    padding: 14px 16px 32px;
+    padding: 16px 16px 40px;
   }
 
-  .cards {
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    gap: 10px;
+  .rows {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
   }
 
-  .card h2 {
-    font-size: 15px;
+  .row a.name {
+    font-size: 17px;
   }
 }
