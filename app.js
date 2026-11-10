@@ -77,17 +77,14 @@ function buildVariantModel(characters) {
   return { variantsByMainId, mainByVariantId };
 }
 
-// 一覧に出るのは公開分のみ。非表示キャラは単独では出ず、
-// 基準キャラの派生としてだけ選べる。
-// 例外（単独公開）: 【論理兎】ヴェリはサービス側では非表示だが、
-// 本人指示でカタログの一覧にも単独で出す（2026-11-10 本人明示指示。
-// gen_site.js の CATALOG_INCLUDE_HIDDEN_IDS と対で、対象はこの1件のみ）。
-const LISTED_HIDDEN_IDS = new Set([
-  "5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b" // 【論理兎】ヴェリ
-]);
+// 一覧に出るのはカタログ独自の掲載分のみ（catalogListed）。
+// サービス側の isHidden とは分けて管理する（2026-11-10 本人決定）。
+// 掲載の正本は gen_site.js が読む catalog_list.json で、
+// data.js の各キャラに catalogListed として焼き込まれる。
+// 派生キャラは単独では出ず、基準キャラの派生としてだけ選べる。
 function listedCharacters() {
   return catalog.characters
-    .filter(char => !char.isHidden || LISTED_HIDDEN_IDS.has(char.id))
+    .filter(char => char.catalogListed)
     .sort((a, b) =>
       String(a.category || "").localeCompare(String(b.category || ""), "ja") ||
       Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
@@ -157,6 +154,49 @@ function buildVariantPanel(char, variants) {
   return panel;
 }
 
+// --- 商品パネル（ハーピィ雑貨店の陳列、2026-11-10 追加） ---
+// 派生パネルと同じ全幅方式・排他開閉をそのまま使う（toggleVariantPanel 共用）。
+// 商品データは gen_site.js が店の skill から生成し data.js の products に入る。
+function buildProductPanel(char) {
+  const panel = document.createElement("div");
+  panel.className = "variant-panel product-panel";
+  const header = document.createElement("div");
+  header.className = "variant-panel-head";
+  header.textContent = `${char.name || "(no name)"} の商品`;
+  panel.append(header);
+  const list = document.createElement("div");
+  list.className = "product-list";
+  (char.products || []).forEach(product => {
+    const row = document.createElement("div");
+    row.className = "product-row";
+    if (product.image) {
+      const img = document.createElement("img");
+      img.className = "product-img";
+      img.src = product.image;
+      img.alt = product.name || "";
+      img.width = 48;
+      img.height = 48;
+      img.loading = "lazy";
+      row.append(img);
+    } else {
+      const ph = document.createElement("div");
+      ph.className = "product-img product-img-empty";
+      ph.setAttribute("aria-hidden", "true");
+      row.append(ph);
+    }
+    const name = document.createElement("span");
+    name.className = "product-name";
+    name.textContent = product.name || "(no name)";
+    const price = document.createElement("span");
+    price.className = "product-price";
+    price.textContent = `${Number(product.price || 0).toLocaleString("ja-JP")} G`;
+    row.append(name, price);
+    list.append(row);
+  });
+  panel.append(list);
+  return panel;
+}
+
 function toggleVariantPanel(card, toggle, panel) {
   const isThis = openVariant && openVariant.panel === panel;
   closeVariantPanel();
@@ -202,6 +242,26 @@ function createRow(char) {
     toggle.setAttribute("aria-expanded", "false");
     const label = document.createElement("span");
     label.textContent = `派生 ${variants.length}件`;
+    const icon = document.createElement("span");
+    icon.className = "variant-toggle-icon";
+    icon.textContent = "▼";
+    toggle.append(label, icon);
+    toggle.addEventListener("click", event => {
+      event.stopPropagation();
+      toggleVariantPanel(row, toggle, panel);
+    });
+    row.append(toggle);
+  }
+
+  const products = Array.isArray(char.products) ? char.products : [];
+  if (products.length) {
+    const panel = buildProductPanel(char);
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "variant-toggle product-toggle";
+    toggle.setAttribute("aria-expanded", "false");
+    const label = document.createElement("span");
+    label.textContent = `商品 ${products.length}件`;
     const icon = document.createElement("span");
     icon.className = "variant-toggle-icon";
     icon.textContent = "▼";

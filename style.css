@@ -213,6 +213,40 @@ body {
   font-size: 11px;
 }
 
+/* 商品リスト（ハーピィ雑貨店の陳列、2026-11-10 追加）。
+   パネルの枠組みは派生パネルと共用し、中身だけ画像＋品名＋金額の行にする */
+.product-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 60px;
+  padding: 6px 4px;
+}
+
+.product-img {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--night-2);
+  image-rendering: pixelated;
+}
+
+.product-name {
+  flex: 1;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.product-price {
+  flex-shrink: 0;
+  color: var(--gold);
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .empty {
   padding: 24px 0;
   color: var(--muted);

@@ -1,10 +1,11 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-09T23:27:12",
+  "generatedAt": "2026-11-10T09:11:58",
   "source": "characters_mine.json",
   "count": 55,
   "characters": [
     {
       "id": "1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
+      "catalogListed": true,
       "name": "村の夜番の少女",
       "promptName": "村の夜番の少女(大人しく、怖がり)",
       "category": "キャラクター（一般）",
@@ -40,17 +41,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "cacd4b88-0860-42ae-b3e7-6fc31a295a72",
+      "catalogListed": true,
       "name": "雪だるま",
       "promptName": "",
       "category": "シチュエーション",
       "group": "",
-      "tags": [],
+      "tags": [
+        "シチュエーション",
+        "limited",
+        "non_battle"
+      ],
       "displayOrder": 10000,
       "created": "2026-05-19",
-      "updated": "2026-06-01",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/cacd4b88-0860-42ae-b3e7-6fc31a295a72",
       "localPath": "シチュエーション/雪だるま.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -69,6 +75,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d7c1a9c0-127c-4b7b-b254-7e976855c4a8",
+      "catalogListed": true,
       "name": "【木人】ツバキ",
       "promptName": "【木人】ツバキ（小柄で細身の木製ゴーレム。礼儀正しい女性口調、服装：チーパオ）",
       "category": "未分類",
@@ -106,19 +113,21 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0affd8e4-8f38-449c-ab43-abe06eaa7261",
+      "catalogListed": true,
       "name": "【首切り役人】カリーナ",
       "promptName": "【首切り役人】カリーナ（一人称：私　外見：少女、大剣、襤褸の修道服、目隠　性格：謙虚、丁寧）",
       "category": "未分類",
       "group": "",
       "tags": [
-        "未分類"
+        "未分類",
+        "limited"
       ],
       "displayOrder": 10000,
       "created": "2026-06-19",
-      "updated": "2026-07-13",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/0affd8e4-8f38-449c-ab43-abe06eaa7261",
       "localPath": "未分類/【首切り役人】カリーナ.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -149,6 +158,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
+      "catalogListed": true,
       "name": "【旅人】テッサ",
       "promptName": "【旅人】テッサ（一人称：わたし　落ち着いた少年のような口調「うんうん」）",
       "category": "未分類",
@@ -192,19 +202,21 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "385de0fd-adcf-4a8a-a552-affed69233ea",
+      "catalogListed": true,
       "name": "蛮族アザラシ",
       "promptName": "",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
-        "未分類"
+        "未分類",
+        "limited"
       ],
       "displayOrder": 10000,
       "created": "2026-07-11",
-      "updated": "2026-07-15",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/385de0fd-adcf-4a8a-a552-affed69233ea",
       "localPath": "未分類/蛮族アザラシ.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -227,6 +239,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "9581f321-c8cf-4d13-9327-cd58aa14b7f0",
+      "catalogListed": true,
       "name": "【竜狩り兎】リュネ",
       "promptName": "【竜狩り兎】リュネ（兎耳、白い長髪と閉じた赤い瞳　一人称わたし　眠たげ、素直でほわほわ）",
       "category": "未分類",
@@ -270,6 +283,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
+      "catalogListed": true,
       "name": "【終末時計兎】メト",
       "promptName": "【終末時計兎】メト（兎耳、ぼさぼさの白髪に焦点の合わない赤い瞳　一人称あたし　「いひ」）",
       "category": "未分類",
@@ -309,8 +323,9 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b",
+      "catalogListed": true,
       "name": "【論理兎】ヴェリ",
-      "promptName": "【論理兎】ヴェリ（兎耳、短めの白髪と切れ長の赤い瞳　一人称 私　無駄のない口調、結論から話す）",
+      "promptName": "【論理兎】ヴェリ（兎耳、ゆるく束ねた白髪と理知的な赤い瞳　一人称 わたし　柔らかく丁寧）",
       "category": "未分類",
       "group": "兎",
       "tags": [
@@ -331,42 +346,44 @@ window.CHARACTER_CATALOG = {
       "statuses": [
         {
           "name": "幸運",
-          "value": "運を引き寄せる兎の特質。本人は認めない"
+          "value": "運を引き寄せる兎の特質"
         },
         {
-          "name": "ヴァーバル",
-          "value": "文を読み定義を書き換える小型ビット"
+          "name": "浮遊",
+          "value": "浮き上がり滑るように動く"
         },
         {
-          "name": "ゴスペル",
-          "value": "検証した命題だけを事実として固定する"
+          "name": "1=1",
+          "value": "私は私。常に真となる言葉を注入し改竄"
         },
         {
-          "name": "ヴォーパル",
-          "value": "定義と検証が揃った時にだけ矛盾を斬る"
+          "name": "二基の小型ビット",
+          "value": "真理を検証する思考補助装置であり護衛"
         },
         {
-          "name": "公理系",
-          "value": "自分の正しさの出発点。証明も疑いもしない"
+          "name": "ロゴスの剣",
+          "value": "二基のビットを合わせ放出する0に返す光"
         }
       ]
     },
     {
       "id": "7a3e7e18-319a-4a5e-af18-074c98ad3e87",
+      "catalogListed": true,
       "name": "野菜ペンギンの収穫",
       "promptName": "",
       "category": "ペンギン",
       "group": "ペンギン",
       "tags": [
         "ペンギン",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2024-06-16",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/7a3e7e18-319a-4a5e-af18-074c98ad3e87",
       "localPath": "ペンギン/野菜ペンギンの収穫.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -397,6 +414,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8e367330-fd44-4fe4-a1bc-965868b5d008",
+      "catalogListed": true,
       "name": "野菜ペンギン",
       "promptName": "",
       "category": "ペンギン",
@@ -440,20 +458,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "cefd5a59-0e3f-46c3-b271-ae4514fb3327",
+      "catalogListed": true,
       "name": "クリスマスペンギンツリー",
       "promptName": "",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2024-12-15",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/cefd5a59-0e3f-46c3-b271-ae4514fb3327",
       "localPath": "未分類/クリスマスペンギンツリー.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -484,19 +504,21 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "805cfd3d-e8a7-4af2-8972-0c5651815a88",
+      "catalogListed": true,
       "name": "風船ペンギンの群れ",
       "promptName": "",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
-        "未分類"
+        "未分類",
+        "limited"
       ],
       "displayOrder": 11021,
       "created": "2025-01-26",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/805cfd3d-e8a7-4af2-8972-0c5651815a88",
       "localPath": "未分類/風船ペンギンの群れ.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -523,20 +545,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
+      "catalogListed": true,
       "name": "温泉ペンギン",
       "promptName": "温泉ペンギン（鳴き声：ングアアアアア/ペーッ　言葉は話さない）※戦闘不要 ※ABは名前表記",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2025-01-27",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1",
       "localPath": "未分類/温泉ペンギン.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -567,20 +591,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
+      "catalogListed": true,
       "name": "バナナ型ペンギンはチョコレートの翼を広げ",
       "promptName": "バナナ型ペンギン",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2025-01-29",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
       "localPath": "未分類/バナナ型ペンギンはチョコレートの翼を広げ.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -611,20 +637,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
+      "catalogListed": true,
       "name": "ペンギンドリンクバー",
       "promptName": "厳寒の地のレストランに設置されたドリンクバー（ペンギンの木）",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2025-07-02",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
       "localPath": "未分類/ペンギンドリンクバー.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -655,20 +683,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "86a935c6-75a1-4d04-84a8-b2f78f3bac78",
+      "catalogListed": true,
       "name": "ペンギン抱きの刑",
       "promptName": "ペンギンを育てている農夫",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2025-10-13",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/86a935c6-75a1-4d04-84a8-b2f78f3bac78",
       "localPath": "未分類/ペンギン抱きの刑.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -699,20 +729,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d7cc3432-db51-498d-bb72-c36897d54ad2",
+      "catalogListed": true,
       "name": "ペンギン積み",
       "promptName": "ペンギンを積む商人",
       "category": "未分類",
       "group": "ペンギン",
       "tags": [
         "未分類",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 11021,
       "created": "2026-01-10",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/d7cc3432-db51-498d-bb72-c36897d54ad2",
       "localPath": "未分類/ペンギン積み.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -743,6 +775,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
+      "catalogListed": true,
       "name": "【魔法使い】ローレ",
       "promptName": "【魔法使い】ローレ(一人称：わたし　感情に乏しく内向的で無口「…ん」) ※ABは名前表記",
       "category": "未分類",
@@ -786,6 +819,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "b02c79ed-fe37-4974-b467-73ede57fa87f",
+      "catalogListed": false,
       "name": "生月 ローレ",
       "promptName": "生月 ローレ（むつき ろーれ　一人称：わたし）",
       "category": "【魔法使い】ローレ",
@@ -831,6 +865,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
+      "catalogListed": true,
       "name": "【街路の魔女】コキア",
       "promptName": "【街路の魔女】コキア　（人称：わたし、きみ　雰囲気：仕事を愛すのんびり屋「ほへ〜」「だねぇ」）",
       "category": "未分類",
@@ -866,6 +901,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7169fa5d-0e10-4abc-b1fe-39448850204b",
+      "catalogListed": true,
       "name": "村の少年",
       "promptName": "少年（一人称：ぼく）",
       "category": "キャラクター（一般）",
@@ -901,6 +937,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d4a15810-0b7b-4805-bb3c-922700003242",
+      "catalogListed": true,
       "name": "ハーピィ出張買取サービス",
       "promptName": "",
       "category": "未分類",
@@ -933,6 +970,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "6c6265a9-8983-493e-a59e-33f4ac9a5074",
+      "catalogListed": true,
       "name": "ハーピィ雑貨店",
       "promptName": "",
       "category": "未分類",
@@ -961,21 +999,62 @@ window.CHARACTER_CATALOG = {
           "name": "店主",
           "value": "片翼の折れたハーピィ。常に気だるげ"
         }
+      ],
+      "products": [
+        {
+          "name": "金属の装飾品",
+          "price": 240,
+          "image": "images/shop/metal-ornament.png"
+        },
+        {
+          "name": "青い布の切れ端",
+          "price": 20,
+          "image": "images/shop/blue-cloth.png"
+        },
+        {
+          "name": "古びた魔導書",
+          "price": 6000,
+          "image": "images/shop/grimoire.png"
+        },
+        {
+          "name": "奇妙な鏡",
+          "price": 5000,
+          "image": "images/shop/strange-mirror.png"
+        },
+        {
+          "name": "錆びた鐘",
+          "price": 1600,
+          "image": "images/shop/rusted-bell.png"
+        },
+        {
+          "name": "魔石の欠片",
+          "price": 2400,
+          "image": "images/shop/magic-shard.png"
+        },
+        {
+          "name": "サバクトビペンギンの油",
+          "price": 300,
+          "image": "images/shop/penguin-oil.png"
+        }
       ]
     },
     {
       "id": "081b504e-a45d-41da-8d34-48de71730b2b",
+      "catalogListed": true,
       "name": "哨戒ハーピィ部隊",
       "promptName": "哨戒ハーピィ部隊（挨拶は「ハイホー！」）",
       "category": "未分類",
       "group": "ハーピィ",
-      "tags": [],
+      "tags": [
+        "未分類",
+        "limited"
+      ],
       "displayOrder": 30000,
       "created": "2026-05-11",
-      "updated": "2026-05-11",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/081b504e-a45d-41da-8d34-48de71730b2b",
-      "localPath": "キャラクター（一般）/哨戒ハーピィ部隊.md",
-      "isHidden": false,
+      "localPath": "未分類/哨戒ハーピィ部隊.md",
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -1002,6 +1081,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "870f1a6b-7560-40ba-9a42-6e7c7a8cd0f3",
+      "catalogListed": true,
       "name": "AL1-C3",
       "promptName": "AL1-C3（通称：アリス、特徴：青いエプロンドレス、無邪気な夢想家「えへへっ」人称：わたし）",
       "category": "ロボット・機械",
@@ -1045,6 +1125,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "72643e27-47c6-4f25-aa6e-0760ed00beb1",
+      "catalogListed": false,
       "name": "AL1-C3 (戦闘モード)",
       "promptName": "",
       "category": "未分類",
@@ -1088,6 +1169,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "d78b8d44-7589-4c7f-904d-63180f1e4cd7",
+      "catalogListed": false,
       "name": "【紅月の白狼】ローレ",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1128,6 +1210,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "deda29c7-c4f0-408f-88f3-dd041f3c3602",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（あなたとは、知り合い）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1169,6 +1252,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "f4a2eb1d-ea37-4aba-9c05-4f7c8a1f072a",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（野営中）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1210,6 +1294,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "2dc34616-8b86-4634-b8a3-32d61b2c482d",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(非戦闘)",
       "promptName": "【魔法使い】ローレ(性格：感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
@@ -1247,6 +1332,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "7d56ccde-ac75-4b7b-b5f0-54fd02792e3d",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（重傷）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1288,6 +1374,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ff6e0059-3940-472a-9cfe-7d548f057794",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(お礼)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1329,6 +1416,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bf062e5f-cded-4874-827a-a65763f923d2",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（温泉）",
       "promptName": "【魔法使い】ローレ（一人称：わたし　性格・口調：感情に乏しく内向的で無口「…ん」、呼び捨て）",
       "category": "【魔法使い】ローレ",
@@ -1366,6 +1454,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "e4c813f0-467c-4e37-a253-d5de314ad377",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(人狼化)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1403,6 +1492,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(応急処置)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1444,6 +1534,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "13b9616c-0328-423e-9b7a-03320a4ac5d4",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(既知の仲)",
       "promptName": "【魔法使い】ローレ（性格・口調：感情に乏しく内向的で無口「…ん」）",
       "category": "未分類",
@@ -1489,6 +1580,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "101e9f2f-af0c-4e9b-b1b2-5bc61f935cd0",
+      "catalogListed": false,
       "name": "【黒陽】ラーベ",
       "promptName": "【黒陽】ラーベ（烏。人ではない）",
       "category": "【魔法使い】ローレ",
@@ -1529,6 +1621,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "bec89eae-ad9a-496a-9eb0-5900b0ce0954",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(一人)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1573,6 +1666,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "e26b7217-c8ac-4415-9ae9-2c92844c0607",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(重傷)",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」）",
       "category": "【魔法使い】ローレ",
@@ -1616,6 +1710,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c87624ef-1d1c-4f95-b05f-b467b43c96c7",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(茸)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1656,6 +1751,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "cfac6007-a8b0-4e03-bb90-1ac5d0bcb8ef",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(不快な茸)",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1701,6 +1797,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "c59594c0-ea00-49de-9e44-e98e80d339f1",
+      "catalogListed": false,
       "name": "村の少年(冒険)",
       "promptName": "村の少年",
       "category": "キャラクター（一般）",
@@ -1746,6 +1843,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "b0ab996d-3101-4ff6-9274-28124f8ad874",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ(新年)",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
@@ -1791,6 +1889,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "b21e2309-81ca-40ac-bbea-c9b448f1c676",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（料理）",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
@@ -1832,6 +1931,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a5ee19cc-043d-49bb-8a32-ccbfd70bbcdc",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（{u}を料理）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1877,6 +1977,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "4120610d-a01d-4697-b36a-56e8d528b89b",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（{u}の解体）",
       "promptName": "【魔法使い】ローレ",
       "category": "【魔法使い】ローレ",
@@ -1922,6 +2023,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "a0653ef3-44c9-42d2-962f-53456a31aea5",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（解体）",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -1967,6 +2069,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "734cf6f3-f146-4db9-b64b-5c753f153581",
+      "catalogListed": false,
       "name": "生月 ローレ（温泉）",
       "promptName": "生月 ローレ（一人称：わたし）",
       "category": "【魔法使い】ローレ",
@@ -2012,6 +2115,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "4c7e24a6-7cef-4f80-ba16-710f878ccc9a",
+      "catalogListed": false,
       "name": "【魔法使い】ローレ（食事）",
       "promptName": "【魔法使い】ローレ(性格・口調：ローレは感情に乏しく内向的で無口「…ん」)",
       "category": "【魔法使い】ローレ",
@@ -2053,6 +2157,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "f411afdb-1892-4955-9b11-49a5ed16b48c",
+      "catalogListed": false,
       "name": "魔女の茸",
       "promptName": "",
       "category": "【魔法使い】ローレ",
@@ -2097,20 +2202,22 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "ac65679e-63b8-4ea9-8cf3-aa15a7361e16",
+      "catalogListed": true,
       "name": "寒波、小屋、ペンギン",
       "promptName": "（描写指示文。キャラクターとして登場させないこと）",
       "category": "場所・施設",
       "group": "ペンギン",
       "tags": [
         "場所・施設",
+        "limited",
         "non_battle"
       ],
       "displayOrder": 90001,
       "created": "2026-05-19",
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/ac65679e-63b8-4ea9-8cf3-aa15a7361e16",
       "localPath": "場所・施設/寒波、小屋、ペンギン.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": true,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -2137,6 +2244,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "8fd93f87-c3b5-40ad-a228-9b27a8ddf86f",
+      "catalogListed": false,
       "name": "ハーピィ雑貨店(トマト栽培)",
       "promptName": "",
       "category": "未分類",
@@ -2166,6 +2274,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "46711625-2989-4125-af0e-71964e9b3064",
+      "catalogListed": false,
       "name": "村の少年(重傷)",
       "promptName": "",
       "category": "キャラクター（一般）",
@@ -2207,6 +2316,7 @@ window.CHARACTER_CATALOG = {
     },
     {
       "id": "e3b2b770-1519-46aa-91f2-e8949b009612",
+      "catalogListed": false,
       "name": "村の少年(非戦闘)",
       "promptName": "村の少年",
       "category": "キャラクター（一般）",
