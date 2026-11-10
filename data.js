@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-10T11:29:00",
+  "generatedAt": "2026-11-10T12:14:54",
   "source": "characters_mine.json",
-  "count": 54,
+  "count": 53,
   "characters": [
     {
       "id": "1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
@@ -1206,48 +1206,6 @@ window.CHARACTER_CATALOG = {
         {
           "name": "幻狼",
           "value": "魔力により幻影の狼の群れを呼び出す"
-        }
-      ]
-    },
-    {
-      "id": "deda29c7-c4f0-408f-88f3-dd041f3c3602",
-      "catalogListed": false,
-      "name": "【魔法使い】ローレ（あなたとは、知り合い）",
-      "promptName": "",
-      "category": "【魔法使い】ローレ",
-      "group": "",
-      "tags": [],
-      "displayOrder": 80001,
-      "created": "2024-08-03",
-      "updated": "2024-12-10",
-      "url": "https://ai-battler.com/battle/deda29c7-c4f0-408f-88f3-dd041f3c3602",
-      "localPath": "【魔法使い】ローレ/【魔法使い】ローレ（あなたとは、知り合い）.md",
-      "isHidden": true,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": [
-        {
-          "name": "外見",
-          "value": "月飾りの魔女帽子/白髮赤目/幼さ残る少女"
-        },
-        {
-          "name": "箒槍",
-          "value": "箒を模した槍。これに乗り彗星の如く飛ぶ"
-        },
-        {
-          "name": "性格・口調",
-          "value": "ローレは感情に乏しく内向的で無口「…ん」"
-        },
-        {
-          "name": "使い魔ラーベ",
-          "value": "未来視の大鴉。{i}を優しく見守る存在"
-        },
-        {
-          "name": "頼れる使い魔",
-          "value": "ローレは状況把握に優れたラーベを頼る"
         }
       ]
     },
