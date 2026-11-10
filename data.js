@@ -1,7 +1,7 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-10T09:11:58",
+  "generatedAt": "2026-11-10T11:29:00",
   "source": "characters_mine.json",
-  "count": 55,
+  "count": 54,
   "characters": [
     {
       "id": "1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
@@ -289,14 +289,15 @@ window.CHARACTER_CATALOG = {
       "category": "未分類",
       "group": "兎",
       "tags": [
-        "未分類"
+        "未分類",
+        "limited"
       ],
       "displayOrder": 10000,
       "created": "2026-09-14",
-      "updated": "2026-09-14",
+      "updated": "2026-11-10",
       "url": "https://ai-battler.com/battle/202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
       "localPath": "未分類/【終末時計兎】メト.md",
-      "isHidden": false,
+      "isHidden": true,
       "isNotBattle": false,
       "isNotSearchable": true,
       "isSensitive": false,
@@ -2239,36 +2240,6 @@ window.CHARACTER_CATALOG = {
         {
           "name": "ペンギンは温かい",
           "value": "抱けば温かく絞り出される油はよく燃える"
-        }
-      ]
-    },
-    {
-      "id": "8fd93f87-c3b5-40ad-a228-9b27a8ddf86f",
-      "catalogListed": false,
-      "name": "ハーピィ雑貨店(トマト栽培)",
-      "promptName": "",
-      "category": "未分類",
-      "group": "ハーピィ",
-      "tags": [],
-      "displayOrder": 91001,
-      "created": "2024-09-05",
-      "updated": "2025-01-14",
-      "url": "https://ai-battler.com/battle/8fd93f87-c3b5-40ad-a228-9b27a8ddf86f",
-      "localPath": "場所・施設/ハーピィ雑貨店(トマト栽培).md",
-      "isHidden": true,
-      "isNotBattle": true,
-      "isNotSearchable": true,
-      "isSensitive": false,
-      "isCopyable": false,
-      "summary": "",
-      "statuses": [
-        {
-          "name": "挨拶",
-          "value": "ハイホー…"
-        },
-        {
-          "name": "店主",
-          "value": "翼の折れたハーピィ。常に気だるげ"
         }
       ]
     },
