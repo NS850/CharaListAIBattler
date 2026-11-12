@@ -130,8 +130,19 @@ function renderSeriesButtons() {
 // 派生リストは行の子要素にしない。行の中で広げると、
 // grid の同じ段にある他の行が引っ張られて伸びてしまうため、
 // パネルは grid の独立した子として「その行がいる段の末尾」の直後に
-// 全幅（grid-column: 1 / -1）で差し込む。同時に開けるパネルは1つだけ。
+// 全幅（grid-column: 1 / -1）で差し込む。検索時のみ複数を開ける。
 let openVariant = null; // { panel, card, toggle }
+const searchPanels = new Set(); // { panel, card, toggle }
+
+function positionSearchPanels() {
+  const panels = Array.from(searchPanels);
+  panels.forEach(({ panel }) => panel.remove());
+  // 全パネルを外してから行末を測り、同じ行末への挿入順も保つ。
+  const anchors = panels.map(({ card }) => rowEndCard(card));
+  panels.slice().reverse().forEach(({ panel }, index) => {
+    anchors[panels.length - 1 - index].after(panel);
+  });
+}
 
 function closeVariantPanel() {
   if (!openVariant) return;
@@ -155,12 +166,12 @@ function rowEndCard(card) {
   return anchor;
 }
 
-function buildVariantPanel(char, variants) {
+function buildVariantPanel(char, variants, searchHit = false) {
   const panel = document.createElement("div");
   panel.className = "variant-panel";
   const header = document.createElement("div");
   header.className = "variant-panel-head";
-  header.textContent = `${char.name || "(no name)"} の派生`;
+  header.textContent = `${char.name || "(no name)"} の派生${searchHit ? `（検索ヒット ${variants.length}件）` : ""}`;
   panel.append(header);
   const list = document.createElement("div");
   list.className = "variant-list";
@@ -189,16 +200,16 @@ function buildVariantPanel(char, variants) {
 // --- 商品パネル（ハーピィ雑貨店の陳列、2026-11-10 追加） ---
 // 派生パネルと同じ全幅方式・排他開閉をそのまま使う（toggleVariantPanel 共用）。
 // 商品データは gen_site.js が店の skill から生成し data.js の products に入る。
-function buildProductPanel(char) {
+function buildProductPanel(char, products = char.products || [], searchHit = false) {
   const panel = document.createElement("div");
   panel.className = "variant-panel product-panel";
   const header = document.createElement("div");
   header.className = "variant-panel-head";
-  header.textContent = `${char.name || "(no name)"} の商品`;
+  header.textContent = `${char.name || "(no name)"} の商品${searchHit ? `（検索ヒット ${products.length}件）` : ""}`;
   panel.append(header);
   const list = document.createElement("div");
   list.className = "product-list";
-  (char.products || []).forEach(product => {
+  products.forEach(product => {
     const row = document.createElement("div");
     row.className = "product-row";
     if (product.image) {
@@ -230,6 +241,19 @@ function buildProductPanel(char) {
 }
 
 function toggleVariantPanel(card, toggle, panel) {
+  if (query.length > 0) {
+    const current = Array.from(searchPanels).find(entry => entry.panel === panel);
+    if (current) {
+      panel.remove();
+      searchPanels.delete(current);
+    } else {
+      searchPanels.add({ panel, card, toggle });
+    }
+    toggle.setAttribute("aria-expanded", String(!current));
+    card.classList.toggle("open", Array.from(searchPanels).some(entry => entry.card === card));
+    positionSearchPanels();
+    return;
+  }
   const isThis = openVariant && openVariant.panel === panel;
   closeVariantPanel();
   if (isThis) return;
@@ -241,13 +265,14 @@ function toggleVariantPanel(card, toggle, panel) {
 
 // 画面幅が変わって行の組み替えが起きたら、開いているパネルを現在の行末へ移す。
 window.addEventListener("resize", () => {
+  if (searchPanels.size) positionSearchPanels();
   if (!openVariant) return;
   const { panel, card } = openVariant;
   panel.remove();
   rowEndCard(card).after(panel);
 });
 
-function createRow(char, showSection = false) {
+function createRow(char, showSection = false, searchMatches = null) {
   const row = document.createElement("div");
   row.className = "row";
   // 名前は実リンク（キーボードでも辿れる）。行の余白クリックでも対戦ページへ。
@@ -266,20 +291,18 @@ function createRow(char, showSection = false) {
   const identity = document.createElement("div");
   identity.className = "row-identity";
   identity.append(name);
-  const main = variantModel.mainByVariantId.get(char.id);
-  const directVariant = !char.catalogListed && main;
-  if (directVariant || showSection) {
+  if (showSection) {
     const detail = document.createElement("span");
     detail.className = "row-detail";
-    detail.textContent = directVariant ? `${main.name} の派生` : SECTION_LABELS[char.section];
+    detail.textContent = SECTION_LABELS[char.section];
     identity.append(detail);
   }
   row.append(identity);
-  if (directVariant) return row;
 
   const variants = variantModel.variantsByMainId.get(char.id) || [];
   if (variants.length) {
-    const panel = buildVariantPanel(char, variants);
+    const hits = searchMatches?.matchedVariants || [];
+    const panel = buildVariantPanel(char, hits.length ? hits : variants, hits.length > 0);
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "variant-toggle";
@@ -295,11 +318,17 @@ function createRow(char, showSection = false) {
       toggleVariantPanel(row, toggle, panel);
     });
     row.append(toggle);
+    if (hits.length) {
+      searchPanels.add({ panel, card: row, toggle });
+      toggle.setAttribute("aria-expanded", "true");
+      row.classList.add("open");
+    }
   }
 
   const products = Array.isArray(char.products) ? char.products : [];
   if (products.length) {
-    const panel = buildProductPanel(char);
+    const hits = searchMatches?.matchedProducts || [];
+    const panel = buildProductPanel(char, hits.length ? hits : products, hits.length > 0);
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "variant-toggle product-toggle";
@@ -315,6 +344,11 @@ function createRow(char, showSection = false) {
       toggleVariantPanel(row, toggle, panel);
     });
     row.append(toggle);
+    if (hits.length) {
+      searchPanels.add({ panel, card: row, toggle });
+      toggle.setAttribute("aria-expanded", "true");
+      row.classList.add("open");
+    }
   }
   return row;
 }
@@ -323,12 +357,19 @@ function renderCards() {
   closeVariantPanel();
   const searching = query.length > 0;
   const needle = normalize(query);
-  let chars = searching ? catalog.characters.filter(char => {
-    if (!char.catalogListed && !variantModel.mainByVariantId.has(char.id)) return false;
+  searchPanels.forEach(({ panel }) => panel.remove());
+  searchPanels.clear();
+  const searchMatches = new Map();
+  let chars = listed.filter(char => {
     if (series && char.group !== series) return false;
-    return matches(char, needle) || (char.catalogListed &&
-      (variantModel.variantsByMainId.get(char.id) || []).some(variant => matches(variant, needle)));
-  }) : listed.filter(char => !series || char.group === series);
+    if (!searching) return true;
+    const matchedVariants = (variantModel.variantsByMainId.get(char.id) || [])
+      .filter(variant => matches(variant, needle));
+    const matchedProducts = (char.products || [])
+      .filter(product => normalize(product.name).includes(needle));
+    searchMatches.set(char.id, { matchedVariants, matchedProducts });
+    return matches(char, needle) || matchedVariants.length > 0 || matchedProducts.length > 0;
+  });
   chars = chars.slice().sort((a, b) =>
     (!searching && series ? SECTION_ORDER.indexOf(a.section) - SECTION_ORDER.indexOf(b.section) : 0) ||
     compareCharacters(a, b));
@@ -351,8 +392,9 @@ function renderCards() {
   if (searching || series) {
     const grid = document.createElement("div");
     grid.className = "rows rest";
-    chars.forEach(char => grid.append(createRow(char, !!series)));
+    chars.forEach(char => grid.append(createRow(char, !!series, searchMatches.get(char.id))));
     els.cards.append(grid);
+    positionSearchPanels();
     return;
   }
   SECTION_ORDER.forEach((key, index) => {
