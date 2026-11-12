@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AIバトラー キャラクターカタログ</title>
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <main class="layout">
@@ -12,10 +12,18 @@
       <span id="resultCount" class="result-count">0件</span>
     </div>
 
+    <div class="search-block">
+      <div class="search-field">
+        <input id="search" type="search" placeholder="名前・特徴で検索" aria-label="名前・特徴で検索" autocomplete="off">
+        <button id="clearSearch" type="button" aria-label="検索をクリア" hidden>×</button>
+      </div>
+      <div id="series" class="series-buttons" role="group" aria-label="シリーズで絞り込み"></div>
+    </div>
+
     <div id="cards" aria-live="polite"></div>
   </main>
 
-  <script src="data.js?v=7"></script>
-  <script src="app.js?v=8"></script>
+  <script src="data.js?v=9"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>

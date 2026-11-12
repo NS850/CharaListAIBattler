@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-10T12:50:47",
+  "generatedAt": "2026-11-12T13:02:30",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -35,7 +35,8 @@ window.CHARACTER_CATALOG = {
           "name": "{u}からの印象",
           "value": "人格や背景に強く影響を与える"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "3a2f40f8-3790-449e-aac2-ba1098ff957b",
@@ -60,7 +61,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "other"
     },
     {
       "id": "e40d52b8-ddc8-4c03-95ce-b0de46ad9fb5",
@@ -102,7 +104,8 @@ window.CHARACTER_CATALOG = {
           "name": "一角",
           "value": "穢れを祓う逞しい角"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "6bbf51c1-affb-48dc-88ad-53ba286120d8",
@@ -144,7 +147,8 @@ window.CHARACTER_CATALOG = {
           "name": "10.最終結果",
           "value": "2、9番と合わせて読み取る"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
@@ -180,7 +184,8 @@ window.CHARACTER_CATALOG = {
           "name": "角笛",
           "value": "獣の角の笛。危険を伝えるだけ"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "cacd4b88-0860-42ae-b3e7-6fc31a295a72",
@@ -214,7 +219,8 @@ window.CHARACTER_CATALOG = {
           "name": "無害な物体",
           "value": "動けずなんら危害を及ぼさない、ただの雪像"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "d7c1a9c0-127c-4b7b-b254-7e976855c4a8",
@@ -252,7 +258,8 @@ window.CHARACTER_CATALOG = {
           "name": "浸透勁",
           "value": "脱力し放つ内側へと波紋のように伝わる打撃"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "0affd8e4-8f38-449c-ab43-abe06eaa7261",
@@ -297,7 +304,8 @@ window.CHARACTER_CATALOG = {
           "name": "処刑人の剣",
           "value": "殆ど汎ゆる物を破断する。引きずるほど重い"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "8bf1449f-beeb-4505-989b-e1f28ace06db",
@@ -341,7 +349,8 @@ window.CHARACTER_CATALOG = {
           "name": "手紙を届ける鳥",
           "value": "昼は烏、夜は梟が見守り、時に助けてくれる"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "385de0fd-adcf-4a8a-a552-affed69233ea",
@@ -378,7 +387,8 @@ window.CHARACTER_CATALOG = {
           "name": "アザラシの鳴き声",
           "value": "電子音、あるいは轟く雷鳴"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "9581f321-c8cf-4d13-9327-cd58aa14b7f0",
@@ -422,7 +432,8 @@ window.CHARACTER_CATALOG = {
           "name": "隕鉄大剣",
           "value": "隕石を素材とした無骨な鎖付き鉄塊"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
@@ -463,7 +474,8 @@ window.CHARACTER_CATALOG = {
           "name": "無抵抗",
           "value": "あらゆる痛みを招き受け入れようとする"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b",
@@ -508,7 +520,8 @@ window.CHARACTER_CATALOG = {
           "name": "ロゴスの剣",
           "value": "二基のビットを合わせ放出する0に返す光"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "7a3e7e18-319a-4a5e-af18-074c98ad3e87",
@@ -554,7 +567,8 @@ window.CHARACTER_CATALOG = {
           "name": "鳴き声2",
           "value": "ペーッ"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "8e367330-fd44-4fe4-a1bc-965868b5d008",
@@ -598,7 +612,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギン",
           "value": "厳寒の地でも育つ逞しい野菜"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "cefd5a59-0e3f-46c3-b271-ae4514fb3327",
@@ -644,7 +659,8 @@ window.CHARACTER_CATALOG = {
           "name": "根",
           "value": "鈴音の鳴る硬質なペンギンの足"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "805cfd3d-e8a7-4af2-8972-0c5651815a88",
@@ -685,7 +701,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギン",
           "value": "厳寒の地でも育つ逞しい植物"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "0551f592-e5f2-4cfa-bd77-69439f55cfb1",
@@ -731,7 +748,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギンの成分",
           "value": "溶け出し泉質に影響を与える"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
@@ -777,7 +795,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "ペンギンは言葉を話さず鳴き声を上げる"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "d4f7eaf4-8b22-4f29-b72a-396ba51e1d54",
@@ -823,7 +842,8 @@ window.CHARACTER_CATALOG = {
           "name": "鳴き声2",
           "value": "ペーッ"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
@@ -869,7 +889,8 @@ window.CHARACTER_CATALOG = {
           "name": "ドリンクバー",
           "value": "店内設備であるペンギンの木。コップが並ぶ"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "86a935c6-75a1-4d04-84a8-b2f78f3bac78",
@@ -915,7 +936,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギン",
           "value": "厳寒の地でも育つ逞しい野菜"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "d7cc3432-db51-498d-bb72-c36897d54ad2",
@@ -961,7 +983,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギン",
           "value": "厳寒の地でも育つ逞しい野菜"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "28ecf1de-f7e9-4ace-8c88-f2556f50ddee",
@@ -994,7 +1017,8 @@ window.CHARACTER_CATALOG = {
           "name": "鳴き声2",
           "value": "ピァアアア！"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "a54cb6e7-3a2e-4c00-91ce-615f136f08c1",
@@ -1018,7 +1042,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "other"
     },
     {
       "id": "bbca7862-b192-460d-be1d-d05da70d0dd7",
@@ -1064,7 +1089,8 @@ window.CHARACTER_CATALOG = {
           "name": "野菜アルパカ",
           "value": "おいしい毛を産出する野菜。荷役を担う"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "9cdc2547-8122-4e89-893f-4234ce453b6d",
@@ -1105,7 +1131,8 @@ window.CHARACTER_CATALOG = {
           "name": "忍耐と勝利",
           "value": "頑強な殻を背負い困難に耐え勝利を齎す"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "ca0abf67-5d6d-4fc8-a9d7-dc8b98ecd475",
@@ -1149,7 +1176,8 @@ window.CHARACTER_CATALOG = {
           "name": "一掃",
           "value": "花開いた箒槍が放つ光が刃となり薙ぎ祓う"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "b02c79ed-fe37-4974-b467-73ede57fa87f",
@@ -1195,7 +1223,8 @@ window.CHARACTER_CATALOG = {
           "name": "バイト",
           "value": "神社や集合住宅の日常清掃"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "8efcd383-2739-4582-b1e4-f4dd4c6264f7",
@@ -1232,7 +1261,8 @@ window.CHARACTER_CATALOG = {
           "name": "誘う光",
           "value": "暖かな街の光が鯨の口内へと誘い飲み込む"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "2633121b-0e09-44a8-8840-49718e142dfb",
@@ -1265,7 +1295,8 @@ window.CHARACTER_CATALOG = {
           "name": "{i}の性格",
           "value": "自惚れ屋/見栄っ張り/野蛮で非道"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "e29afdcf-eb63-4197-887f-07d90392f824",
@@ -1294,7 +1325,8 @@ window.CHARACTER_CATALOG = {
           "name": "強靭な肉体",
           "value": "頑強な骨格と膂力"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "51999668-52d3-4dc5-b810-3df328ec3142",
@@ -1335,7 +1367,8 @@ window.CHARACTER_CATALOG = {
           "name": "造られたもの",
           "value": "精神的な影響を受けない"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "178066bd-e363-48f5-8544-ef43c694d77f",
@@ -1371,7 +1404,8 @@ window.CHARACTER_CATALOG = {
           "name": "烏",
           "value": "友達"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "ac36fd68-7070-4cdd-85e1-d6324d6eb73e",
@@ -1413,7 +1447,8 @@ window.CHARACTER_CATALOG = {
           "name": "悪戯好き司書、烏",
           "value": "感情的で混沌と変化を好む。梟と喧嘩がち"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "9eb097a8-b2f4-455b-a9e7-9d506766bac0",
@@ -1446,7 +1481,8 @@ window.CHARACTER_CATALOG = {
           "name": "新兵/常人",
           "value": "並の筋力、生真面目で堅物"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "d9a28ed2-6088-4ee9-bac5-cbf392a88e65",
@@ -1475,7 +1511,8 @@ window.CHARACTER_CATALOG = {
           "name": "装備",
           "value": "棍棒、なまくら、錆びた槍、ランタン、松明"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "7169fa5d-0e10-4abc-b1fe-39448850204b",
@@ -1511,7 +1548,8 @@ window.CHARACTER_CATALOG = {
           "name": "無謀な挑戦",
           "value": "未熟な身体で立ち向かう"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "2f5d265b-e5b3-4274-8912-86b6de8350c0",
@@ -1548,7 +1586,8 @@ window.CHARACTER_CATALOG = {
           "name": "ローブ",
           "value": "何度も補修して着続けている"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "10e3e193-bc2c-486d-bfef-581207c638f7",
@@ -1589,7 +1628,8 @@ window.CHARACTER_CATALOG = {
           "name": "虐げられる弱者",
           "value": "待ち受ける死に抵抗する力を持たない"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "5b2a1ed5-4738-4019-aa5c-7648743043b8",
@@ -1634,7 +1674,8 @@ window.CHARACTER_CATALOG = {
           "name": "双剣",
           "value": "鋼雷レイピア/グレートソード"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "8b1a0547-fca3-4682-a257-5007efe05ccf",
@@ -1675,7 +1716,8 @@ window.CHARACTER_CATALOG = {
           "name": "英雄の血筋",
           "value": "金で書き加えられた血統"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "b9cc056a-cb8c-4d99-a5d8-3e903da1f0c3",
@@ -1704,7 +1746,8 @@ window.CHARACTER_CATALOG = {
           "name": "特徴",
           "value": "頭巾、編み籠、控えめで穏やかな性格"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "96ff9226-cb89-467a-ac20-0b7fe2d05fca",
@@ -1742,7 +1785,8 @@ window.CHARACTER_CATALOG = {
           "name": "前提",
           "value": "[u]は{i}の村に滞在している"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "36c54f7f-0385-422f-8ec1-4fff95cb50b8",
@@ -1772,7 +1816,8 @@ window.CHARACTER_CATALOG = {
           "name": "笑い方",
           "value": "ヒャハハハ！"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "01c5e88c-65f0-4183-8464-e58255331681",
@@ -1810,7 +1855,8 @@ window.CHARACTER_CATALOG = {
           "name": "予備の竿",
           "value": "貸すことのできる竿"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "fb462ede-12c6-44c0-b761-f5de0b02b9c5",
@@ -1840,7 +1886,8 @@ window.CHARACTER_CATALOG = {
           "name": "建物",
           "value": "{i}は建物だ"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "c4a8b795-20a6-4dac-a780-59a060fc7291",
@@ -1865,7 +1912,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "0adcaecb-cb51-4933-bf44-fd011051a09a",
@@ -1890,7 +1938,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "3b2e2559-9adc-46a1-b743-1a1af1007ad6",
@@ -1915,7 +1964,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "7a90cf3f-e67f-4ecf-b347-907a5454ccbf",
@@ -1940,7 +1990,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "124f6462-06d0-49a3-bec6-e3bcafec5d0b",
@@ -1965,7 +2016,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "88ff16f8-6b13-44a0-9c05-7e7f13c618cb",
@@ -1990,7 +2042,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "8bb8322b-0ef6-4235-80d2-db9c8132181d",
@@ -2024,7 +2077,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "{i}は状況であり登場しない"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "0f180e14-df16-47e4-8e06-6b993c0b4eb3",
@@ -2066,7 +2120,8 @@ window.CHARACTER_CATALOG = {
           "name": "つるはし",
           "value": "食べ物だと主催者は主張する"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "d4a15810-0b7b-4805-bb3c-922700003242",
@@ -2099,7 +2154,8 @@ window.CHARACTER_CATALOG = {
           "name": "ハーピィ",
           "value": "{i}はハーピィ"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "6c6265a9-8983-493e-a59e-33f4ac9a5074",
@@ -2169,7 +2225,8 @@ window.CHARACTER_CATALOG = {
           "price": 300,
           "image": "images/shop/penguin-oil.png"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "35deee35-2de2-441f-ba6f-37deeffb36c5",
@@ -2194,7 +2251,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "6a4b1468-3835-448b-bbb2-aab56ea79fcd",
@@ -2219,7 +2277,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "71a75b8f-d13f-4ba2-83c3-f7e0bac5baa0",
@@ -2244,7 +2303,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "3fa2ca2b-938e-459b-9828-f21b94a8e5b6",
@@ -2290,7 +2350,8 @@ window.CHARACTER_CATALOG = {
           "name": "狼",
           "value": "ヒツジの臭いに誘われて来る"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "47a52c8d-2693-46d6-954e-cd9bc370e04b",
@@ -2324,7 +2385,8 @@ window.CHARACTER_CATALOG = {
           "name": "価値",
           "value": "素材や技術、知識、人脈などあらゆる価値"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "24f60610-5ced-460a-bdc0-a86f9c77bb49",
@@ -2362,7 +2424,8 @@ window.CHARACTER_CATALOG = {
           "name": "孤立した男",
           "value": "貧民の間でさえ孤立する寄せ付けない態度"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "4398b4b7-5089-4e8a-8acd-63be20f3a427",
@@ -2403,7 +2466,8 @@ window.CHARACTER_CATALOG = {
           "name": "シャーマン",
           "value": "ゴブリン。雷の呪術と罠。狡賢い戦術家"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "1b1e7390-75d0-48b5-a33b-0f1ad08dd9f7",
@@ -2428,7 +2492,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "21d33302-3dc0-4381-b266-7e324b8a8672",
@@ -2453,7 +2518,8 @@ window.CHARACTER_CATALOG = {
       "isSensitive": false,
       "isCopyable": false,
       "summary": "",
-      "statuses": []
+      "statuses": [],
+      "section": "situation"
     },
     {
       "id": "d63d999b-720c-45af-b4a4-a202a34023a5",
@@ -2487,7 +2553,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "二千字程度の小説形式で描写"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "158450b1-9b5e-483a-abb4-18daf763bd00",
@@ -2516,7 +2583,8 @@ window.CHARACTER_CATALOG = {
           "name": "村人",
           "value": "戦いの経験もない村人"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "213abf2d-7ed8-486a-952b-b8bb981fbcaa",
@@ -2551,7 +2619,8 @@ window.CHARACTER_CATALOG = {
           "name": "蟲・ネズミ",
           "value": "病原であり貴重な栄養源"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "bfd1bd60-bcd4-46bb-940c-01d4b975b59b",
@@ -2581,7 +2650,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "{i}は状況であり登場しない"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "5c4c4722-e744-47a5-a344-3fb5d367d65e",
@@ -2619,7 +2689,8 @@ window.CHARACTER_CATALOG = {
           "name": "スライム",
           "value": "天井等から油断した{u}を襲い窒息させる"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "a2a30715-7143-46fc-a6fd-e4315ad25409",
@@ -2657,7 +2728,8 @@ window.CHARACTER_CATALOG = {
           "name": "月光",
           "value": "自分のものではない輝き"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "081b504e-a45d-41da-8d34-48de71730b2b",
@@ -2698,7 +2770,8 @@ window.CHARACTER_CATALOG = {
           "name": "魔力の交信",
           "value": "視界や感覚を共有し脅威を未然に対処する"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "5eb79960-ac56-4cdf-a967-6ed1247a1b29",
@@ -2739,7 +2812,8 @@ window.CHARACTER_CATALOG = {
           "name": "閃光",
           "value": "指のような先端から発する細く弱弱しい光"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "8dac29bd-8e27-47e0-a162-667eea590855",
@@ -2784,7 +2858,8 @@ window.CHARACTER_CATALOG = {
           "name": "烏",
           "value": "作業を見守る烏の群れ"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "870f1a6b-7560-40ba-9a42-6e7c7a8cd0f3",
@@ -2828,7 +2903,8 @@ window.CHARACTER_CATALOG = {
           "name": "戦闘モード",
           "value": "切迫するまで起動しない。淡々と処理"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "baeff1f8-32f0-4adb-ae57-6e8cecc58e90",
@@ -2873,7 +2949,8 @@ window.CHARACTER_CATALOG = {
           "name": "性格/表情/言葉",
           "value": "冷静/無表情/端的"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "17b68284-0784-4462-b834-2ebfbc12ba55",
@@ -2918,7 +2995,8 @@ window.CHARACTER_CATALOG = {
           "name": "高高度の飛行",
           "value": "至上の高度を浮遊し{u}の攻撃を無力化"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "72643e27-47c6-4f25-aa6e-0760ed00beb1",
@@ -2962,7 +3040,8 @@ window.CHARACTER_CATALOG = {
           "name": "戦闘スタイル",
           "value": "{u}の攻撃を見切り隙を突いた一撃で勝利"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "72b451d9-2e71-43a4-87e8-f868449c281f",
@@ -3007,7 +3086,8 @@ window.CHARACTER_CATALOG = {
           "name": "自爆",
           "value": "魔力により収束した光の爆発"
         }
-      ]
+      ],
+      "section": "other"
     },
     {
       "id": "9589fa05-f33b-4cc2-a1a5-dd12553641d7",
@@ -3041,7 +3121,8 @@ window.CHARACTER_CATALOG = {
           "name": "集光装置",
           "value": "遺跡の外部に突き出た花弁状の装置。動力源"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "d78b8d44-7589-4c7f-904d-63180f1e4cd7",
@@ -3082,7 +3163,8 @@ window.CHARACTER_CATALOG = {
           "name": "幻狼",
           "value": "魔力により幻影の狼の群れを呼び出す"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "f4a2eb1d-ea37-4aba-9c05-4f7c8a1f072a",
@@ -3124,7 +3206,8 @@ window.CHARACTER_CATALOG = {
           "name": "使い魔ラーベ",
           "value": "星々が浮かぶ大鴉。{i}を優しく見守る"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "2dc34616-8b86-4634-b8a3-32d61b2c482d",
@@ -3162,7 +3245,8 @@ window.CHARACTER_CATALOG = {
           "name": "大烏のラーベ",
           "value": "体に星が浮かぶ三本足の大烏。未来を読む"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "7d56ccde-ac75-4b7b-b5f0-54fd02792e3d",
@@ -3204,7 +3288,8 @@ window.CHARACTER_CATALOG = {
           "name": "使い魔ラーベ",
           "value": "未来視の大鴉。{i}を優しく見守る存在"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "ff6e0059-3940-472a-9cfe-7d548f057794",
@@ -3246,7 +3331,8 @@ window.CHARACTER_CATALOG = {
           "name": "魔法",
           "value": "{i}と使い魔は自然の光を集め魔法を使う"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "bf062e5f-cded-4874-827a-a65763f923d2",
@@ -3284,7 +3370,8 @@ window.CHARACTER_CATALOG = {
           "name": "腰部の刻印",
           "value": "RAB-310(R3) "
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "e4c813f0-467c-4e37-a253-d5de314ad377",
@@ -3322,7 +3409,8 @@ window.CHARACTER_CATALOG = {
           "name": "満月の光",
           "value": "人狼化が促進される"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "8dd909a3-4c9e-4591-a24d-b06abf66d9f6",
@@ -3364,7 +3452,8 @@ window.CHARACTER_CATALOG = {
           "name": "魔法",
           "value": "{i}と使い魔は自然の光を集め魔法を使う"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "13b9616c-0328-423e-9b7a-03320a4ac5d4",
@@ -3410,7 +3499,8 @@ window.CHARACTER_CATALOG = {
           "name": "旧文明の落し子",
           "value": "機械と肉の揺籃が生んだ生体の少女"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "101e9f2f-af0c-4e9b-b1b2-5bc61f935cd0",
@@ -3451,7 +3541,8 @@ window.CHARACTER_CATALOG = {
           "name": "火葬",
           "value": "{u}を焼き尽くすまで消えない太陽の火"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "bec89eae-ad9a-496a-9eb0-5900b0ce0954",
@@ -3496,7 +3587,8 @@ window.CHARACTER_CATALOG = {
           "name": "使い魔の不在",
           "value": "不安/注意力散漫"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "e26b7217-c8ac-4415-9ae9-2c92844c0607",
@@ -3540,7 +3632,8 @@ window.CHARACTER_CATALOG = {
           "name": "不安",
           "value": "大怪我、庇護下にない不安"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "c87624ef-1d1c-4f95-b05f-b467b43c96c7",
@@ -3581,7 +3674,8 @@ window.CHARACTER_CATALOG = {
           "name": "光の魔法",
           "value": "光を集め魔法を使う"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "cfac6007-a8b0-4e03-bb90-1ac5d0bcb8ef",
@@ -3627,7 +3721,8 @@ window.CHARACTER_CATALOG = {
           "name": "既知の仲",
           "value": "{i}と{u}は以前に知り合っている"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "c59594c0-ea00-49de-9e44-e98e80d339f1",
@@ -3673,7 +3768,8 @@ window.CHARACTER_CATALOG = {
           "name": "前提",
           "value": "少年と{u}は既に交友関係にある"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "b0ab996d-3101-4ff6-9274-28124f8ad874",
@@ -3719,7 +3815,8 @@ window.CHARACTER_CATALOG = {
           "name": "既知の仲",
           "value": "AとBは以前に交友がある"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "b21e2309-81ca-40ac-bbea-c9b448f1c676",
@@ -3761,7 +3858,8 @@ window.CHARACTER_CATALOG = {
           "name": "大鴉ラーベ",
           "value": "未来視で見守る父役。陽熱を発し火力担当"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "a5ee19cc-043d-49bb-8a32-ccbfd70bbcdc",
@@ -3807,7 +3905,8 @@ window.CHARACTER_CATALOG = {
           "name": "星の大鴉ラーベ",
           "value": "未来視で見守る父役を陽熱を発し火力担当"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "4120610d-a01d-4697-b36a-56e8d528b89b",
@@ -3853,7 +3952,8 @@ window.CHARACTER_CATALOG = {
           "name": "魔法",
           "value": "{i}と使い魔は光を集め魔法を使う"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "a0653ef3-44c9-42d2-962f-53456a31aea5",
@@ -3899,7 +3999,8 @@ window.CHARACTER_CATALOG = {
           "name": "脳",
           "value": "幼い頭部の脳。傷付けず取り出すこと"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "734cf6f3-f146-4db9-b64b-5c753f153581",
@@ -3945,7 +4046,8 @@ window.CHARACTER_CATALOG = {
           "name": "趣味",
           "value": "空を眺めること、天体観測"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "4c7e24a6-7cef-4f80-ba16-710f878ccc9a",
@@ -3987,7 +4089,8 @@ window.CHARACTER_CATALOG = {
           "name": "大鴉ラーベ",
           "value": "身体に星々が浮かぶ烏。未来視で見守る父役"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "f411afdb-1892-4955-9b11-49a5ed16b48c",
@@ -4032,7 +4135,8 @@ window.CHARACTER_CATALOG = {
           "name": "茸が見せる世界",
           "value": "色彩の認識を変え声を聴かせ多幸感を与える"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "ad6fd523-6728-47c7-943b-be84e7ec3f44",
@@ -4062,7 +4166,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "対戦不要。代わりに{u}の旅路を描写"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "8586aba3-db12-4a50-a0b5-8e3620743e1e",
@@ -4096,7 +4201,8 @@ window.CHARACTER_CATALOG = {
           "name": "廃墟",
           "value": "かつてを思わせる痕跡だけを残した街"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "8320634d-46ec-4be0-85d6-618cc20cbff8",
@@ -4130,7 +4236,8 @@ window.CHARACTER_CATALOG = {
           "name": "小屋",
           "value": "隙間風、心許ない薪と食糧、簡素な寝床"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "ac65679e-63b8-4ea9-8cf3-aa15a7361e16",
@@ -4172,7 +4279,8 @@ window.CHARACTER_CATALOG = {
           "name": "ペンギンは温かい",
           "value": "抱けば温かく絞り出される油はよく燃える"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "46711625-2989-4125-af0e-71964e9b3064",
@@ -4214,7 +4322,8 @@ window.CHARACTER_CATALOG = {
           "name": "行動",
           "value": "未熟な身体で無謀な挑戦"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "a8607b96-dee1-4670-a88b-2fa9b701dae2",
@@ -4256,7 +4365,8 @@ window.CHARACTER_CATALOG = {
           "name": "口調",
           "value": "{i}の一人称「ボク」"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "e3b2b770-1519-46aa-91f2-e8949b009612",
@@ -4298,7 +4408,8 @@ window.CHARACTER_CATALOG = {
           "name": "行動",
           "value": "未熟な身体で無謀な挑戦"
         }
-      ]
+      ],
+      "section": "character"
     },
     {
       "id": "7d802eab-14fc-40ca-b982-ee4ce44a8871",
@@ -4328,7 +4439,8 @@ window.CHARACTER_CATALOG = {
           "name": "※",
           "value": "{i}は登場しない"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "0070600e-f4b7-4609-9713-389e7277c647",
@@ -4358,7 +4470,8 @@ window.CHARACTER_CATALOG = {
           "name": "現在地",
           "value": "冒険者の酒場"
         }
-      ]
+      ],
+      "section": "situation"
     },
     {
       "id": "6e32a0fd-1ed4-4935-b74e-cdfabc9af708",
@@ -4388,7 +4501,8 @@ window.CHARACTER_CATALOG = {
           "name": "穏やかな暮らし",
           "value": "仲睦まじく平和に暮らしている"
         }
-      ]
+      ],
+      "section": "situation"
     }
   ]
 };

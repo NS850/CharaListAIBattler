@@ -2,7 +2,10 @@ const catalog = window.CHARACTER_CATALOG || { characters: [] };
 
 const els = {
   resultCount: document.querySelector("#resultCount"),
-  cards: document.querySelector("#cards")
+  cards: document.querySelector("#cards"),
+  search: document.querySelector("#search"),
+  clearSearch: document.querySelector("#clearSearch"),
+  series: document.querySelector("#series")
 };
 
 const variantModel = buildVariantModel(catalog.characters);
@@ -77,22 +80,51 @@ function buildVariantModel(characters) {
   return { variantsByMainId, mainByVariantId };
 }
 
-// 一覧に出るのはカタログ独自の掲載分のみ（catalogListed）。
-// サービス側の isHidden とは分けて管理する（2026-11-10 本人決定）。
-// 掲載の正本は gen_site.js が読む catalog_list.json で、
-// data.js の各キャラに catalogListed として焼き込まれる。
-// 派生キャラは単独では出ず、基準キャラの派生としてだけ選べる。
-function listedCharacters() {
-  return catalog.characters
-    .filter(char => char.catalogListed)
-    .sort((a, b) =>
-      String(a.category || "").localeCompare(String(b.category || ""), "ja") ||
-      Number(a.displayOrder || 999999) - Number(b.displayOrder || 999999) ||
-      String(a.name || "").localeCompare(String(b.name || ""), "ja")
-    );
+const SECTION_LABELS = {
+  character: "キャラクター",
+  situation: "シチュエーション・場所・クエスト",
+  other: "敵・その他"
+};
+const SECTION_ORDER = Object.keys(SECTION_LABELS);
+const GROUP_ORDER = ["ペンギン", "ハーピィ", "兎"];
+let query = "";
+let series = null;
+const listed = catalog.characters.filter(char => char.catalogListed);
+const compareCharacters = (a, b) =>
+  Number(a.displayOrder ?? 999999) - Number(b.displayOrder ?? 999999) ||
+  String(a.name || "").localeCompare(String(b.name || ""), "ja");
+
+function normalize(value) {
+  return String(value ?? "")
+    .replace(/[！-～]/g, char => String.fromCharCode(char.charCodeAt(0) - 0xFEE0))
+    .replace(/[ァ-ヶ]/g, char => String.fromCharCode(char.charCodeAt(0) - 0x60))
+    .toLowerCase().replace(/\s/g, "");
 }
 
-const GROUP_ORDER = ["ペンギン", "ハーピィ", "兎"];
+const searchTargets = new Map(catalog.characters.map(char => [char.id,
+  [char.name, char.promptName, SECTION_LABELS[char.section], char.group, char.category,
+    ...(char.statuses || []).flatMap(status => [status.name, status.value]),
+    ...(char.products || []).map(product => product.name)].map(normalize)
+]));
+function matches(char, needle) {
+  return searchTargets.get(char.id).some(target => target.includes(needle));
+}
+
+function renderSeriesButtons() {
+  els.series.replaceChildren();
+  [null, ...GROUP_ORDER].forEach(group => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "variant-toggle series-button";
+    button.setAttribute("aria-pressed", String(series === group));
+    button.textContent = group ? `${group} ${listed.filter(char => char.group === group).length}` : "すべて";
+    button.addEventListener("click", () => {
+      series = series === group ? null : group;
+      renderCards();
+    });
+    els.series.append(button);
+  });
+}
 
 // --- 派生パネル（全幅方式） ---
 // 派生リストは行の子要素にしない。行の中で広げると、
@@ -215,7 +247,7 @@ window.addEventListener("resize", () => {
   rowEndCard(card).after(panel);
 });
 
-function createRow(char) {
+function createRow(char, showSection = false) {
   const row = document.createElement("div");
   row.className = "row";
   // 名前は実リンク（キーボードでも辿れる）。行の余白クリックでも対戦ページへ。
@@ -231,7 +263,19 @@ function createRow(char) {
   name.target = "_blank";
   name.rel = "noreferrer";
   name.textContent = char.name || "(no name)";
-  row.append(name);
+  const identity = document.createElement("div");
+  identity.className = "row-identity";
+  identity.append(name);
+  const main = variantModel.mainByVariantId.get(char.id);
+  const directVariant = !char.catalogListed && main;
+  if (directVariant || showSection) {
+    const detail = document.createElement("span");
+    detail.className = "row-detail";
+    detail.textContent = directVariant ? `${main.name} の派生` : SECTION_LABELS[char.section];
+    identity.append(detail);
+  }
+  row.append(identity);
+  if (directVariant) return row;
 
   const variants = variantModel.variantsByMainId.get(char.id) || [];
   if (variants.length) {
@@ -276,37 +320,52 @@ function createRow(char) {
 }
 
 function renderCards() {
-  const chars = listedCharacters();
-  els.resultCount.innerHTML = "";
-  const countNum = document.createElement("b");
-  countNum.textContent = String(chars.length);
-  els.resultCount.append(countNum, " 件");
-  els.cards.innerHTML = "";
+  closeVariantPanel();
+  const searching = query.length > 0;
+  const needle = normalize(query);
+  let chars = searching ? catalog.characters.filter(char => {
+    if (!char.catalogListed && !variantModel.mainByVariantId.has(char.id)) return false;
+    if (series && char.group !== series) return false;
+    return matches(char, needle) || (char.catalogListed &&
+      (variantModel.variantsByMainId.get(char.id) || []).some(variant => matches(variant, needle)));
+  }) : listed.filter(char => !series || char.group === series);
+  chars = chars.slice().sort((a, b) =>
+    (!searching && series ? SECTION_ORDER.indexOf(a.section) - SECTION_ORDER.indexOf(b.section) : 0) ||
+    compareCharacters(a, b));
+  els.clearSearch.hidden = !searching;
+  // Keep the focused series control in place while updating its state.
+  els.series.querySelectorAll("button").forEach((button, index) => {
+    button.setAttribute("aria-pressed", String(series === [null, ...GROUP_ORDER][index]));
+  });
+  const count = document.createElement("b");
+  count.textContent = String(chars.length);
+  els.resultCount.replaceChildren(count, searching ? " 件ヒット" : " 件");
+  els.cards.replaceChildren();
   if (!chars.length) {
     const empty = document.createElement("p");
     empty.className = "empty";
-    empty.textContent = "キャラクターがありません。";
+    empty.textContent = "見つかりませんでした。";
     els.cards.append(empty);
     return;
   }
-
-  const fragment = document.createDocumentFragment();
-  const groupedIds = new Set();
-  GROUP_ORDER.forEach((groupName, index) => {
-    const members = chars.filter(char => char.group === groupName);
-    if (!members.length) return;
-    members.forEach(char => groupedIds.add(char.id));
-    // グループは開閉式。先頭のグループだけ開いておく
-    const isFirst = index === 0;
+  if (searching || series) {
+    const grid = document.createElement("div");
+    grid.className = "rows rest";
+    chars.forEach(char => grid.append(createRow(char, !!series)));
+    els.cards.append(grid);
+    return;
+  }
+  SECTION_ORDER.forEach((key, index) => {
+    const members = chars.filter(char => char.section === key);
     const section = document.createElement("section");
-    section.className = isFirst ? "group open" : "group";
+    section.className = index === 0 ? "group open" : "group";
     const toggle = document.createElement("button");
     toggle.type = "button";
     toggle.className = "group-toggle";
-    toggle.setAttribute("aria-expanded", String(isFirst));
+    toggle.setAttribute("aria-expanded", String(index === 0));
     const label = document.createElement("span");
     label.className = "group-name";
-    label.textContent = groupName;
+    label.textContent = SECTION_LABELS[key];
     const count = document.createElement("span");
     count.className = "group-count";
     count.textContent = `${members.length}件`;
@@ -316,27 +375,28 @@ function renderCards() {
     toggle.append(label, count, icon);
     const grid = document.createElement("div");
     grid.className = "rows group-body";
-    // CSSのキャッシュが古くても開閉が効くよう、表示はインラインでも制御する
-    grid.style.display = isFirst ? "grid" : "none";
+    grid.style.display = index === 0 ? "grid" : "none";
     toggle.addEventListener("click", () => {
+      closeVariantPanel();
       const open = section.classList.toggle("open");
       grid.style.display = open ? "grid" : "none";
       toggle.setAttribute("aria-expanded", String(open));
     });
     members.forEach(char => grid.append(createRow(char)));
     section.append(toggle, grid);
-    fragment.append(section);
+    els.cards.append(section);
   });
-
-  const rest = chars.filter(char => !groupedIds.has(char.id));
-  if (rest.length) {
-    const grid = document.createElement("div");
-    grid.className = "rows rest";
-    rest.forEach(char => grid.append(createRow(char)));
-    fragment.append(grid);
-  }
-
-  els.cards.append(fragment);
 }
 
+els.search.addEventListener("input", () => {
+  query = els.search.value;
+  renderCards();
+});
+els.clearSearch.addEventListener("click", () => {
+  query = "";
+  els.search.value = "";
+  renderCards();
+  els.search.focus();
+});
+renderSeriesButtons();
 renderCards();

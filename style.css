@@ -254,7 +254,8 @@ body {
 }
 
 a:focus-visible,
-button:focus-visible {
+button:focus-visible,
+input:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
@@ -275,3 +276,39 @@ button:focus-visible {
     font-size: 17px;
   }
 }
+
+.search-block { margin-top: 24px; }
+.search-field { display: flex; align-items: center; gap: 8px; }
+.search-field input {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--night-2);
+  color: var(--ink);
+  caret-color: var(--gold);
+  font: inherit;
+}
+.search-field input::placeholder { color: var(--muted); opacity: 1; }
+.search-field input::-webkit-search-cancel-button { display: none; }
+#clearSearch {
+  flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--night-2);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+.series-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.series-button[aria-pressed="true"] { background: var(--gold-soft); border-color: var(--gold); }
+.series-button:hover, #clearSearch:hover { border-color: var(--gold); }
+.row-identity { flex: 1; min-width: 0; }
+.row-identity a.name { display: block; }
+.row-detail { display: block; color: var(--muted); font-size: 11px; overflow-wrap: anywhere; }
+.group-name { flex: 1; min-width: 0; }
+.group-count, .group-toggle-icon { flex-shrink: 0; }
