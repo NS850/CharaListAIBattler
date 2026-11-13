@@ -4,12 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AIバトラー キャラクターカタログ</title>
-  <link rel="stylesheet" href="style.css?v=10">
+  <link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
   <main class="layout">
     <div class="top-bar">
       <span id="resultCount" class="result-count">0件</span>
+    </div>
+
+    <div class="view-controls" role="group" aria-label="表示切替">
+      <button type="button" class="variant-toggle series-button" data-view="characters" aria-pressed="true">キャラクター一覧</button>
+      <button type="button" class="variant-toggle series-button" data-view="places" aria-pressed="false">場所</button>
+      <span id="placeDiscovery" class="result-count" aria-live="polite" hidden></span>
     </div>
 
     <div class="search-block">
@@ -23,7 +29,7 @@
     <div id="cards" aria-live="polite"></div>
   </main>
 
-  <script src="data.js?v=10"></script>
-  <script src="app.js?v=10"></script>
+  <script src="data.js?v=11"></script>
+  <script src="app.js?v=11"></script>
 </body>
 </html>
