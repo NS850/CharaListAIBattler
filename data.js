@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-13T11:44:06",
+  "generatedAt": "2026-11-14T07:11:20",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -4517,37 +4517,30 @@ window.CHARACTER_CATALOG = {
         "id": "frontier-village",
         "name": "辺境の村",
         "group": "村",
-        "tag": "集落",
         "relatedCharacters": [
           {
             "name": "村の少年",
-            "url": "https://ai-battler.com/battle/7169fa5d-0e10-4abc-b1fe-39448850204b",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/7169fa5d-0e10-4abc-b1fe-39448850204b"
           },
           {
             "name": "村の少年と少女",
-            "url": "https://ai-battler.com/battle/10e3e193-bc2c-486d-bfef-581207c638f7",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/10e3e193-bc2c-486d-bfef-581207c638f7"
           },
           {
             "name": "村娘",
-            "url": "https://ai-battler.com/battle/b9cc056a-cb8c-4d99-a5d8-3e903da1f0c3",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/b9cc056a-cb8c-4d99-a5d8-3e903da1f0c3"
           },
           {
             "name": "【道草と花と】村の少女",
-            "url": "https://ai-battler.com/battle/96ff9226-cb89-467a-ac20-0b7fe2d05fca",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/96ff9226-cb89-467a-ac20-0b7fe2d05fca"
           },
           {
             "name": "村の夜番の少女",
-            "url": "https://ai-battler.com/battle/1b52a10c-8cfc-4fb1-a7c4-72834d25be74",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/1b52a10c-8cfc-4fb1-a7c4-72834d25be74"
           },
           {
             "name": "魔術師見習いの少年",
-            "url": "https://ai-battler.com/battle/2f5d265b-e5b3-4274-8912-86b6de8350c0",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/2f5d265b-e5b3-4274-8912-86b6de8350c0"
           }
         ]
       },
@@ -4555,27 +4548,22 @@ window.CHARACTER_CATALOG = {
         "id": "frontier-town",
         "name": "辺境の街",
         "group": "街",
-        "tag": "都市",
         "relatedCharacters": [
           {
             "name": "【街路の魔女】コキア",
-            "url": "https://ai-battler.com/battle/178066bd-e363-48f5-8544-ef43c694d77f",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/178066bd-e363-48f5-8544-ef43c694d77f"
           },
           {
             "name": "真面目な新人衛兵",
-            "url": "https://ai-battler.com/battle/9eb097a8-b2f4-455b-a9e7-9d506766bac0",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/9eb097a8-b2f4-455b-a9e7-9d506766bac0"
           },
           {
             "name": "血の気の多い自警団",
-            "url": "https://ai-battler.com/battle/d9a28ed2-6088-4ee9-bac5-cbf392a88e65",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/d9a28ed2-6088-4ee9-bac5-cbf392a88e65"
           },
           {
             "name": "哨戒ハーピィ部隊",
-            "url": "https://ai-battler.com/battle/081b504e-a45d-41da-8d34-48de71730b2b",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/081b504e-a45d-41da-8d34-48de71730b2b"
           }
         ]
       },
@@ -4583,12 +4571,10 @@ window.CHARACTER_CATALOG = {
         "id": "kaira-shop",
         "name": "カイラの薬屋兼酒屋",
         "group": "街",
-        "tag": "店舗",
         "relatedCharacters": [
           {
             "name": "AL1-C3",
-            "url": "https://ai-battler.com/battle/870f1a6b-7560-40ba-9a42-6e7c7a8cd0f3",
-            "relation": "来訪"
+            "url": "https://ai-battler.com/battle/870f1a6b-7560-40ba-9a42-6e7c7a8cd0f3"
           }
         ]
       },
@@ -4596,22 +4582,18 @@ window.CHARACTER_CATALOG = {
         "id": "harpy-shop",
         "name": "ハーピィ雑貨店",
         "group": "街",
-        "tag": "店舗・街外れ",
         "relatedCharacters": [
           {
             "name": "ハーピィ雑貨店",
-            "url": "https://ai-battler.com/battle/6c6265a9-8983-493e-a59e-33f4ac9a5074",
-            "relation": "この地点自体"
+            "url": "https://ai-battler.com/battle/6c6265a9-8983-493e-a59e-33f4ac9a5074"
           },
           {
             "name": "ハーピィ出張買取サービス",
-            "url": "https://ai-battler.com/battle/d4a15810-0b7b-4805-bb3c-922700003242",
-            "relation": "仕入れ（買取）"
+            "url": "https://ai-battler.com/battle/d4a15810-0b7b-4805-bb3c-922700003242"
           },
           {
             "name": "哨戒ハーピィ部隊",
-            "url": "https://ai-battler.com/battle/081b504e-a45d-41da-8d34-48de71730b2b",
-            "relation": "同じ街のハーピィ"
+            "url": "https://ai-battler.com/battle/081b504e-a45d-41da-8d34-48de71730b2b"
           }
         ],
         "products": [
@@ -4656,62 +4638,50 @@ window.CHARACTER_CATALOG = {
         "id": "penguin-field",
         "name": "ペンギン畑",
         "group": "厳寒の地",
-        "tag": "生態系",
         "relatedCharacters": [
           {
             "name": "野菜ペンギン",
-            "url": "https://ai-battler.com/battle/8e367330-fd44-4fe4-a1bc-965868b5d008",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/8e367330-fd44-4fe4-a1bc-965868b5d008"
           },
           {
             "name": "野菜ペンギンの収穫",
-            "url": "https://ai-battler.com/battle/7a3e7e18-319a-4a5e-af18-074c98ad3e87",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/7a3e7e18-319a-4a5e-af18-074c98ad3e87"
           },
           {
             "name": "温泉ペンギン",
-            "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/0551f592-e5f2-4cfa-bd77-69439f55cfb1"
           },
           {
             "name": "クリスマスペンギンツリー",
-            "url": "https://ai-battler.com/battle/cefd5a59-0e3f-46c3-b271-ae4514fb3327",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/cefd5a59-0e3f-46c3-b271-ae4514fb3327"
           },
           {
             "name": "風船ペンギンの群れ",
-            "url": "https://ai-battler.com/battle/805cfd3d-e8a7-4af2-8972-0c5651815a88",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/805cfd3d-e8a7-4af2-8972-0c5651815a88"
           },
           {
             "name": "バナナ型ペンギンはチョコレートの翼を広げ",
-            "url": "https://ai-battler.com/battle/7b81f8ad-f44f-4438-9b43-d64f8c3b0537",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/7b81f8ad-f44f-4438-9b43-d64f8c3b0537"
           },
           {
             "name": "ペンギンの住む機械",
-            "url": "https://ai-battler.com/battle/d4f7eaf4-8b22-4f29-b72a-396ba51e1d54",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/d4f7eaf4-8b22-4f29-b72a-396ba51e1d54"
           },
           {
             "name": "ペンギンドリンクバー",
-            "url": "https://ai-battler.com/battle/ff271cff-5bb9-41ab-b9d6-e416ba366a7f",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/ff271cff-5bb9-41ab-b9d6-e416ba366a7f"
           },
           {
             "name": "ペンギン抱きの刑",
-            "url": "https://ai-battler.com/battle/86a935c6-75a1-4d04-84a8-b2f78f3bac78",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/86a935c6-75a1-4d04-84a8-b2f78f3bac78"
           },
           {
             "name": "ペンギン積み",
-            "url": "https://ai-battler.com/battle/d7cc3432-db51-498d-bb72-c36897d54ad2",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/d7cc3432-db51-498d-bb72-c36897d54ad2"
           },
           {
             "name": "サバクトビペンギン(群生相)",
-            "url": "https://ai-battler.com/battle/28ecf1de-f7e9-4ace-8c88-f2556f50ddee",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/28ecf1de-f7e9-4ace-8c88-f2556f50ddee"
           }
         ]
       },
@@ -4719,27 +4689,22 @@ window.CHARACTER_CATALOG = {
         "id": "moon",
         "name": "月",
         "group": "夜空",
-        "tag": "地点",
         "relatedCharacters": [
           {
             "name": "【竜狩り兎】リュネ",
-            "url": "https://ai-battler.com/battle/9581f321-c8cf-4d13-9327-cd58aa14b7f0",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/9581f321-c8cf-4d13-9327-cd58aa14b7f0"
           },
           {
             "name": "【終末時計兎】メト",
-            "url": "https://ai-battler.com/battle/202774bd-d0c3-426a-9fdd-db3ec5bcfe65",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/202774bd-d0c3-426a-9fdd-db3ec5bcfe65"
           },
           {
             "name": "【論理兎】ヴェリ",
-            "url": "https://ai-battler.com/battle/5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/5ebb84a5-86fb-4bff-aff4-d892e2c3ca8b"
           },
           {
             "name": "漂う月の少女たち",
-            "url": "https://ai-battler.com/battle/8efcd383-2739-4582-b1e4-f4dd4c6264f7",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/8efcd383-2739-4582-b1e4-f4dd4c6264f7"
           }
         ]
       },
@@ -4747,27 +4712,22 @@ window.CHARACTER_CATALOG = {
         "id": "whale-town",
         "name": "クジラの街",
         "group": "夜空",
-        "tag": "地点",
         "relatedCharacters": [
           {
             "name": "漂う月の少女たち",
-            "url": "https://ai-battler.com/battle/8efcd383-2739-4582-b1e4-f4dd4c6264f7",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/8efcd383-2739-4582-b1e4-f4dd4c6264f7"
           },
           {
             "name": "夢の中の画家",
-            "url": "https://ai-battler.com/battle/a2a30715-7143-46fc-a6fd-e4315ad25409",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/a2a30715-7143-46fc-a6fd-e4315ad25409"
           },
           {
             "name": "夢色のイッカク海馬",
-            "url": "https://ai-battler.com/battle/e40d52b8-ddc8-4c03-95ce-b0de46ad9fb5",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/e40d52b8-ddc8-4c03-95ce-b0de46ad9fb5"
           },
           {
             "name": "バラバラになった文字情報だけからなる人物",
-            "url": "https://ai-battler.com/battle/ee812d2d-65b5-4323-944d-1e20caa20b77",
-            "relation": ""
+            "url": "https://ai-battler.com/battle/ee812d2d-65b5-4323-944d-1e20caa20b77"
           }
         ]
       }

@@ -314,13 +314,11 @@ input:focus-visible {
 .group-count, .group-toggle-icon { flex-shrink: 0; }
 
 .view-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; }
-#series[hidden], #placeDiscovery[hidden] { display: none; }
+#series[hidden] { display: none; }
 .place-group-name { margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--rule); font-size: 19px; }
 .place-card { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 8px; min-width: 0; }
 .place-name { min-height: 44px; padding: 8px 48px 8px 0; border: 0; background: none; color: var(--ink); font: inherit; font-size: 18px; font-weight: 600; text-align: left; cursor: pointer; overflow-wrap: anywhere; }
 .place-name:hover, .place-card.open .place-name { color: var(--gold); }
-.place-new { position: absolute; right: 0; top: 24px; color: var(--gold); font-size: 12px; }
-.place-tag { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
 .place-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .place-chip { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink); font-size: 12px; text-decoration: none; overflow-wrap: anywhere; max-width: 100%; }
 .place-chip:hover { border-color: var(--gold); color: var(--gold); }

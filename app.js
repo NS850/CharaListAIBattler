@@ -435,17 +435,6 @@ function renderCards() {
 const placeData = catalog.places || { groups: [], places: [] };
 let activeView = "characters";
 let openPlace = null;
-let discoveries = {};
-try {
-  const saved = JSON.parse(localStorage.getItem("placeDiscoveryV1") || "{}");
-  if (saved && typeof saved === "object" && !Array.isArray(saved)) discoveries = saved;
-} catch { /* Storage may be unavailable. Keep discoveries in memory. */ }
-const discovered = id => typeof discoveries[id] === "string" && Number.isFinite(Date.parse(discoveries[id]));
-
-function updateDiscovery() {
-  document.querySelector("#placeDiscovery").textContent =
-    `発見 ${placeData.places.filter(place => discovered(place.id)).length}/${placeData.places.length}`;
-}
 
 function closePlacePanel() {
   if (!openPlace) return;
@@ -475,14 +464,12 @@ function buildPlacePanel(place) {
   panel.className = "variant-panel place-panel";
   panel.id = `place-panel-${place.id}`;
   panel.append(placeText("h3", place.name));
-  if (place.tag) panel.append(placeText("p", place.tag, "place-tag"));
   if (place.description) panel.append(placeText("p", place.description, "place-description"));
   panel.append(placeText("h4", "関連キャラクター"));
   const list = document.createElement("ul");
   (place.relatedCharacters || []).forEach(char => {
     const item = document.createElement("li");
     item.append(characterLink(char));
-    if (char.relation) item.append(document.createTextNode(` — ${char.relation}`));
     list.append(item);
   });
   panel.append(list);
@@ -503,8 +490,6 @@ function createPlaceCard(place) {
   toggle.setAttribute("aria-expanded", "false");
   toggle.setAttribute("aria-controls", `place-panel-${place.id}`);
   card.append(toggle);
-  if (!discovered(place.id)) card.append(placeText("span", "新規", "place-new"));
-  if (place.tag) card.append(placeText("span", place.tag, "place-tag"));
   const chips = document.createElement("div");
   chips.className = "place-chips";
   (place.relatedCharacters || []).forEach(char => {
@@ -538,12 +523,6 @@ function createPlaceCard(place) {
     toggle.setAttribute("aria-expanded", "true");
     card.classList.add("open");
     openPlace = { card, panel, toggle };
-    if (!discovered(place.id)) {
-      discoveries[place.id] = new Date().toISOString();
-      try { localStorage.setItem("placeDiscoveryV1", JSON.stringify(discoveries)); } catch { /* In-memory fallback. */ }
-      card.querySelector(".place-new")?.remove();
-      updateDiscovery();
-    }
   });
   return card;
 }
@@ -553,7 +532,7 @@ function renderPlaces() {
   els.cards.replaceChildren();
   const needle = normalize(query);
   const places = placeData.places.filter(place =>
-    [place.name, place.tag, ...(place.relatedCharacters || []).map(char => char.name)]
+    [place.name, ...(place.relatedCharacters || []).map(char => char.name)]
       .some(value => normalize(value).includes(needle)));
   els.resultCount.textContent = `${places.length} 地点`;
   els.clearSearch.hidden = !query.length;
@@ -570,7 +549,6 @@ function renderPlaces() {
     els.cards.append(section);
   });
   if (!places.length) els.cards.append(placeText("p", "見つかりませんでした。", "empty"));
-  updateDiscovery();
 }
 
 window.addEventListener("resize", () => {
@@ -589,8 +567,7 @@ document.querySelectorAll("[data-view]").forEach(button => {
     document.querySelectorAll("[data-view]").forEach(control =>
       control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
     els.series.hidden = activeView === "places";
-    document.querySelector("#placeDiscovery").hidden = activeView !== "places";
-    const label = activeView === "places" ? "地点名・タグ・関連キャラクターで検索" : "名前・特徴で検索";
+    const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
     els.search.placeholder = label;
     els.search.setAttribute("aria-label", label);
     renderCards();
