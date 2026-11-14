@@ -333,3 +333,26 @@ input:focus-visible {
 .place-description { white-space: pre-wrap; line-height: 1.7; max-width: 72ch; }
 .place-panel .product-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 8px 24px; }
 .place-panel .product-row { min-width: 0; flex-wrap: wrap; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.18s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .group-toggle-icon, .variant-toggle-icon { transition: none; }
+  ::view-transition-old(root),
+  ::view-transition-new(root) { animation: none; }
+}

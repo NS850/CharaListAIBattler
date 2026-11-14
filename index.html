@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AIバトラー キャラクターカタログ</title>
-  <link rel="stylesheet" href="style.css?v=12">
+  <link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
   <main class="layout">
     <div class="top-bar">
       <span id="resultCount" class="result-count">0件</span>
+      <span id="resultAnnounce" class="visually-hidden" role="status" aria-atomic="true"></span>
     </div>
 
     <div class="view-controls" role="group" aria-label="表示切替">
@@ -25,10 +26,10 @@
       <div id="series" class="series-buttons" role="group" aria-label="シリーズで絞り込み"></div>
     </div>
 
-    <div id="cards" aria-live="polite"></div>
+    <div id="cards"></div>
   </main>
 
-  <script src="data.js?v=12"></script>
-  <script src="app.js?v=12"></script>
+  <script src="data.js?v=13"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>

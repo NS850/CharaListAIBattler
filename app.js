@@ -2,11 +2,30 @@ const catalog = window.CHARACTER_CATALOG || { characters: [] };
 
 const els = {
   resultCount: document.querySelector("#resultCount"),
+  resultAnnounce: document.querySelector("#resultAnnounce"),
   cards: document.querySelector("#cards"),
   search: document.querySelector("#search"),
   clearSearch: document.querySelector("#clearSearch"),
   series: document.querySelector("#series")
 };
+
+let resultAnnounceTimer;
+
+function announceResult(text) {
+  clearTimeout(resultAnnounceTimer);
+  resultAnnounceTimer = setTimeout(() => {
+    if (els.resultAnnounce.textContent !== text) els.resultAnnounce.textContent = text;
+  }, 300);
+}
+
+function runViewTransition(update) {
+  if (typeof document.startViewTransition === "function" &&
+      !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.startViewTransition(update);
+  } else {
+    update();
+  }
+}
 
 const variantModel = buildVariantModel(catalog.characters);
 
@@ -382,6 +401,7 @@ function renderCards() {
   const count = document.createElement("b");
   count.textContent = String(chars.length);
   els.resultCount.replaceChildren(count, searching ? " 件ヒット" : " 件");
+  announceResult(searching ? `${chars.length} 件ヒット` : `${chars.length} 件`);
   els.cards.replaceChildren();
   if (!chars.length) {
     const empty = document.createElement("p");
@@ -535,6 +555,7 @@ function renderPlaces() {
     [place.name, ...(place.relatedCharacters || []).map(char => char.name)]
       .some(value => normalize(value).includes(needle)));
   els.resultCount.textContent = `${places.length} 地点`;
+  announceResult(`${places.length} 地点`);
   els.clearSearch.hidden = !query.length;
   placeData.groups.forEach(group => {
     const members = places.filter(place => place.group === group);
@@ -559,18 +580,20 @@ window.addEventListener("resize", () => {
 });
 document.querySelectorAll("[data-view]").forEach(button => {
   button.addEventListener("click", () => {
-    closePlacePanel();
-    closeVariantPanel();
-    searchPanels.forEach(({ panel }) => panel.remove());
-    searchPanels.clear();
-    activeView = button.dataset.view;
-    document.querySelectorAll("[data-view]").forEach(control =>
-      control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
-    els.series.hidden = activeView === "places";
-    const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
-    els.search.placeholder = label;
-    els.search.setAttribute("aria-label", label);
-    renderCards();
+    runViewTransition(() => {
+      closePlacePanel();
+      closeVariantPanel();
+      searchPanels.forEach(({ panel }) => panel.remove());
+      searchPanels.clear();
+      activeView = button.dataset.view;
+      document.querySelectorAll("[data-view]").forEach(control =>
+        control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
+      els.series.hidden = activeView === "places";
+      const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
+      els.search.placeholder = label;
+      els.search.setAttribute("aria-label", label);
+      renderCards();
+    });
   });
 });
 
