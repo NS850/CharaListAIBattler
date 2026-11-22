@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-14T07:11:20",
+  "generatedAt": "2026-11-22T22:29:18",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -4510,7 +4510,8 @@ window.CHARACTER_CATALOG = {
       "村",
       "街",
       "厳寒の地",
-      "夜空"
+      "夜空",
+      "その他"
     ],
     "places": [
       {
@@ -4730,6 +4731,12 @@ window.CHARACTER_CATALOG = {
             "url": "https://ai-battler.com/battle/ee812d2d-65b5-4323-944d-1e20caa20b77"
           }
         ]
+      },
+      {
+        "id": "apartment-and-vacant-lot",
+        "name": "アパートと空き地",
+        "group": "その他",
+        "relatedCharacters": []
       }
     ]
   }
