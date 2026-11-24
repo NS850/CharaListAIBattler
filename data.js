@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-22T22:29:18",
+  "generatedAt": "2026-11-24T14:28:13",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -4739,5 +4739,6 @@ window.CHARACTER_CATALOG = {
         "relatedCharacters": []
       }
     ]
-  }
+  },
+  "sketches": []
 };

@@ -4,6 +4,7 @@ const els = {
   resultCount: document.querySelector("#resultCount"),
   resultAnnounce: document.querySelector("#resultAnnounce"),
   cards: document.querySelector("#cards"),
+  searchBlock: document.querySelector(".search-block"),
   search: document.querySelector("#search"),
   clearSearch: document.querySelector("#clearSearch"),
   series: document.querySelector("#series")
@@ -216,49 +217,6 @@ function buildVariantPanel(char, variants, searchHit = false) {
   return panel;
 }
 
-// --- 商品パネル（ハーピィ雑貨店の陳列、2026-11-10 追加） ---
-// 派生パネルと同じ全幅方式・排他開閉をそのまま使う（toggleVariantPanel 共用）。
-// 商品データは gen_site.js が店の skill から生成し data.js の products に入る。
-function buildProductPanel(char, products = char.products || [], searchHit = false) {
-  const panel = document.createElement("div");
-  panel.className = "variant-panel product-panel";
-  const header = document.createElement("div");
-  header.className = "variant-panel-head";
-  header.textContent = `${char.name || "(no name)"} の商品${searchHit ? `（検索ヒット ${products.length}件）` : ""}`;
-  panel.append(header);
-  const list = document.createElement("div");
-  list.className = "product-list";
-  products.forEach(product => {
-    const row = document.createElement("div");
-    row.className = "product-row";
-    if (product.image) {
-      const img = document.createElement("img");
-      img.className = "product-img";
-      img.src = product.image;
-      img.alt = product.name || "";
-      img.width = 48;
-      img.height = 48;
-      img.loading = "lazy";
-      row.append(img);
-    } else {
-      const ph = document.createElement("div");
-      ph.className = "product-img product-img-empty";
-      ph.setAttribute("aria-hidden", "true");
-      row.append(ph);
-    }
-    const name = document.createElement("span");
-    name.className = "product-name";
-    name.textContent = product.name || "(no name)";
-    const price = document.createElement("span");
-    price.className = "product-price";
-    price.textContent = `${Number(product.price || 0).toLocaleString("ja-JP")} G`;
-    row.append(name, price);
-    list.append(row);
-  });
-  panel.append(list);
-  return panel;
-}
-
 function toggleVariantPanel(card, toggle, panel) {
   if (query.length > 0) {
     const current = Array.from(searchPanels).find(entry => entry.panel === panel);
@@ -344,36 +302,12 @@ function createRow(char, showSection = false, searchMatches = null) {
     }
   }
 
-  const products = Array.isArray(char.products) ? char.products : [];
-  if (products.length) {
-    const hits = searchMatches?.matchedProducts || [];
-    const panel = buildProductPanel(char, hits.length ? hits : products, hits.length > 0);
-    const toggle = document.createElement("button");
-    toggle.type = "button";
-    toggle.className = "variant-toggle product-toggle";
-    toggle.setAttribute("aria-expanded", "false");
-    const label = document.createElement("span");
-    label.textContent = `商品 ${products.length}件`;
-    const icon = document.createElement("span");
-    icon.className = "variant-toggle-icon";
-    icon.textContent = "▼";
-    toggle.append(label, icon);
-    toggle.addEventListener("click", event => {
-      event.stopPropagation();
-      toggleVariantPanel(row, toggle, panel);
-    });
-    row.append(toggle);
-    if (hits.length) {
-      searchPanels.add({ panel, card: row, toggle });
-      toggle.setAttribute("aria-expanded", "true");
-      row.classList.add("open");
-    }
-  }
   return row;
 }
 
 function renderCards() {
   if (activeView === "places") return renderPlaces();
+  if (activeView === "shop") return renderShop();
   closeVariantPanel();
   const searching = query.length > 0;
   const needle = normalize(query);
@@ -493,11 +427,6 @@ function buildPlacePanel(place) {
     list.append(item);
   });
   panel.append(list);
-  if (place.products?.length) {
-    panel.append(placeText("h4", "商品"));
-    const products = buildProductPanel(place).querySelector(".product-list");
-    panel.append(products);
-  }
   return panel;
 }
 
@@ -519,20 +448,6 @@ function createPlaceCard(place) {
     chips.append(link);
   });
   card.append(chips);
-  if (place.products?.length) {
-    const strip = document.createElement("div");
-    strip.className = "place-products";
-    place.products.filter(product => product.image).forEach(product => {
-      const img = document.createElement("img");
-      img.src = product.image;
-      img.alt = product.name || "";
-      img.width = 40;
-      img.height = 40;
-      img.loading = "lazy";
-      strip.append(img);
-    });
-    card.append(strip);
-  }
   card.addEventListener("click", event => {
     if (event.target.closest("a")) return;
     const wasOpen = openPlace?.card === card;
@@ -572,6 +487,57 @@ function renderPlaces() {
   if (!places.length) els.cards.append(placeText("p", "見つかりませんでした。", "empty"));
 }
 
+function renderShop() {
+  const shop = catalog.characters.find(char => char.name === "ハーピィ雑貨店");
+  const products = shop?.products || [];
+  els.cards.replaceChildren();
+  els.resultCount.replaceChildren(placeText("b", products.length), " 件");
+  announceResult(`${products.length} 件`);
+  if (!products.length) {
+    els.cards.append(placeText("p", "商品がありません。", "empty"));
+    return;
+  }
+
+  const header = placeText("div", "", "shop-header");
+  const title = placeText("h2", "", "shop-title");
+  const titleLink = characterLink(shop);
+  titleLink.className = "shop-title-link";
+  title.append(titleLink);
+  header.append(title);
+
+  const buyout = catalog.characters.find(char => char.name === "ハーピィ出張買取サービス");
+  if (buyout) {
+    const sublink = placeText("p", "", "shop-sublink");
+    sublink.append(characterLink(buyout));
+    header.append(sublink);
+  }
+
+  const grid = placeText("div", "", "shop-grid");
+  products.forEach(product => {
+    const article = placeText("article", "", "shop-product");
+    if (product.image) {
+      const image = document.createElement("img");
+      image.alt = product.name;
+      image.width = 96;
+      image.height = 96;
+      image.loading = "lazy";
+      image.src = product.image;
+      article.append(image);
+    } else {
+      const placeholder = placeText("div", "", "shop-product-img-empty");
+      placeholder.setAttribute("aria-hidden", "true");
+      article.append(placeholder);
+    }
+    const price = `${Number(product.price || 0).toLocaleString("ja-JP")} G`;
+    article.append(
+      placeText("div", product.name, "shop-product-name"),
+      placeText("div", price, "shop-product-price")
+    );
+    grid.append(article);
+  });
+  els.cards.append(header, grid);
+}
+
 window.addEventListener("resize", () => {
   if (!openPlace) return;
   const { card, panel } = openPlace;
@@ -588,10 +554,13 @@ document.querySelectorAll("[data-view]").forEach(button => {
       activeView = button.dataset.view;
       document.querySelectorAll("[data-view]").forEach(control =>
         control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
-      els.series.hidden = activeView === "places";
-      const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
-      els.search.placeholder = label;
-      els.search.setAttribute("aria-label", label);
+      els.series.hidden = activeView !== "characters";
+      els.searchBlock.hidden = activeView === "shop";
+      if (!els.searchBlock.hidden) {
+        const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
+        els.search.placeholder = label;
+        els.search.setAttribute("aria-label", label);
+      }
       renderCards();
     });
   });

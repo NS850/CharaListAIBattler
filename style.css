@@ -213,40 +213,6 @@ body {
   font-size: 11px;
 }
 
-/* 商品リスト（ハーピィ雑貨店の陳列、2026-11-10 追加）。
-   パネルの枠組みは派生パネルと共用し、中身だけ画像＋品名＋金額の行にする */
-.product-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 60px;
-  padding: 6px 4px;
-}
-
-.product-img {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  background: var(--night-2);
-  image-rendering: pixelated;
-}
-
-.product-name {
-  flex: 1;
-  font-size: 15px;
-  overflow-wrap: anywhere;
-}
-
-.product-price {
-  flex-shrink: 0;
-  color: var(--gold);
-  font-size: 14px;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
 .empty {
   padding: 24px 0;
   color: var(--muted);
@@ -322,8 +288,6 @@ input:focus-visible {
 .place-chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .place-chip { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 12px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink); font-size: 12px; text-decoration: none; overflow-wrap: anywhere; max-width: 100%; }
 .place-chip:hover { border-color: var(--gold); color: var(--gold); }
-.place-products { display: flex; gap: 8px; overflow-x: auto; max-width: 100%; }
-.place-products img { flex-shrink: 0; image-rendering: pixelated; }
 .place-panel { min-width: 0; padding-top: 16px; overflow-wrap: anywhere; }
 .place-panel h3 { margin: 0 0 8px; font-size: 18px; }
 .place-panel h4 { margin: 24px 0 8px; font-size: 15px; color: var(--gold); }
@@ -331,8 +295,6 @@ input:focus-visible {
 .place-panel ul { padding-left: 24px; margin: 0; }
 .place-panel li { padding: 8px 0; }
 .place-description { white-space: pre-wrap; line-height: 1.7; max-width: 72ch; }
-.place-panel .product-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 8px 24px; }
-.place-panel .product-row { min-width: 0; flex-wrap: wrap; }
 
 .visually-hidden {
   position: absolute;
@@ -355,4 +317,38 @@ input:focus-visible {
   .group-toggle-icon, .variant-toggle-icon { transition: none; }
   ::view-transition-old(root),
   ::view-transition-new(root) { animation: none; }
+}
+
+.shop-header { margin-top: 24px; }
+.shop-title { margin: 0; font-size: 26px; letter-spacing: .04em; }
+.shop-title-link { color: inherit; text-decoration: none; }
+.shop-title-link:hover { color: var(--gold); }
+.shop-sublink { margin: 8px 0 0; }
+.shop-sublink a { color: var(--gold); font-size: 13px; text-decoration: underline; text-underline-offset: 4px; }
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.shop-product img, .shop-product-img-empty {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border: 1px solid var(--rule);
+  background: var(--night-2);
+  image-rendering: pixelated;
+}
+
+.shop-product-name { margin-top: 8px; font-size: 16px; font-weight: 600; overflow-wrap: anywhere; }
+.shop-product-price { margin-top: 4px; color: var(--gold); font-variant-numeric: tabular-nums; }
+
+@media (min-width: 761px) {
+  .shop-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+  }
 }
