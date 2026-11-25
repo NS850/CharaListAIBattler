@@ -562,7 +562,6 @@ function createShopInventory(inventory) {
       placeText("span", formatShopPrice(item.price), "shop-inventory-price"),
       placeText("span", item.stockDate)
     );
-    if (item.onShelf) meta.append(placeText("span", "陳列中", "shop-inventory-tag"));
     details.append(placeText("div", item.name, "shop-inventory-name"), meta);
     row.append(createShopIcon(item, 48), details);
     list.append(row);

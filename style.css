@@ -381,13 +381,6 @@ input:focus-visible {
 }
 
 .shop-inventory-price { color: var(--gold); }
-.shop-inventory-tag {
-  padding: 2px 8px;
-  border-radius: 4px;
-  color: var(--gold);
-  background: var(--gold-soft);
-  font-size: 12px;
-}
 
 @media (min-width: 761px) {
   .shop-grid {
