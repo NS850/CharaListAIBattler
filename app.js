@@ -513,8 +513,9 @@ function renderShop() {
   els.cards.replaceChildren();
   els.resultCount.replaceChildren(placeText("b", products.length), " 件");
   announceResult(`${products.length} 件`);
+  const credit = placeText("p", "商品アイコン: GPT Image", "gen-credit");
   if (!products.length && !inventory.length) {
-    els.cards.append(placeText("p", "商品がありません。", "empty"));
+    els.cards.append(placeText("p", "商品がありません。", "empty"), credit);
     return;
   }
 
@@ -544,6 +545,7 @@ function renderShop() {
   });
   els.cards.append(header, grid);
   if (inventory.length) els.cards.append(createShopInventory(inventory));
+  els.cards.append(credit);
 }
 
 function createShopInventory(inventory) {
