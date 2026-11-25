@@ -510,11 +510,12 @@ function renderShop() {
   const shop = catalog.characters.find(char => char.name === "ハーピィ雑貨店");
   const products = shop?.products || [];
   const inventory = shop?.inventory || [];
+  const inventoryRows = inventory.filter(item => !item.onShelf);
   els.cards.replaceChildren();
   els.resultCount.replaceChildren(placeText("b", products.length), " 件");
   announceResult(`${products.length} 件`);
   const credit = placeText("p", "商品アイコン: GPT Image", "gen-credit");
-  if (!products.length && !inventory.length) {
+  if (!products.length && !inventoryRows.length) {
     els.cards.append(placeText("p", "商品がありません。", "empty"), credit);
     return;
   }
@@ -544,7 +545,7 @@ function renderShop() {
     grid.append(article);
   });
   els.cards.append(header, grid);
-  if (inventory.length) els.cards.append(createShopInventory(inventory));
+  if (inventoryRows.length) els.cards.append(createShopInventory(inventoryRows));
   els.cards.append(credit);
 }
 
