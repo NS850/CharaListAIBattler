@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-24T14:28:13",
+  "generatedAt": "2026-11-25T05:24:17",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -2224,6 +2224,106 @@ window.CHARACTER_CATALOG = {
           "name": "サバクトビペンギンの油",
           "price": 300,
           "image": "images/shop/penguin-oil.png"
+        }
+      ],
+      "inventory": [
+        {
+          "name": "手ぬぐい",
+          "price": 100,
+          "stockDate": "2024/08/09",
+          "image": "images/shop/towel.png",
+          "onShelf": false
+        },
+        {
+          "name": "金属の装飾品",
+          "price": 240,
+          "stockDate": "2024/09/28",
+          "image": "images/shop/metal-ornament.png",
+          "onShelf": true
+        },
+        {
+          "name": "古びた魔法の壺",
+          "price": 100,
+          "stockDate": "2024/11/17",
+          "image": "images/shop/old-magic-pot.png",
+          "onShelf": false
+        },
+        {
+          "name": "青い布の切れ端",
+          "price": 20,
+          "stockDate": "2025/01/11",
+          "image": "images/shop/blue-cloth.png",
+          "onShelf": true
+        },
+        {
+          "name": "古びた魔導書",
+          "price": 6000,
+          "stockDate": "2025/04/20",
+          "image": "images/shop/grimoire.png",
+          "onShelf": true
+        },
+        {
+          "name": "奇妙な鏡",
+          "price": 5000,
+          "stockDate": "2025/04/20",
+          "image": "images/shop/strange-mirror.png",
+          "onShelf": true
+        },
+        {
+          "name": "錆びた鐘",
+          "price": 1600,
+          "stockDate": "2025/04/20",
+          "image": "images/shop/rusted-bell.png",
+          "onShelf": true
+        },
+        {
+          "name": "魔石の欠片",
+          "price": 2400,
+          "stockDate": "2025/04/20",
+          "image": "images/shop/magic-shard.png",
+          "onShelf": true
+        },
+        {
+          "name": "サバクトビペンギンの油",
+          "price": 300,
+          "stockDate": "2025/08/26",
+          "image": "images/shop/penguin-oil.png",
+          "onShelf": true
+        },
+        {
+          "name": "擬似魔導回路（古代遺跡製）",
+          "price": 30000,
+          "stockDate": "2026/11/25",
+          "image": "images/shop/pseudo-magic-circuit.png",
+          "onShelf": false
+        },
+        {
+          "name": "絶望の魔獣・硬質鱗",
+          "price": 16000,
+          "stockDate": "2026/11/25",
+          "image": "images/shop/despair-beast-scale.png",
+          "onShelf": false
+        },
+        {
+          "name": "迷宮の古びた鍵（装飾付き）",
+          "price": 4000,
+          "stockDate": "2026/11/25",
+          "image": "images/shop/labyrinth-key.png",
+          "onShelf": false
+        },
+        {
+          "name": "希少な毒腺の抽出液",
+          "price": 10000,
+          "stockDate": "2026/11/25",
+          "image": "images/shop/poison-gland-extract.png",
+          "onShelf": false
+        },
+        {
+          "name": "錆びついた聖騎士の肩当て",
+          "price": 3000,
+          "stockDate": "2026/11/25",
+          "image": "images/shop/rusted-pauldron.png",
+          "onShelf": false
         }
       ],
       "section": "situation"
@@ -4740,5 +4840,11 @@ window.CHARACTER_CATALOG = {
       }
     ]
   },
-  "sketches": []
+  "sketches": [
+    {
+      "date": "2026-11-24",
+      "img": "images/sketches/cmwurgipt01vos60o6kji5ern.png",
+      "url": "https://ai-battler.com/battle-result/cmwurgipt01vos60o6kji5ern"
+    }
+  ]
 };

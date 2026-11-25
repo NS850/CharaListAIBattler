@@ -487,13 +487,33 @@ function renderPlaces() {
   if (!places.length) els.cards.append(placeText("p", "見つかりませんでした。", "empty"));
 }
 
+function createShopIcon(item, size, alt = "") {
+  if (!item.image) {
+    const placeholder = placeText("div", "", "shop-product-img-empty");
+    placeholder.setAttribute("aria-hidden", "true");
+    return placeholder;
+  }
+  const image = document.createElement("img");
+  image.alt = alt;
+  image.width = size;
+  image.height = size;
+  image.loading = "lazy";
+  image.src = item.image;
+  return image;
+}
+
+function formatShopPrice(price) {
+  return `${Number(price || 0).toLocaleString("ja-JP")} G`;
+}
+
 function renderShop() {
   const shop = catalog.characters.find(char => char.name === "ハーピィ雑貨店");
   const products = shop?.products || [];
+  const inventory = shop?.inventory || [];
   els.cards.replaceChildren();
   els.resultCount.replaceChildren(placeText("b", products.length), " 件");
   announceResult(`${products.length} 件`);
-  if (!products.length) {
+  if (!products.length && !inventory.length) {
     els.cards.append(placeText("p", "商品がありません。", "empty"));
     return;
   }
@@ -515,27 +535,38 @@ function renderShop() {
   const grid = placeText("div", "", "shop-grid");
   products.forEach(product => {
     const article = placeText("article", "", "shop-product");
-    if (product.image) {
-      const image = document.createElement("img");
-      image.alt = product.name;
-      image.width = 96;
-      image.height = 96;
-      image.loading = "lazy";
-      image.src = product.image;
-      article.append(image);
-    } else {
-      const placeholder = placeText("div", "", "shop-product-img-empty");
-      placeholder.setAttribute("aria-hidden", "true");
-      article.append(placeholder);
-    }
-    const price = `${Number(product.price || 0).toLocaleString("ja-JP")} G`;
+    article.append(createShopIcon(product, 96, product.name));
     article.append(
       placeText("div", product.name, "shop-product-name"),
-      placeText("div", price, "shop-product-price")
+      placeText("div", formatShopPrice(product.price), "shop-product-price")
     );
     grid.append(article);
   });
   els.cards.append(header, grid);
+  if (inventory.length) els.cards.append(createShopInventory(inventory));
+}
+
+function createShopInventory(inventory) {
+  const section = placeText("section", "", "shop-inventory");
+  const heading = placeText("h3", "在庫 ", "shop-inventory-heading");
+  heading.append(placeText("span", `${inventory.length}件`, "shop-inventory-count"));
+  const list = placeText("ul", "", "shop-inventory-list");
+  list.setAttribute("role", "list");
+  inventory.forEach(item => {
+    const row = placeText("li", "", "shop-inventory-row");
+    const details = placeText("div", "", "shop-inventory-details");
+    const meta = placeText("div", "", "shop-inventory-meta");
+    meta.append(
+      placeText("span", formatShopPrice(item.price), "shop-inventory-price"),
+      placeText("span", item.stockDate)
+    );
+    if (item.onShelf) meta.append(placeText("span", "陳列中", "shop-inventory-tag"));
+    details.append(placeText("div", item.name, "shop-inventory-name"), meta);
+    row.append(createShopIcon(item, 48), details);
+    list.append(row);
+  });
+  section.append(heading, list);
+  return section;
 }
 
 window.addEventListener("resize", () => {
