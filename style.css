@@ -319,6 +319,61 @@ input:focus-visible {
   ::view-transition-new(root) { animation: none; }
 }
 
+.sketch-featured { margin-top: 24px; }
+
+.sketch-grid {
+  display: grid;
+  gap: 48px;
+  margin-top: 48px;
+}
+
+.sketch-work figure { margin: 0; }
+
+.sketch-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+}
+
+.sketch-featured .sketch-figure img {
+  border-color: var(--gold);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .45);
+}
+
+.sketch-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.sketch-date {
+  color: var(--muted);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.sketch-link {
+  color: var(--gold);
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  white-space: nowrap;
+}
+
+@media (min-width: 761px) {
+  .sketch-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 32px 40px;
+    margin-top: 32px;
+  }
+
+  .sketch-grid .sketch-work:nth-child(even) { margin-top: 48px; }
+}
+
 .shop-header { margin-top: 24px; }
 .shop-title { margin: 0; font-size: 26px; letter-spacing: .04em; }
 .shop-title-link { color: inherit; text-decoration: none; }

@@ -307,6 +307,7 @@ function createRow(char, showSection = false, searchMatches = null) {
 
 function renderCards() {
   if (activeView === "places") return renderPlaces();
+  if (activeView === "sketches") return renderSketches();
   if (activeView === "shop") return renderShop();
   closeVariantPanel();
   const searching = query.length > 0;
@@ -487,6 +488,51 @@ function renderPlaces() {
   if (!places.length) els.cards.append(placeText("p", "見つかりませんでした。", "empty"));
 }
 
+function createSketchWork(entry, featured) {
+  const work = document.createElement("article");
+  work.className = featured ? "sketch-work sketch-featured" : "sketch-work";
+  const figure = document.createElement("figure");
+  figure.className = "sketch-figure";
+  const image = document.createElement("img");
+  image.alt = `テッサのスケッチ（${entry.date}）`;
+  if (featured) image.setAttribute("fetchpriority", "high");
+  else image.loading = "lazy";
+  image.src = entry.img;
+  figure.append(image);
+
+  const meta = document.createElement("div");
+  meta.className = "sketch-meta";
+  const link = placeText("a", "バトル結果を見る", "sketch-link");
+  link.href = entry.url;
+  link.target = "_blank";
+  link.rel = "noreferrer";
+  meta.append(placeText("span", entry.date, "sketch-date"), link);
+  work.append(figure, meta);
+  return work;
+}
+
+function renderSketches() {
+  const sketches = catalog.sketches || [];
+  els.cards.replaceChildren();
+  els.resultCount.replaceChildren(placeText("b", sketches.length), " 点");
+  announceResult(`${sketches.length} 点`);
+  const credit = placeText("p", "画像生成: Stable Diffusion XL / Animagine XL / P-H3-Image", "gen-credit");
+  if (!sketches.length) {
+    els.cards.append(placeText("p", "まだスケッチがありません。", "empty"), credit);
+    return;
+  }
+
+  const [featured, ...rest] = sketches;
+  els.cards.append(createSketchWork(featured, true));
+  if (rest.length) {
+    const grid = document.createElement("div");
+    grid.className = "sketch-grid";
+    rest.forEach(entry => grid.append(createSketchWork(entry, false)));
+    els.cards.append(grid);
+  }
+  els.cards.append(credit);
+}
+
 function createShopIcon(item, size, alt = "") {
   if (!item.image) {
     const placeholder = placeText("div", "", "shop-product-img-empty");
@@ -588,7 +634,7 @@ document.querySelectorAll("[data-view]").forEach(button => {
       document.querySelectorAll("[data-view]").forEach(control =>
         control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
       els.series.hidden = activeView !== "characters";
-      els.searchBlock.hidden = activeView === "shop";
+      els.searchBlock.hidden = activeView === "sketches" || activeView === "shop";
       if (!els.searchBlock.hidden) {
         const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
         els.search.placeholder = label;
