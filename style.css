@@ -444,3 +444,25 @@ input:focus-visible {
     margin-top: 32px;
   }
 }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.gallery-card {
+  background: var(--night-2);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.gallery-card.candidate { opacity: .75; border-style: dashed; }
+.gallery-card img { display: block; width: 100%; height: 230px; object-fit: cover; background: #0d1117; }
+.gallery-card-body { padding: 10px 12px 12px; }
+.gallery-card h3 { margin: 0 0 6px; font-size: 15px; font-weight: 600; }
+.gallery-tags { color: var(--gold); font-size: 12px; }
+.gallery-credit { color: var(--ink); font-size: 12px; margin-top: 6px; opacity: .85; }
+.gallery-date { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }

@@ -309,6 +309,7 @@ function renderCards() {
   if (activeView === "places") return renderPlaces();
   if (activeView === "sketches") return renderSketches();
   if (activeView === "shop") return renderShop();
+  if (activeView === "gallery") return renderGallery();
   closeVariantPanel();
   const searching = query.length > 0;
   const needle = normalize(query);
@@ -533,6 +534,34 @@ function renderSketches() {
   els.cards.append(credit);
 }
 
+function renderGallery() {
+  const items = window.GALLERY_ITEMS || [];
+  els.resultCount.replaceChildren(placeText("b", items.length), "件");
+  announceResult(`${items.length}件`);
+
+  const grid = placeText("div", "", "gallery-grid");
+  for (const { file, title, tags, credit, date, candidate } of items) {
+    const card = placeText("article", "", candidate ? "gallery-card candidate" : "gallery-card");
+    const image = document.createElement("img");
+    image.alt = title;
+    image.setAttribute("fetchpriority", "low");
+    image.src = `images/gallery/${file}`;
+
+    const body = placeText("div", "", "gallery-card-body");
+    const time = placeText("time", date, "gallery-date");
+    time.dateTime = date;
+    body.append(
+      placeText("h3", title),
+      placeText("div", tags.join(" / "), "gallery-tags"),
+      placeText("div", `制作: ${credit}`, "gallery-credit"),
+      time
+    );
+    card.append(image, body);
+    grid.append(card);
+  }
+  els.cards.replaceChildren(grid);
+}
+
 function createShopIcon(item, size, alt = "") {
   if (!item.image) {
     const placeholder = placeText("div", "", "shop-product-img-empty");
@@ -634,7 +663,7 @@ document.querySelectorAll("[data-view]").forEach(button => {
       document.querySelectorAll("[data-view]").forEach(control =>
         control.setAttribute("aria-pressed", String(control.dataset.view === activeView)));
       els.series.hidden = activeView !== "characters";
-      els.searchBlock.hidden = activeView === "sketches" || activeView === "shop";
+      els.searchBlock.hidden = activeView !== "characters" && activeView !== "places";
       if (!els.searchBlock.hidden) {
         const label = activeView === "places" ? "地点名・関連キャラクターで検索" : "名前・特徴で検索";
         els.search.placeholder = label;
