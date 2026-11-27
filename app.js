@@ -534,6 +534,16 @@ function renderSketches() {
   els.cards.append(credit);
 }
 
+const galleryLightbox = document.querySelector("#galleryLightbox");
+const lightboxClose = galleryLightbox.querySelector("button");
+const lightboxImage = galleryLightbox.querySelector("img");
+const lightboxTitle = galleryLightbox.querySelector("p");
+
+lightboxClose.addEventListener("click", () => galleryLightbox.close());
+galleryLightbox.addEventListener("click", event => {
+  if (event.target === galleryLightbox) galleryLightbox.close();
+});
+
 function renderGallery() {
   const items = window.GALLERY_ITEMS || [];
   els.resultCount.replaceChildren(placeText("b", items.length), "件");
@@ -546,6 +556,18 @@ function renderGallery() {
     image.alt = title;
     image.setAttribute("fetchpriority", "low");
     image.src = `images/gallery/${file}`;
+    const trigger = placeText("button", "", "gallery-image-button");
+    trigger.type = "button";
+    trigger.setAttribute("aria-haspopup", "dialog");
+    trigger.append(image);
+    trigger.addEventListener("click", () => {
+      lightboxImage.src = image.src;
+      lightboxImage.alt = title;
+      lightboxTitle.textContent = title;
+      galleryLightbox.setAttribute("aria-label", title);
+      trigger.focus({ preventScroll: true });
+      galleryLightbox.showModal();
+    });
 
     const body = placeText("div", "", "gallery-card-body");
     const time = placeText("time", date, "gallery-date");
@@ -556,7 +578,7 @@ function renderGallery() {
       placeText("div", `制作: ${credit}`, "gallery-credit"),
       time
     );
-    card.append(image, body);
+    card.append(trigger, body);
     grid.append(card);
   }
   els.cards.replaceChildren(grid);

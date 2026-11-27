@@ -460,9 +460,48 @@ input:focus-visible {
 }
 
 .gallery-card.candidate { opacity: .75; border-style: dashed; }
+.gallery-image-button { display: block; width: 100%; border: 0; padding: 0; background: transparent; cursor: zoom-in; }
+.gallery-image-button:focus-visible { outline: 2px solid var(--gold); outline-offset: -3px; }
 .gallery-card img { display: block; width: 100%; height: 230px; object-fit: cover; background: #0d1117; }
 .gallery-card-body { padding: 10px 12px 12px; }
 .gallery-card h3 { margin: 0 0 6px; font-size: 15px; font-weight: 600; }
 .gallery-tags { color: var(--gold); font-size: 12px; }
 .gallery-credit { color: var(--ink); font-size: 12px; margin-top: 6px; opacity: .85; }
 .gallery-date { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+html:has(#galleryLightbox[open]) { overflow: hidden; }
+
+#galleryLightbox[open] {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  grid-template: auto minmax(0, 1fr) auto / minmax(0, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border: 0;
+  padding: 12px;
+  background: transparent;
+  color: var(--ink);
+}
+
+#galleryLightbox::backdrop { background: rgb(0 0 0 / .92); }
+#galleryLightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
+#galleryLightbox p { margin: 0; text-align: center; overflow-wrap: anywhere; }
+#galleryLightbox button {
+  justify-self: end;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--night-2);
+  color: var(--ink);
+  font-size: 24px;
+  cursor: pointer;
+}
