@@ -363,15 +363,11 @@ input:focus-visible {
   white-space: nowrap;
 }
 
+/* スケッチは全点同サイズ: featured と同じ全幅で1列に並べる（2026-11-28 統一） */
 @media (min-width: 761px) {
   .sketch-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
-    gap: 32px 40px;
-    margin-top: 32px;
+    grid-template-columns: minmax(0, 1fr);
   }
-
-  .sketch-grid .sketch-work:nth-child(even) { margin-top: 48px; }
 }
 
 .shop-header { margin-top: 24px; }
