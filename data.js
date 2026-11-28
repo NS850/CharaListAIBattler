@@ -1,5 +1,5 @@
 window.CHARACTER_CATALOG = {
-  "generatedAt": "2026-11-27T07:18:24",
+  "generatedAt": "2026-11-28T06:48:11",
   "source": "characters_mine.json",
   "count": 114,
   "characters": [
@@ -4841,6 +4841,11 @@ window.CHARACTER_CATALOG = {
     ]
   },
   "sketches": [
+    {
+      "date": "2026-11-28",
+      "img": "images/sketches/cmwzk3hn202mbs60onn8o2dq7.png",
+      "url": "https://ai-battler.com/battle-result/cmwzk3hn202mbs60onn8o2dq7"
+    },
     {
       "date": "2026-11-27",
       "img": "images/sketches/cmwxg37pi009gs60oslfm7f5s.png",
